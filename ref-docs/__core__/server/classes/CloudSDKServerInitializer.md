@@ -6,7 +6,7 @@
 
 # Class: CloudSDKServerInitializer
 
-Defined in: [src/initializer/server/initializer.ts:39](https://github.com/art-alexeyenko/content-sdk/blob/d2aeed0eb182d0d22c7cf0fc3a7b20aa8a205edb/packages/__core__/src/initializer/server/initializer.ts#L39)
+Defined in: [src/initializer/server/initializer.ts:39](https://github.com/art-alexeyenko/content-sdk/blob/8dfd2af042fa56663d300593fd62e13066c2b706/packages/__core__/src/initializer/server/initializer.ts#L39)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/initializer/server/initializer.ts:39](https://github.com/art-al
 
 > **new CloudSDKServerInitializer**(`request`, `response`, `settings`): `CloudSDKServerInitializer`
 
-Defined in: [src/initializer/server/initializer.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/d2aeed0eb182d0d22c7cf0fc3a7b20aa8a205edb/packages/__core__/src/initializer/server/initializer.ts#L52)
+Defined in: [src/initializer/server/initializer.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/8dfd2af042fa56663d300593fd62e13066c2b706/packages/__core__/src/initializer/server/initializer.ts#L52)
 
 Runs the initialization logic. Enables packages and creates cookies for CloudSDK.
 
@@ -48,7 +48,7 @@ ErrorMessages.IV_0001
 
 > **initialize**(): `Promise`\<`void`\>
 
-Defined in: [src/initializer/server/initializer.ts:63](https://github.com/art-alexeyenko/content-sdk/blob/d2aeed0eb182d0d22c7cf0fc3a7b20aa8a205edb/packages/__core__/src/initializer/server/initializer.ts#L63)
+Defined in: [src/initializer/server/initializer.ts:63](https://github.com/art-alexeyenko/content-sdk/blob/8dfd2af042fa56663d300593fd62e13066c2b706/packages/__core__/src/initializer/server/initializer.ts#L63)
 
 Runs the initialization logic. Enables packages and create cookies for CloudSDK.
 

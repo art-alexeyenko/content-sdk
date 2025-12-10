@@ -8,7 +8,7 @@
 
 > **getCookieValueFromMiddlewareRequest**(`request`, `cookieName`): `string` \| `undefined`
 
-Defined in: [src/cookie/get-cookie-value-from-middleware-request.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/d2aeed0eb182d0d22c7cf0fc3a7b20aa8a205edb/packages/__core__/src/cookie/get-cookie-value-from-middleware-request.ts#L11)
+Defined in: [src/cookie/get-cookie-value-from-middleware-request.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/8dfd2af042fa56663d300593fd62e13066c2b706/packages/__core__/src/cookie/get-cookie-value-from-middleware-request.ts#L11)
 
 Extracts the cookie value from the provided middleware request by reading the
 given `cookieName`. The function first checks for Next.js v12 cookie values,
