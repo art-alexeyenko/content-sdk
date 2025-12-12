@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/react
 
+## 1.5.0
+
+### Minor Changes
+
+- minore react change
+
 ## 1.4.0
 
 ### Patch Changes

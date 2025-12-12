@@ -1,5 +1,13 @@
 # @sitecore-content-sdk/nextjs
 
+## 1.5.0
+
+### Patch Changes
+
+- nextjs patch
+
+  - [@sitecore-content-sdk/react] minore react change
+
 ## 1.4.0
 
 ### Patch Changes
