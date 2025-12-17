@@ -1,6 +1,6 @@
 {
   "packages": ["packages/*", "samples/*"],
-  "version": "0.99.0-canary.0",
+  "version": "0.99.0",
   "npmClient": "yarn",
   "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }
