@@ -18,7 +18,8 @@
     "changeset:publish": "changeset publish",
     "checkchange": "beachball check",
     "change": "beachball change --no-commit",
-    "release": "beachball publish"
+    "release": "beachball publish --no-push --no-publish",
+    "release-pre": "beachball publish --no-push --no-publish --prerelease-prefix canary --keep-change-files"
   },
   "author": {
     "name": "Sitecore Corporation",

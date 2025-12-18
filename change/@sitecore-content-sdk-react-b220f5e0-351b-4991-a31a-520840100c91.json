@@ -1,0 +1,7 @@
+{
+  "type": "minor",
+  "comment": "this is a chnage in react (minor)",
+  "packageName": "@sitecore-content-sdk/react",
+  "email": "ala@sitecore.net",
+  "dependentChangeType": "patch"
+}
