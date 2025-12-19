@@ -7,9 +7,9 @@ on:
   push:
     branches:
       - dev
-      - "release/**"
+      - 'release/**'
     paths:
-      - "**"
+      - '**'
 
 jobs:
   publish:
@@ -64,15 +64,16 @@ jobs:
       - name: Build packages
         run: npm run build
 
-      - name: Full release - Publish to npm (Lerna)
+      - name: Full release (conditional) - Publish to npm (Lerna)
         if: steps.configure-action.outputs.isFullRelease == 'true'
         run: |
           echo "Full release triggered by commit message: ${{ github.event.head_commit.message }}"
           echo "Publishing packages to npm using lerna (versions should already be bumped by beachball bump in PR)..."
-          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+          echo //${NPM_REGISTRY}/:_authToken=${NPM_TOKEN} > .npmrc
           npx lerna publish from-package --no-verify-access --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
 
       - name: Generate API docs
         # Generate API docs for both full releases and canary releases
@@ -98,7 +99,8 @@ jobs:
         if: steps.configure-action.outputs.isFullRelease != 'true' && github.ref_name == 'dev'
         run: |
           echo "Publishing canary packages to npm..."
-          echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
+          echo //${NPM_REGISTRY}/:_authToken=${NPM_TOKEN} > .npmrc
           npx lerna publish from-package --canary --pre-dist-tag canary --preid canary --no-verify-access --no --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
