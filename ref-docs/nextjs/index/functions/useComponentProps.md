@@ -6,9 +6,9 @@
 
 # Function: useComponentProps()
 
-> **useComponentProps**\<`ComponentData`\>(`componentUid`): `undefined` \| `ComponentData`
+> **useComponentProps**\<`ComponentData`\>(`componentUid`): `ComponentData` \| `undefined`
 
-Defined in: [nextjs/src/components/ComponentPropsContext.tsx:18](https://github.com/Sitecore/content-sdk/blob/3ca8429b451816c5b357bf7ad37b7b8d995cee29/packages/nextjs/src/components/ComponentPropsContext.tsx#L18)
+Defined in: [nextjs/src/components/ComponentPropsContext.tsx:18](https://github.com/art-alexeyenko/content-sdk/blob/1ca74789d4b4237e64e45a69e575ac9001871ce7/packages/nextjs/src/components/ComponentPropsContext.tsx#L18)
 
 Hook in order to get access to props related to specific component. Data comes from ComponentPropsContext.
 
@@ -22,11 +22,11 @@ Hook in order to get access to props related to specific component. Data comes f
 
 | Parameter | Type | Description |
 | ------ | ------ | ------ |
-| `componentUid` | `undefined` \| `string` | component uId |
+| `componentUid` | `string` \| `undefined` | component uId |
 
 ## Returns
 
-`undefined` \| `ComponentData`
+`ComponentData` \| `undefined`
 
 component props
 
