@@ -8,7 +8,7 @@
 
 > **appendScriptWithAttributes**(`attributes`): `void`
 
-Defined in: [browser/appendScriptWithAttributes.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/d53ee27f3ff2a5443095851bffd958117be7a372/packages/utils/src/browser/appendScriptWithAttributes.ts#L5)
+Defined in: [browser/appendScriptWithAttributes.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/utils/src/browser/appendScriptWithAttributes.ts#L5)
 
 Appends a script element to the document head with the specified attributes.
 
