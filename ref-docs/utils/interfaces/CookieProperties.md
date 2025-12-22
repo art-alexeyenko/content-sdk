@@ -6,7 +6,7 @@
 
 # Interface: CookieProperties
 
-Defined in: [cookies/interfaces.ts:4](https://github.com/art-alexeyenko/content-sdk/blob/518beefb3c124c1b3b5e29914a1c12180cbde097/packages/utils/src/cookies/interfaces.ts#L4)
+Defined in: [cookies/interfaces.ts:4](https://github.com/art-alexeyenko/content-sdk/blob/5a1e67790039463b5e42dfbb1597864ae81b52d1/packages/utils/src/cookies/interfaces.ts#L4)
 
 Cookie properties
 
@@ -16,7 +16,7 @@ Cookie properties
 
 > `optional` **domain**: `string`
 
-Defined in: [cookies/interfaces.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/518beefb3c124c1b3b5e29914a1c12180cbde097/packages/utils/src/cookies/interfaces.ts#L11)
+Defined in: [cookies/interfaces.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/5a1e67790039463b5e42dfbb1597864ae81b52d1/packages/utils/src/cookies/interfaces.ts#L11)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [cookies/interfaces.ts:11](https://github.com/art-alexeyenko/content
 
 > `optional` **expires**: `Date`
 
-Defined in: [cookies/interfaces.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/518beefb3c124c1b3b5e29914a1c12180cbde097/packages/utils/src/cookies/interfaces.ts#L10)
+Defined in: [cookies/interfaces.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/5a1e67790039463b5e42dfbb1597864ae81b52d1/packages/utils/src/cookies/interfaces.ts#L10)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [cookies/interfaces.ts:10](https://github.com/art-alexeyenko/content
 
 > `optional` **httpOnly**: `boolean`
 
-Defined in: [cookies/interfaces.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/518beefb3c124c1b3b5e29914a1c12180cbde097/packages/utils/src/cookies/interfaces.ts#L9)
+Defined in: [cookies/interfaces.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/5a1e67790039463b5e42dfbb1597864ae81b52d1/packages/utils/src/cookies/interfaces.ts#L9)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [cookies/interfaces.ts:9](https://github.com/art-alexeyenko/content-
 
 > **maxAge**: `number`
 
-Defined in: [cookies/interfaces.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/518beefb3c124c1b3b5e29914a1c12180cbde097/packages/utils/src/cookies/interfaces.ts#L5)
+Defined in: [cookies/interfaces.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/5a1e67790039463b5e42dfbb1597864ae81b52d1/packages/utils/src/cookies/interfaces.ts#L5)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [cookies/interfaces.ts:5](https://github.com/art-alexeyenko/content-
 
 > `optional` **path**: `string`
 
-Defined in: [cookies/interfaces.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/518beefb3c124c1b3b5e29914a1c12180cbde097/packages/utils/src/cookies/interfaces.ts#L8)
+Defined in: [cookies/interfaces.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/5a1e67790039463b5e42dfbb1597864ae81b52d1/packages/utils/src/cookies/interfaces.ts#L8)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [cookies/interfaces.ts:8](https://github.com/art-alexeyenko/content-
 
 > **sameSite**: `string`
 
-Defined in: [cookies/interfaces.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/518beefb3c124c1b3b5e29914a1c12180cbde097/packages/utils/src/cookies/interfaces.ts#L6)
+Defined in: [cookies/interfaces.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/5a1e67790039463b5e42dfbb1597864ae81b52d1/packages/utils/src/cookies/interfaces.ts#L6)
 
 ***
 
@@ -64,4 +64,4 @@ Defined in: [cookies/interfaces.ts:6](https://github.com/art-alexeyenko/content-
 
 > **secure**: `boolean`
 
-Defined in: [cookies/interfaces.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/518beefb3c124c1b3b5e29914a1c12180cbde097/packages/utils/src/cookies/interfaces.ts#L7)
+Defined in: [cookies/interfaces.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/5a1e67790039463b5e42dfbb1597864ae81b52d1/packages/utils/src/cookies/interfaces.ts#L7)
