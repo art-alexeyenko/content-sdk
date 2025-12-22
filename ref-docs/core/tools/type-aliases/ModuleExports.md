@@ -8,7 +8,7 @@
 
 > **ModuleExports** = `object`
 
-Defined in: [packages/core/src/tools/codegen/import-map.ts:130](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/core/src/tools/codegen/import-map.ts#L130)
+Defined in: [packages/core/src/tools/codegen/import-map.ts:130](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/tools/codegen/import-map.ts#L130)
 
 **`Internal`**
 
@@ -20,7 +20,7 @@ Import module definition, specifying all the imports for a given import path
 
 > **defaultExport**: `string` \| `null`
 
-Defined in: [packages/core/src/tools/codegen/import-map.ts:134](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/core/src/tools/codegen/import-map.ts#L134)
+Defined in: [packages/core/src/tools/codegen/import-map.ts:134](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/tools/codegen/import-map.ts#L134)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [packages/core/src/tools/codegen/import-map.ts:134](https://github.c
 
 > **namedExports**: `Map`\<`string`, `string`\>
 
-Defined in: [packages/core/src/tools/codegen/import-map.ts:132](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/core/src/tools/codegen/import-map.ts#L132)
+Defined in: [packages/core/src/tools/codegen/import-map.ts:132](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/tools/codegen/import-map.ts#L132)
 
 ***
 
@@ -36,4 +36,4 @@ Defined in: [packages/core/src/tools/codegen/import-map.ts:132](https://github.c
 
 > **namespaceExport**: `string` \| `null`
 
-Defined in: [packages/core/src/tools/codegen/import-map.ts:136](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/core/src/tools/codegen/import-map.ts#L136)
+Defined in: [packages/core/src/tools/codegen/import-map.ts:136](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/tools/codegen/import-map.ts#L136)

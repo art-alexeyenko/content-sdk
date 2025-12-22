@@ -8,7 +8,7 @@
 
 > **fetchWithTimeout**(`url`, `timeout`, `fetchOptions`): `Promise`\<`Response` \| `null`\>
 
-Defined in: [fetch/fetch-with-timeout.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/utils/src/fetch/fetch-with-timeout.ts#L11)
+Defined in: [fetch/fetch-with-timeout.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/utils/src/fetch/fetch-with-timeout.ts#L11)
 
 Fetches a resource while enforcing a timeout guard.
 

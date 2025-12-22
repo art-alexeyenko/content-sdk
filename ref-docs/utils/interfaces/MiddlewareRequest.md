@@ -6,7 +6,7 @@
 
 # Interface: MiddlewareRequest
 
-Defined in: [interfaces.ts:39](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/utils/src/interfaces.ts#L39)
+Defined in: [interfaces.ts:39](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/utils/src/interfaces.ts#L39)
 
 Interface for supporting request from Edge Next.js
 includes types compatible with both NextJS versions 12 & 13
@@ -17,7 +17,7 @@ includes types compatible with both NextJS versions 12 & 13
 
 > **cookies**: `object`
 
-Defined in: [interfaces.ts:40](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/utils/src/interfaces.ts#L40)
+Defined in: [interfaces.ts:40](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/utils/src/interfaces.ts#L40)
 
 #### get()
 
@@ -43,7 +43,7 @@ Defined in: [interfaces.ts:40](https://github.com/art-alexeyenko/content-sdk/blo
 
 > `optional` **geo**: `object`
 
-Defined in: [interfaces.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/utils/src/interfaces.ts#L52)
+Defined in: [interfaces.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/utils/src/interfaces.ts#L52)
 
 #### city?
 
@@ -63,7 +63,7 @@ Defined in: [interfaces.ts:52](https://github.com/art-alexeyenko/content-sdk/blo
 
 > **headers**: `object`
 
-Defined in: [interfaces.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/utils/src/interfaces.ts#L48)
+Defined in: [interfaces.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/utils/src/interfaces.ts#L48)
 
 #### get()
 
@@ -85,4 +85,4 @@ Defined in: [interfaces.ts:48](https://github.com/art-alexeyenko/content-sdk/blo
 
 > `optional` **url**: `string`
 
-Defined in: [interfaces.ts:51](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/utils/src/interfaces.ts#L51)
+Defined in: [interfaces.ts:51](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/utils/src/interfaces.ts#L51)
