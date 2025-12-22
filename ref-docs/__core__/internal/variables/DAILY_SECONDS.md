@@ -8,4 +8,4 @@
 
 > `const` **DAILY\_SECONDS**: `86400` = `86400`
 
-Defined in: [src/consts.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/__core__/src/consts.ts#L11)
+Defined in: [src/consts.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/1b2a179d259d1764bc31716a149252d59a5ba5be/packages/__core__/src/consts.ts#L11)
