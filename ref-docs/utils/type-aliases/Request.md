@@ -8,4 +8,4 @@
 
 > **Request** = [`HttpRequest`](../interfaces/HttpRequest.md) \| [`MiddlewareRequest`](../interfaces/MiddlewareRequest.md)
 
-Defined in: [interfaces.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/utils/src/interfaces.ts#L33)
+Defined in: [interfaces.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/38a7db4e7188fed00df65cf3000a3bed6b558191/packages/utils/src/interfaces.ts#L33)

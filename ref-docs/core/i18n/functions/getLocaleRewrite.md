@@ -8,7 +8,7 @@
 
 > **getLocaleRewrite**(`pathname`, `locale`): `string`
 
-Defined in: [packages/core/src/i18n/utils.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/core/src/i18n/utils.ts#L8)
+Defined in: [packages/core/src/i18n/utils.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/38a7db4e7188fed00df65cf3000a3bed6b558191/packages/core/src/i18n/utils.ts#L8)
 
 Get a locale rewrite path for given pathname
 
