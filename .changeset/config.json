@@ -1,11 +1,21 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.1.2/schema.json",
-  "changelog": "@changesets/cli/changelog",
+  "changelog": "./changelog.ts",
   "commit": false,
   "fixed": [],
   "linked": [],
   "access": "public",
   "baseBranch": "dev",
-  "updateInternalDependencies": "minor",
-  "ignore": []
+  "updateInternalDependencies": "patch",
+  "updateInternalDependents": "always",
+  "ignore": [
+    "@sitecore-content-sdk/utils",
+    "@sitecore-content-sdk/__core__",
+    "@sitecore-content-sdk/events",
+    "@sitecore-content-sdk/personalize"
+  ],
+  "privatePackages": {
+    "version": true,
+    "tag": false
+  }
 }

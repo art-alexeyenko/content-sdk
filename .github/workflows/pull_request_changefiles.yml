@@ -1,4 +1,4 @@
-name: Check if beachball change files present
+name: Check if changeset files present
 
 on:
   pull_request:
@@ -17,24 +17,24 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
-      - name: Check for beachball change files
+      - name: Check for changeset files
         id: check-changes
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo "Checking for beachball change files in PR #${{ github.event.pull_request.number }}..."
+          echo "Checking for changeset files in PR #${{ github.event.pull_request.number }}..."
 
           # Get list of files changed in this PR
           CHANGED_FILES=$(gh pr view ${{ github.event.pull_request.number }} --json files --jq '.files[].path')
 
-          # Check if any changed files are beachball change files (json or yml in change/ directory)
-          CHANGE_FILES=$(echo "$CHANGED_FILES" | grep -E '^change/.*\.(json|yml|yaml)$' || true)
+          # Check if any changed files are changeset files (.md files in .changeset/ directory, excluding README.md)
+          CHANGE_FILES=$(echo "$CHANGED_FILES" | grep -E '^\.changeset/.*\.md$' | grep -v 'README.md' || true)
 
           if [ -z "$CHANGE_FILES" ]; then
-            echo "::warning::⚠️ No beachball change files found in this PR."
+            echo "::warning::⚠️ No changeset files found in this PR."
             echo "found=false" >> $GITHUB_OUTPUT
           else
-            echo "✅ Beachball change files found in PR:"
+            echo "✅ Changeset files found in PR:"
             echo "$CHANGE_FILES"
             echo "found=true" >> $GITHUB_OUTPUT
             echo "files<<EOF" >> $GITHUB_OUTPUT
@@ -48,14 +48,14 @@ jobs:
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
         run: |
           cat > change-files-comment.md << EOF
-          ## ⚠️ Beachball Change Files Missing
+          ## ⚠️ Changeset Files Missing
 
-          @${PR_AUTHOR}, no beachball change files were found in this PR.
+          @${PR_AUTHOR}, no changeset files were found in this PR.
 
-          If this PR includes changes that should be released, please run the following command and commit the generated change file:
+          If this PR includes changes that should be released, please run the following command and commit the generated changeset file:
 
           \`\`\`bash
-          yarn beachball change
+          yarn changeset
           \`\`\`
 
           You can continue with the merge if this is a chore PR that doesn't require a changelog entry.
@@ -67,9 +67,9 @@ jobs:
           CHANGE_FILES: ${{ steps.check-changes.outputs.files }}
         run: |
           cat > change-files-comment.md << EOF
-          ## ✅ Beachball Change Files Found
+          ## ✅ Changeset Files Found
 
-          The following change files were found in this PR:
+          The following changeset files were found in this PR:
 
           \`\`\`
           ${CHANGE_FILES}
@@ -79,5 +79,5 @@ jobs:
       - name: Post PR comment
         uses: marocchino/sticky-pull-request-comment@v2
         with:
-          header: Beachball Change Files Check
+          header: Changeset Files Check
           path: change-files-comment.md

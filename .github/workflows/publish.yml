@@ -64,15 +64,15 @@ jobs:
       - name: Build packages
         run: npm run build
 
-      - name: Full release (conditional) - Publish to npm (Lerna)
+      - name: Full release (conditional) - Publish to npm
         if: steps.configure-action.outputs.isFullRelease == 'true'
         run: |
           echo "Full release triggered by commit message: ${{ github.event.head_commit.message }}"
-          echo "Publishing packages to npm using lerna (versions should already be bumped by beachball bump in PR)..."
+          echo "Publishing packages to npm using changesets (versions should already be bumped by changeset version in PR)..."
           echo "registry=https://${NPM_REGISTRY}/" > .npmrc
           echo "@sitecore-content-sdk:registry=https://${NPM_REGISTRY}/" >> .npmrc
           echo "//${NPM_REGISTRY}/:_authToken=${NPM_TOKEN}" >> .npmrc
-          npx lerna publish from-package --no-verify-access --yes
+          npx changeset publish
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
@@ -89,23 +89,26 @@ jobs:
             echo "No API doc changes to commit"
           fi
 
-      - name: Pre-release version update (Canary - Lerna)
+      - name: Pre-release version update (Canary)
         if: steps.configure-action.outputs.isFullRelease != 'true' && github.ref_name == 'dev'
         run: |
           echo "Creating canary release on dev branch..."
-          npx lerna version prerelease --preid canary --message "%s [skip ci]" --sign-git-tag false --yes
+          # Use changeset version with snapshot for canary releases
+          npx changeset version --snapshot canary
+          git add .
+          git commit -m "Version packages (canary) [skip ci]" || echo "No version changes to commit"
+          git push origin HEAD:dev || echo "⚠️ Failed to push version changes"
         env:
-          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
 
-      - name: Pre-release canary publish (Lerna)
+      - name: Pre-release canary publish
         if: steps.configure-action.outputs.isFullRelease != 'true' && github.ref_name == 'dev'
         run: |
           echo "Publishing canary packages to npm..."
           echo "registry=https://${NPM_REGISTRY}/" > .npmrc
           echo "@sitecore-content-sdk:registry=https://${NPM_REGISTRY}/" >> .npmrc
           echo "//${NPM_REGISTRY}/:_authToken=${NPM_TOKEN}" >> .npmrc
-          npx lerna publish from-package --canary --pre-dist-tag canary --preid canary --no-verify-access --yes
+          npx changeset publish --tag canary
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
-
