@@ -13,9 +13,10 @@
     "api-extractor": "lerna run api-extractor",
     "api-extractor:verify": "lerna run api-extractor:verify",
     "version": "yarn install && git stage yarn.lock",
-    "checkchange": "beachball check",
-    "change": "beachball change --no-commit",
-    "prep-release": "beachball bump"
+    "changeset": "changeset",
+    "changeset:add": "changeset add",
+    "changeset:prep-release": "changeset version && node scripts/fix-dependency-ranges.js",
+    "changeset:status": "changeset status"
   },
   "author": {
     "name": "Sitecore Corporation",
