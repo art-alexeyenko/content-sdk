@@ -69,7 +69,8 @@ jobs:
         run: |
           echo "Full release triggered by commit message: ${{ github.event.head_commit.message }}"
           echo "Publishing packages to npm using lerna (versions should already be bumped by beachball bump in PR)..."
-          echo //${NPM_REGISTRY}/:_authToken=${NPM_TOKEN} > .npmrc
+          echo 'registry=https://${NPM_REGISTRY}/
+          //{NPM_REGISTRY}/:_authToken=${NPM_TOKEN}' > .npmrc
           npx lerna publish from-package --no-verify-access --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
@@ -81,8 +82,6 @@ jobs:
           yarn generate-docs
           if [ -n "$(git status --porcelain)" ]; then
             git add ./ref-docs/**/*
-            git commit -m "Update API docs [skip ci]" || echo "⚠️ Failed to commit API docs (may already be committed)"
-            git push origin HEAD:${{ github.ref_name }} || echo "⚠️ Failed to push API docs (may already be pushed or no changes)"
           else
             echo "No API doc changes to commit"
           fi
@@ -100,7 +99,7 @@ jobs:
         run: |
           echo "Publishing canary packages to npm..."
           echo 'registry=https://${NPM_REGISTRY}/
-          > //{NPM_REGISTRY}/:_authToken=${NPM_TOKEN}' > .npmrc
+          //{NPM_REGISTRY}/:_authToken=${NPM_TOKEN}' > .npmrc
           npx lerna publish from-package --canary --pre-dist-tag canary --preid canary --no-verify-access --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
