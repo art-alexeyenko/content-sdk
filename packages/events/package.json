@@ -66,5 +66,5 @@
     "prepublishOnly": "npm run build",
     "test": "jest --config jest.config.ts"
   },
-  "version": "1.4.0-canary.15"
+  "version": "1.4.0-canary.16"
 }
