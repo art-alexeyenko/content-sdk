@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/react
 
+## 1.7.0
+
+### Minor Changes
+
+- [react] minore react change ([51cdfa8](https://github.com/sitecore/content-sdk/commit/51cdfa8edae49761d6577ce766a3dab9d9196434))
+
 ## 1.6.0
 
 ### Patch Changes
