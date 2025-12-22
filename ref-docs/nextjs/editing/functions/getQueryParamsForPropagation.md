@@ -8,7 +8,7 @@
 
 > **getQueryParamsForPropagation**(`query`): `object`
 
-Defined in: [nextjs/src/editing/utils.ts:145](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/nextjs/src/editing/utils.ts#L145)
+Defined in: [nextjs/src/editing/utils.ts:145](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/nextjs/src/editing/utils.ts#L145)
 
 **`Internal`**
 

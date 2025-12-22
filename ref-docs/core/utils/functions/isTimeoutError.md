@@ -8,7 +8,7 @@
 
 > **isTimeoutError**(`error`): `boolean`
 
-Defined in: [packages/core/src/utils/utils.ts:85](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/utils/utils.ts#L85)
+Defined in: [packages/core/src/utils/utils.ts:85](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/utils/utils.ts#L85)
 
 Indicates whether the error is a timeout error
 

@@ -6,7 +6,7 @@
 
 # Class: PagesEditor
 
-Defined in: [packages/core/src/editing/utils.ts:88](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/editing/utils.ts#L88)
+Defined in: [packages/core/src/editing/utils.ts:88](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/editing/utils.ts#L88)
 
 Static utility class for Sitecore Pages Editor
 
@@ -26,7 +26,7 @@ Static utility class for Sitecore Pages Editor
 
 > `static` **isActive**(): `boolean`
 
-Defined in: [packages/core/src/editing/utils.ts:94](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/editing/utils.ts#L94)
+Defined in: [packages/core/src/editing/utils.ts:94](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/editing/utils.ts#L94)
 
 Determines whether the current execution context is within a Pages Editor.
 Pages Editor environment can be identified only in the browser
@@ -43,7 +43,7 @@ true if executing within a Pages Editor
 
 > `static` **resetChromes**(): `void`
 
-Defined in: [packages/core/src/editing/utils.ts:103](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/editing/utils.ts#L103)
+Defined in: [packages/core/src/editing/utils.ts:103](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/editing/utils.ts#L103)
 
 #### Returns
 

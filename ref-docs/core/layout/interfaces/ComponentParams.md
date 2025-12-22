@@ -6,7 +6,7 @@
 
 # Interface: ComponentParams
 
-Defined in: [packages/core/src/layout/models.ts:95](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/layout/models.ts#L95)
+Defined in: [packages/core/src/layout/models.ts:95](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/layout/models.ts#L95)
 
 Component params
 

@@ -8,7 +8,7 @@
 
 > **getCookieValueFromRequest**\<`T`\>(`request`, `cookieName`): `string`
 
-Defined in: [src/cookie/get-cookie-value-from-request.ts:15](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/__core__/src/cookie/get-cookie-value-from-request.ts#L15)
+Defined in: [src/cookie/get-cookie-value-from-request.ts:15](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/__core__/src/cookie/get-cookie-value-from-request.ts#L15)
 
 Retrieves the cookie value from the provided request object, using the specified `cookieName`.
 

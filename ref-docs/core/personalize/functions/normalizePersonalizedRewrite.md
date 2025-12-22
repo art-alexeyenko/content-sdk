@@ -8,7 +8,7 @@
 
 > **normalizePersonalizedRewrite**(`pathname`): `string`
 
-Defined in: [packages/core/src/personalize/utils.ts:76](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/personalize/utils.ts#L76)
+Defined in: [packages/core/src/personalize/utils.ts:76](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/personalize/utils.ts#L76)
 
 Normalize a personalized rewrite path (remove personalize data)
 

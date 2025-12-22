@@ -8,7 +8,7 @@
 
 > **CloudSDK**(`settings`): [`CloudSDKBrowserInitializer`](../classes/CloudSDKBrowserInitializer.md)
 
-Defined in: [src/initializer/browser/initializer.ts:196](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/__core__/src/initializer/browser/initializer.ts#L196)
+Defined in: [src/initializer/browser/initializer.ts:196](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/__core__/src/initializer/browser/initializer.ts#L196)
 
 Runs the initialization logic. Enables packages and creates cookies for CloudSDK.
 

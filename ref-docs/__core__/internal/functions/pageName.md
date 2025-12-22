@@ -8,7 +8,7 @@
 
 > **pageName**(): `string`
 
-Defined in: [src/infer/infer.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/__core__/src/infer/infer.ts#L17)
+Defined in: [src/infer/infer.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/__core__/src/infer/infer.ts#L17)
 
 Returns the name of the current page extracted from the URL's pathname.
 If it's the home page, it returns `Home Page`.

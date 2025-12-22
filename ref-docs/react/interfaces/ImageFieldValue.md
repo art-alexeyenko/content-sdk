@@ -6,7 +6,7 @@
 
 # Interface: ImageFieldValue
 
-Defined in: [packages/react/src/components/Image.tsx:16](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/react/src/components/Image.tsx#L16)
+Defined in: [packages/react/src/components/Image.tsx:16](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/react/src/components/Image.tsx#L16)
 
 The interface for the Image field value.
 
@@ -20,4 +20,4 @@ The interface for the Image field value.
 
 > `optional` **src**: `string`
 
-Defined in: [packages/react/src/components/Image.tsx:18](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/react/src/components/Image.tsx#L18)
+Defined in: [packages/react/src/components/Image.tsx:18](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/react/src/components/Image.tsx#L18)

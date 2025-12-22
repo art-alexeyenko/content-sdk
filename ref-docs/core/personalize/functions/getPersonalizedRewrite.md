@@ -8,7 +8,7 @@
 
 > **getPersonalizedRewrite**(`pathname`, `variantIds`): `string`
 
-Defined in: [packages/core/src/personalize/utils.ts:19](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/personalize/utils.ts#L19)
+Defined in: [packages/core/src/personalize/utils.ts:19](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/personalize/utils.ts#L19)
 
 Get a personalized rewrite path for given pathname
 

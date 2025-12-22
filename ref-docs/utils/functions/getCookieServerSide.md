@@ -8,7 +8,7 @@
 
 > **getCookieServerSide**(`cookiesHeader`, `cookieName`): \{ `name`: `string`; `value`: `string`; \} \| `undefined`
 
-Defined in: [cookies/get-cookie-server-side.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/utils/src/cookies/get-cookie-server-side.ts#L9)
+Defined in: [cookies/get-cookie-server-side.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/utils/src/cookies/get-cookie-server-side.ts#L9)
 
 Retrieves a cookie from the server-side request header string.
 

@@ -8,7 +8,7 @@
 
 > **getCloudSDKResponse**(): `Response`
 
-Defined in: [src/initializer/server/initializer.ts:235](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/__core__/src/initializer/server/initializer.ts#L235)
+Defined in: [src/initializer/server/initializer.ts:235](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/__core__/src/initializer/server/initializer.ts#L235)
 
 Gets the current CloudSDK response object.
 

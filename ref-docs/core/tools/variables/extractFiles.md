@@ -8,7 +8,7 @@
 
 > **extractFiles**: (`args`) => (`__namedParameters`) => `Promise`\<`void`\> = `_extractFiles`
 
-Defined in: [packages/core/src/tools/codegen/extract-files.ts:31](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/tools/codegen/extract-files.ts#L31)
+Defined in: [packages/core/src/tools/codegen/extract-files.ts:31](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/tools/codegen/extract-files.ts#L31)
 
 Extracts components from the app folder and sends them to XMCloud.
 

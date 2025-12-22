@@ -8,6 +8,6 @@
 
 > `const` **REDIRECT\_TYPE\_301**: `"REDIRECT_301"` = `'REDIRECT_301'`
 
-Defined in: [packages/core/src/site/redirects-service.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/site/redirects-service.ts#L11)
+Defined in: [packages/core/src/site/redirects-service.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/d2ee867cb8d0c04ee8886340642967885aa347cb/packages/core/src/site/redirects-service.ts#L11)
 
 Redirect type for 301 redirects
