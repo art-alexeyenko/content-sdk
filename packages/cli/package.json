@@ -34,7 +34,7 @@
     "url": "https://github.com/sitecore/content-sdk/issues"
   },
   "dependencies": {
-    "@sitecore-content-sdk/core": "^1.4.1-canary.4",
+    "@sitecore-content-sdk/core": "1.4.1-canary.4",
     "chokidar": "^4.0.3",
     "dotenv": "^16.5.0",
     "dotenv-expand": "^12.0.2",
