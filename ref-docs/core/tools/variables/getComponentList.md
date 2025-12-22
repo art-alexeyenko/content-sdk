@@ -8,7 +8,7 @@
 
 > **getComponentList**: (`paths`, `exclude?`, `includeVariants?`) => [`ComponentFile`](../interfaces/ComponentFile.md)[] = `_getComponentList`
 
-Defined in: [packages/core/src/tools/templating/components.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/tools/templating/components.ts#L6)
+Defined in: [packages/core/src/tools/templating/components.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/tools/templating/components.ts#L6)
 
 Get list of components from
 

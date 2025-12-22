@@ -6,7 +6,7 @@
 
 # Interface: FieldMetadata
 
-Defined in: [packages/core/src/layout/models.ts:137](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/layout/models.ts#L137)
+Defined in: [packages/core/src/layout/models.ts:137](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/layout/models.ts#L137)
 
 Field metadata in editing mode
 
@@ -20,7 +20,7 @@ Field metadata in editing mode
 
 > `optional` **metadata**: `object`
 
-Defined in: [packages/core/src/layout/models.ts:138](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/layout/models.ts#L138)
+Defined in: [packages/core/src/layout/models.ts:138](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/layout/models.ts#L138)
 
 #### Index Signature
 

@@ -8,4 +8,4 @@
 
 > `const` **API\_VERSION**: `"v1.2"` = `'v1.2'`
 
-Defined in: [src/consts.ts:13](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/__core__/src/consts.ts#L13)
+Defined in: [src/consts.ts:13](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/__core__/src/consts.ts#L13)

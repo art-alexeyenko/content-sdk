@@ -8,7 +8,7 @@
 
 > **EnhancedComponentMapTemplate** = (`components`, `componentImports`, `ctx`) => `string`
 
-Defined in: [packages/core/src/tools/templating/components.ts:42](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/tools/templating/components.ts#L42)
+Defined in: [packages/core/src/tools/templating/components.ts:42](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/tools/templating/components.ts#L42)
 
 **`Internal`**
 

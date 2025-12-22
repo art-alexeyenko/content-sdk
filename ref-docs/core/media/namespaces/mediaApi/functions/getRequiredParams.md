@@ -8,7 +8,7 @@
 
 > **getRequiredParams**(`qs`): `object`
 
-Defined in: [packages/core/src/media/media-api.ts:12](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/media/media-api.ts#L12)
+Defined in: [packages/core/src/media/media-api.ts:12](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/media/media-api.ts#L12)
 
 Get required query string params which should be merged with user params
 

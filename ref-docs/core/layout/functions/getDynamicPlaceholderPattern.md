@@ -8,7 +8,7 @@
 
 > **getDynamicPlaceholderPattern**(`placeholder`): `RegExp`
 
-Defined in: [packages/core/src/layout/utils.ts:93](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/layout/utils.ts#L93)
+Defined in: [packages/core/src/layout/utils.ts:93](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/layout/utils.ts#L93)
 
 **`Internal`**
 

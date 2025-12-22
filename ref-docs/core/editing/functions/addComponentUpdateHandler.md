@@ -8,7 +8,7 @@
 
 > **addComponentUpdateHandler**(`rootComponent`, `successCallback?`): () => `void` \| `undefined`
 
-Defined in: [packages/core/src/editing/design-library.ts:78](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/editing/design-library.ts#L78)
+Defined in: [packages/core/src/editing/design-library.ts:78](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/editing/design-library.ts#L78)
 
 **`Internal`**
 

@@ -6,7 +6,7 @@
 
 # Enumeration: ComponentTemplateType
 
-Defined in: [packages/core/src/config/models.ts:295](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/config/models.ts#L295)
+Defined in: [packages/core/src/config/models.ts:295](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/config/models.ts#L295)
 
 **`Internal`**
 
@@ -18,7 +18,7 @@ Enumeration of default component templates
 
 > **BYOC**: `"byoc"`
 
-Defined in: [packages/core/src/config/models.ts:296](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/config/models.ts#L296)
+Defined in: [packages/core/src/config/models.ts:296](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/config/models.ts#L296)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [packages/core/src/config/models.ts:296](https://github.com/art-alex
 
 > **DEFAULT**: `"default"`
 
-Defined in: [packages/core/src/config/models.ts:297](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/core/src/config/models.ts#L297)
+Defined in: [packages/core/src/config/models.ts:297](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/config/models.ts#L297)

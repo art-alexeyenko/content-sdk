@@ -8,7 +8,7 @@
 
 > **getCookiesValuesFromEdgeBrowser**(): `ProxySettings` \| `undefined`
 
-Defined in: [src/initializer/browser/initializer.ts:183](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/__core__/src/initializer/browser/initializer.ts#L183)
+Defined in: [src/initializer/browser/initializer.ts:183](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/__core__/src/initializer/browser/initializer.ts#L183)
 
 Gets the cookie values fetched from Edge.
 

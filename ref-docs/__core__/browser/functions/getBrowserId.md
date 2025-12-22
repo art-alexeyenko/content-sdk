@@ -8,7 +8,7 @@
 
 > **getBrowserId**(): `string`
 
-Defined in: [src/browser-id/get-browser-id.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/b51307ce5e9edbbde7abb3d916507bdf41dac923/packages/__core__/src/browser-id/get-browser-id.ts#L8)
+Defined in: [src/browser-id/get-browser-id.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/__core__/src/browser-id/get-browser-id.ts#L8)
 
 Gets the browser ID from the cookie.
 
