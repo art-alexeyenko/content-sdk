@@ -8,4 +8,4 @@
 
 > `const` **SITECORE\_EDGE\_URL**: `"https://edge-platform.sitecorecloud.io"` = `'https://edge-platform.sitecorecloud.io'`
 
-Defined in: [src/consts.ts:15](https://github.com/art-alexeyenko/content-sdk/blob/1ca74789d4b4237e64e45a69e575ac9001871ce7/packages/__core__/src/consts.ts#L15)
+Defined in: [src/consts.ts:15](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/__core__/src/consts.ts#L15)
