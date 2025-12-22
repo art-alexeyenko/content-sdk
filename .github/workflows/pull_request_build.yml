@@ -38,21 +38,6 @@ jobs:
       - name: Build packages
         run: npm run build
 
-      - name: Check for beachball change files
-        run: |
-          echo "Checking for beachball change files..."
-          if [ -z "$(find change -name '*.json' 2>/dev/null)" ]; then
-            echo "::warning file=change::⚠️ No beachball change files found in change/ directory"
-            echo "Run 'yarn beachball change' to create a change file for your changes"
-            echo "This check is informational - PR will not be blocked"
-          else
-            echo "✅ Change files found:"
-            find change -name '*.json' | head -5
-            echo ""
-            echo "Verifying change files with beachball check..."
-            npx beachball check || echo ":warning file=change::⚠️ beachball check found issues (see above)"
-          fi
-
       - name: Lint packages
         run: |
           yarn lint-packages
