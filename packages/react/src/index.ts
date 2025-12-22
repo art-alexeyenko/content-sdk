@@ -9,6 +9,7 @@
   NativeDataFetcherResponse,
   NativeDataFetcherConfig,
 } from '@sitecore-content-sdk/core';
+// we have a minor feature here
 export { EnhancedOmit } from '@sitecore-content-sdk/core/utils';
 export { isEditorActive, resetEditorChromes } from '@sitecore-content-sdk/core/editing';
 export {
