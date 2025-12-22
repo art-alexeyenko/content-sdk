@@ -8,4 +8,4 @@
 
 > `const` **PACKAGE\_INITIALIZER\_METHOD\_NAME**: `"addEvents"` = `'addEvents'`
 
-Defined in: [events/src/consts.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/d4e9fb1eec4b9df146febaa5566096221de3f17c/packages/events/src/consts.ts#L7)
+Defined in: [events/src/consts.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/d53ee27f3ff2a5443095851bffd958117be7a372/packages/events/src/consts.ts#L7)

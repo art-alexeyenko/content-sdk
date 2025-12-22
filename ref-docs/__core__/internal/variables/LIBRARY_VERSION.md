@@ -8,4 +8,4 @@
 
 > `const` **LIBRARY\_VERSION**: `string` = `packageJson.version`
 
-Defined in: [src/consts.ts:3](https://github.com/art-alexeyenko/content-sdk/blob/d4e9fb1eec4b9df146febaa5566096221de3f17c/packages/__core__/src/consts.ts#L3)
+Defined in: [src/consts.ts:3](https://github.com/art-alexeyenko/content-sdk/blob/d53ee27f3ff2a5443095851bffd958117be7a372/packages/__core__/src/consts.ts#L3)
