@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 /**
- * Post-changeset-version script
- * Adds caret (^) to stable internal dependency versions
- * Keeps exact versions for prerelease/canary versions
+ * Fix internal dependency version ranges:
+ * - Stable versions (e.g., 1.4.0) get caret (^1.4.0)
+ * - Prerelease/canary versions (e.g., 1.4.0-canary.5) stay exact (1.4.0-canary.5)
  *
- * Run after: npx changeset version
+ * Run after: changeset version, lerna version, or any version bump
  */
 
 const fs = require('fs');
@@ -40,22 +40,32 @@ packageDirs.forEach((dir) => {
 
       if (!isInternal) return;
 
-      const version = pkg[depType][depName];
-
-      // Skip if already has a range modifier (^, ~, >, <, etc.)
-      if (/^[\^~><]/.test(version)) return;
+      let version = pkg[depType][depName];
 
       // Skip workspace protocol
       if (version.startsWith('workspace:')) return;
 
-      // Check if it's a stable version (no prerelease tag like -canary, -alpha, -beta, -rc)
-      const isStable = !/-/.test(version);
+      // Remove existing range modifiers to get the base version
+      const baseVersion = version.replace(/^[\^~]/, '');
 
-      if (isStable) {
-        // Add caret for stable versions
-        pkg[depType][depName] = `^${version}`;
-        modified = true;
-        console.log(`  ${dir}: ${depName} "${version}" -> "^${version}"`);
+      // Check if it's a prerelease version (contains -)
+      const isPrerelease = /-/.test(baseVersion);
+
+      if (isPrerelease) {
+        // Prerelease/canary: use exact version (no caret)
+        if (version !== baseVersion) {
+          pkg[depType][depName] = baseVersion;
+          modified = true;
+          console.log(`  ${dir}: ${depName} "${version}" -> "${baseVersion}" (exact for prerelease)`);
+        }
+      } else {
+        // Stable: use caret version
+        const caretVersion = `^${baseVersion}`;
+        if (version !== caretVersion) {
+          pkg[depType][depName] = caretVersion;
+          modified = true;
+          console.log(`  ${dir}: ${depName} "${version}" -> "${caretVersion}" (caret for stable)`);
+        }
       }
     });
   });
@@ -67,8 +77,7 @@ packageDirs.forEach((dir) => {
 });
 
 if (updatedCount > 0) {
-  console.log(`\n✅ Updated ${updatedCount} package(s) with caret ranges for stable versions.`);
+  console.log(`\n✅ Updated ${updatedCount} package(s) with correct dependency ranges.`);
 } else {
   console.log('No dependency range updates needed.');
 }
-

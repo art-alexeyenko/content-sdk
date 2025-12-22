@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "@sitecore-content-sdk/__core__": "1.4.0-canary.15",
-    "@sitecore-content-sdk/events": "^1.4.0-canary.19",
+    "@sitecore-content-sdk/events": "1.4.0-canary.19",
     "@sitecore-content-sdk/utils": "1.4.0-canary.15",
     "debug": "^4.4.3"
   },
