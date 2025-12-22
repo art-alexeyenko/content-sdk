@@ -8,6 +8,6 @@
 
 > **RouterType** = `"app"` \| `"pages"`
 
-Defined in: [packages/core/src/tools/templating/components.ts:29](https://github.com/art-alexeyenko/content-sdk/blob/38a7db4e7188fed00df65cf3000a3bed6b558191/packages/core/src/tools/templating/components.ts#L29)
+Defined in: [packages/core/src/tools/templating/components.ts:29](https://github.com/art-alexeyenko/content-sdk/blob/7706dabe500c2d5d6981f79489b3982604fea646/packages/core/src/tools/templating/components.ts#L29)
 
 **`Internal`**
