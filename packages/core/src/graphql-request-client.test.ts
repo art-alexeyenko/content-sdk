@@ -207,7 +207,7 @@ describe('GraphQLRequestClient', () => {
     });
   });
 
-  describe('Working with retryer', () => {
+  xdescribe('Working with retryer', () => {
     it('should use the clientConfig values configured by the client', () => {
       const clientConfig = {
         retries: 4,

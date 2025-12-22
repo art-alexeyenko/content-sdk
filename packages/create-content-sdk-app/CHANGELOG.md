@@ -1,4 +1,4 @@
-# @sitecore-content-sdk/core
+# create-content-sdk-app
 
 ## 1.4.0
 

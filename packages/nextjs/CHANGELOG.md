@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- d8aaba6: patch bump in nextjs
-- Updated dependencies [d8aaba6]
-  - @sitecore-content-sdk/core@1.4.0
+- test bump
+- Updated dependencies
   - @sitecore-content-sdk/react@1.4.0
+  - @sitecore-content-sdk/core@1.4.0

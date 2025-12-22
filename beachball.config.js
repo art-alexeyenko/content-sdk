@@ -1,8 +1,11 @@
-import { changelog } from './.beachball/beach-utils.js';
+const { changelog } = require('./.beachball/beach-utils.js');
 
 module.exports = {
   // Independent versioning mode
   disallowedChangeTypes: [],
+
+  // Explicitly enable changelog generation
+  generateChangelog: true,
 
   // Packages to include
   packages: {
@@ -26,43 +29,35 @@ module.exports = {
     },
   },
 
-  // Change file directory
-  changeFolder: 'change',
-
   // Branch configuration
   branch: 'dev',
 
   // Automatically update dependent packages
   bumpDeps: true,
 
-  // Generate changelogs
+  // Generate changelogs that includes commit links
   changelog: {
-    customRenderers: changelog,
+    customRenderers: changelog, // Custom renderer adds commit links to entries
     groups: [
       {
-        masterPackageName: '@sitecore-content-sdk/core',
-        changelogPath: 'packages/core',
-        include: ['@sitecore-content-sdk/core'],
-      },
-      {
-        masterPackageName: '@sitecore-content-sdk/nextjs',
+        mainPackageName: '@sitecore-content-sdk/nextjs',
+        include: ['@sitecore-content-sdk/core', '@sitecore-content-sdk/react'],
         changelogPath: 'packages/nextjs',
-        include: ['@sitecore-content-sdk/nextjs'],
       },
       {
         masterPackageName: '@sitecore-content-sdk/react',
         changelogPath: 'packages/react',
-        include: ['@sitecore-content-sdk/react'],
+        include: ['@sitecore-content-sdk/core', '@sitecore-content-sdk/react'],
       },
       {
         masterPackageName: '@sitecore-content-sdk/cli',
         changelogPath: 'packages/cli',
-        include: ['@sitecore-content-sdk/cli'],
+        include: ['@sitecore-content-sdk/core', '@sitecore-content-sdk/cli'],
       },
       {
         masterPackageName: '@sitecore-content-sdk/search',
         changelogPath: 'packages/search',
-        include: ['@sitecore-content-sdk/search'],
+        include: ['@sitecore-content-sdk/core', '@sitecore-content-sdk/search'],
       },
       {
         masterPackageName: 'create-content-sdk-app',

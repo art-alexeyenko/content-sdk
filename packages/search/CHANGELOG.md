@@ -1,8 +1,9 @@
 # @sitecore-content-sdk/search
 
-## 1.4.0
+## 0.1.0
 
 ### Patch Changes
 
-- Updated dependencies [d8aaba6]
+- test bump
+- Updated dependencies
   - @sitecore-content-sdk/core@1.4.0
