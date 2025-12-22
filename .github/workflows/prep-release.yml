@@ -32,23 +32,6 @@ jobs:
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
 
-      - name: Validate inputs
-        run: |
-          VERSION_PATTERN="${{ inputs.version_pattern }}"
-          BASE_TAG="${{ inputs.base_tag }}"
-
-          # Validate version pattern format (X.Y.x)
-          if [[ ! "$VERSION_PATTERN" =~ ^[0-9]+\.[0-9]+\.x$ ]]; then
-            echo "❌ Invalid version pattern: $VERSION_PATTERN"
-            echo "Expected format: X.Y.x (e.g., 1.3.x)"
-            exit 1
-          fi
-
-          echo "✅ Inputs validated:"
-          echo "  Version pattern: $VERSION_PATTERN"
-          echo "  Release type: ${{ inputs.release_type }}"
-          echo "  Base tag: $BASE_TAG"
-
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
