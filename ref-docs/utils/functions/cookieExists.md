@@ -8,7 +8,7 @@
 
 > **cookieExists**(`cookieStr`, `cookieName`): `boolean`
 
-Defined in: [cookies/cookie-exists.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/196b017521e79e8f998bfe09c293d5f0857bfcf0/packages/utils/src/cookies/cookie-exists.ts#L7)
+Defined in: [cookies/cookie-exists.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/utils/src/cookies/cookie-exists.ts#L7)
 
 Checks whether the cookie exists within a cookie string.
 
