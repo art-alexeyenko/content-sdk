@@ -10,20 +10,48 @@ import type {
 const REPO = 'sitecore/content-sdk';
 
 /**
- * Custom changelog entry renderer that includes commit links
+ * Extract short package name from full package name
+ * e.g., "@sitecore-content-sdk/core" -> "core"
+ *       "create-content-sdk-app" -> "create-content-sdk-app"
+ */
+function getShortPackageName(packageName: string): string {
+  if (packageName.startsWith('@sitecore-content-sdk/')) {
+    return packageName.replace('@sitecore-content-sdk/', '');
+  }
+  return packageName;
+}
+
+/**
+ * Get package prefixes from changeset releases
+ * Returns format like "[core]" or "[core, react]" for multiple packages
+ */
+function getPackagePrefix(changeset: NewChangesetWithCommit): string {
+  if (!changeset.releases || changeset.releases.length === 0) {
+    return '';
+  }
+
+  const shortNames = changeset.releases.map((r) => getShortPackageName(r.name));
+  return `[${shortNames.join(', ')}]`;
+}
+
+/**
+ * Custom changelog entry renderer that includes commit links and package prefix
  */
 async function getReleaseLine(changeset: NewChangesetWithCommit, _type: string): Promise<string> {
   const [firstLine, ...remainingLines] = changeset.summary.split('\n').map((l) => l.trimEnd());
 
   let commitLink = '';
-
   if (changeset.commit) {
     const shortCommit = changeset.commit.substring(0, 7);
     commitLink = ` ([${shortCommit}](https://github.com/${REPO}/commit/${changeset.commit}))`;
   }
 
-  // Format the entry with commit link
-  let entry = `- ${firstLine}${commitLink}`;
+  // Get package prefix
+  const prefix = getPackagePrefix(changeset);
+  const prefixStr = prefix ? `${prefix} ` : '';
+
+  // Format the entry with package prefix and commit link
+  let entry = `- ${prefixStr}${firstLine}${commitLink}`;
 
   // Add remaining lines with proper indentation
   if (remainingLines.length > 0) {
@@ -36,7 +64,7 @@ async function getReleaseLine(changeset: NewChangesetWithCommit, _type: string):
 
 /**
  * Custom dependency update renderer
- * Shows the actual change descriptions from dependencies instead of "Updated dependencies"
+ * Shows the actual change descriptions from dependencies with package prefix
  */
 async function getDependencyReleaseLine(
   changesets: NewChangesetWithCommit[],
@@ -56,7 +84,11 @@ async function getDependencyReleaseLine(
       commitLink = ` ([${shortCommit}](https://github.com/${REPO}/commit/${changeset.commit}))`;
     }
 
-    return `- ${firstLine}${commitLink}`;
+    // Get package prefix
+    const prefix = getPackagePrefix(changeset);
+    const prefixStr = prefix ? `${prefix} ` : '';
+
+    return `- ${prefixStr}${firstLine}${commitLink}`;
   });
 
   return changeEntries.join('\n');

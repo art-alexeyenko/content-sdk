@@ -1,5 +1,11 @@
 # Change Log - @sitecore-content-sdk/core
 
+## 1.6.0
+
+### Minor Changes
+
+- [core] a minor feature ([d4e9fb1](https://github.com/sitecore/content-sdk/commit/d4e9fb1eec4b9df146febaa5566096221de3f17c))
+
 <!-- This log was last generated on Mon, 22 Dec 2025 21:15:03 GMT and should not be manually modified. -->
 
 <!-- Start content -->
