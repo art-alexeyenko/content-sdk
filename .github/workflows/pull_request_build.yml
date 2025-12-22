@@ -39,18 +39,25 @@ jobs:
         run: npm run build
 
       - name: Check for beachball change files
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          echo "Checking for beachball change files..."
-          if [ -z "$(find change -name '*.json' 2>/dev/null)" ]; then
-            echo "::warning file=change::⚠️ No beachball change files found in change/ directory"
-            echo "Run 'yarn beachball change' to create a change file for your changes"
-            echo "This check is informational - PR will not be blocked"
+          echo "Checking for beachball change files in PR #${{ github.event.pull_request.number }}..."
+          
+          # Get list of files changed in this PR
+          CHANGED_FILES=$(gh pr view ${{ github.event.pull_request.number }} --json files --jq '.files[].path')
+          
+          # Check if any changed files are beachball change files (json or yml in change/ directory)
+          CHANGE_FILES=$(echo "$CHANGED_FILES" | grep -E '^change/.*\.(json|yml|yaml)$' || true)
+          
+          if [ -z "$CHANGE_FILES" ]; then
+            echo "::warning::⚠️ No beachball change files found in this PR. Run 'yarn beachball change' to create a change file for your changes."
           else
-            echo "✅ Change files found:"
-            find change -name '*.json' | head -5
+            echo "✅ Beachball change files found in PR:"
+            echo "$CHANGE_FILES"
             echo ""
             echo "Verifying change files with beachball check..."
-            npx beachball check || echo ":warning file=change::⚠️ beachball check found issues (see above)"
+            npx beachball check || echo "::warning::⚠️ beachball check found issues (see above)"
           fi
 
       - name: Lint packages
