@@ -8,7 +8,7 @@
 
 > **SortSetting**\<`T`\> = `object`
 
-Defined in: [search-service.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/search/src/search-service.ts#L8)
+Defined in: [search-service.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/search/src/search-service.ts#L10)
 
 Options for sorting the search results.
 
@@ -24,7 +24,7 @@ Options for sorting the search results.
 
 > **name**: `PathsToStringProps`\<`T`\>
 
-Defined in: [search-service.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/search/src/search-service.ts#L9)
+Defined in: [search-service.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/search/src/search-service.ts#L11)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [search-service.ts:9](https://github.com/art-alexeyenko/content-sdk/
 
 > **order**: `"asc"` \| `"desc"`
 
-Defined in: [search-service.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/search/src/search-service.ts#L10)
+Defined in: [search-service.ts:12](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/search/src/search-service.ts#L12)

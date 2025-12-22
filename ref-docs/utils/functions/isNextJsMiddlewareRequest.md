@@ -8,7 +8,7 @@
 
 > **isNextJsMiddlewareRequest**(`request`): `request is MiddlewareRequest`
 
-Defined in: [typeguards/is-next-js-middleware-request.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/utils/src/typeguards/is-next-js-middleware-request.ts#L8)
+Defined in: [typeguards/is-next-js-middleware-request.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/utils/src/typeguards/is-next-js-middleware-request.ts#L8)
 
 Determines whether the given request is a Next.js middleware request.
 

@@ -8,7 +8,7 @@
 
 > **getDefaultCookieAttributes**(`maxAge?`, `cookieDomain?`): `CookieProperties`
 
-Defined in: [src/cookie/get-default-cookie-attributes.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/__core__/src/cookie/get-default-cookie-attributes.ts#L10)
+Defined in: [src/cookie/get-default-cookie-attributes.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/__core__/src/cookie/get-default-cookie-attributes.ts#L10)
 
 Gets the default cookie attributes.
 

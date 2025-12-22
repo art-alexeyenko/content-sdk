@@ -8,4 +8,4 @@
 
 > `const` **PERSONALIZE\_NAMESPACE**: `"sitecore-content-sdk:personalize"`
 
-Defined in: [consts.ts:4](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/personalize/src/consts.ts#L4)
+Defined in: [consts.ts:4](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/personalize/src/consts.ts#L4)

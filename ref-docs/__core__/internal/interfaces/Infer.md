@@ -6,7 +6,7 @@
 
 # Interface: Infer
 
-Defined in: [src/interfaces.ts:20](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/__core__/src/interfaces.ts#L20)
+Defined in: [src/interfaces.ts:20](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/__core__/src/interfaces.ts#L20)
 
 Interface for supporting response `IncomingMessage` HTTP node type.
 
@@ -16,7 +16,7 @@ Interface for supporting response `IncomingMessage` HTTP node type.
 
 > **language**: () => `string` \| `undefined`
 
-Defined in: [src/interfaces.ts:21](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/__core__/src/interfaces.ts#L21)
+Defined in: [src/interfaces.ts:21](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/__core__/src/interfaces.ts#L21)
 
 #### Returns
 
@@ -28,7 +28,7 @@ Defined in: [src/interfaces.ts:21](https://github.com/art-alexeyenko/content-sdk
 
 > **pageName**: () => `string`
 
-Defined in: [src/interfaces.ts:22](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/__core__/src/interfaces.ts#L22)
+Defined in: [src/interfaces.ts:22](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/__core__/src/interfaces.ts#L22)
 
 #### Returns
 

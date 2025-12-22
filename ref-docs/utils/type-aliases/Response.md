@@ -8,4 +8,4 @@
 
 > **Response** = [`HttpResponse`](../interfaces/HttpResponse.md) \| [`MiddlewareNextResponse`](../interfaces/MiddlewareNextResponse.md)
 
-Defined in: [interfaces.ts:73](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/utils/src/interfaces.ts#L73)
+Defined in: [interfaces.ts:73](https://github.com/art-alexeyenko/content-sdk/blob/036c6540071be9ea8dbbf95ca55caed3057003c0/packages/utils/src/interfaces.ts#L73)
