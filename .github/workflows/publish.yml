@@ -72,7 +72,7 @@ jobs:
           echo "registry=https://${NPM_REGISTRY}/" > .npmrc
           echo "@sitecore-content-sdk:registry=https://${NPM_REGISTRY}/" >> .npmrc
           echo "//${NPM_REGISTRY}/:_authToken=${NPM_TOKEN}" >> .npmrc
-          npx changeset publish
+          npx lerna publish from-package --no-verify-access --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
