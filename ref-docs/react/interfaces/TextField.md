@@ -6,7 +6,7 @@
 
 # Interface: TextField
 
-Defined in: [packages/react/src/components/Text.tsx:13](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/react/src/components/Text.tsx#L13)
+Defined in: [packages/react/src/components/Text.tsx:13](https://github.com/art-alexeyenko/content-sdk/blob/196b017521e79e8f998bfe09c293d5f0857bfcf0/packages/react/src/components/Text.tsx#L13)
 
 The interface for the Text field.
 
@@ -36,4 +36,4 @@ Defined in: packages/core/types/layout/models.d.ts:123
 
 > `optional` **value**: `string` \| `number`
 
-Defined in: [packages/react/src/components/Text.tsx:14](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/react/src/components/Text.tsx#L14)
+Defined in: [packages/react/src/components/Text.tsx:14](https://github.com/art-alexeyenko/content-sdk/blob/196b017521e79e8f998bfe09c293d5f0857bfcf0/packages/react/src/components/Text.tsx#L14)

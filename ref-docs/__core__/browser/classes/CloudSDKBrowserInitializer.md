@@ -6,7 +6,7 @@
 
 # Class: CloudSDKBrowserInitializer
 
-Defined in: [src/initializer/browser/initializer.ts:25](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/__core__/src/initializer/browser/initializer.ts#L25)
+Defined in: [src/initializer/browser/initializer.ts:25](https://github.com/art-alexeyenko/content-sdk/blob/196b017521e79e8f998bfe09c293d5f0857bfcf0/packages/__core__/src/initializer/browser/initializer.ts#L25)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [src/initializer/browser/initializer.ts:25](https://github.com/art-a
 
 > **new CloudSDKBrowserInitializer**(`settings`): `CloudSDKBrowserInitializer`
 
-Defined in: [src/initializer/browser/initializer.ts:34](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/__core__/src/initializer/browser/initializer.ts#L34)
+Defined in: [src/initializer/browser/initializer.ts:34](https://github.com/art-alexeyenko/content-sdk/blob/196b017521e79e8f998bfe09c293d5f0857bfcf0/packages/__core__/src/initializer/browser/initializer.ts#L34)
 
 Runs the initialization logic. Enables packages and creates cookies for CloudSDK.
 
@@ -50,7 +50,7 @@ ErrorMessages.IV_0001
 
 > **initialize**(): `void`
 
-Defined in: [src/initializer/browser/initializer.ts:44](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/__core__/src/initializer/browser/initializer.ts#L44)
+Defined in: [src/initializer/browser/initializer.ts:44](https://github.com/art-alexeyenko/content-sdk/blob/196b017521e79e8f998bfe09c293d5f0857bfcf0/packages/__core__/src/initializer/browser/initializer.ts#L44)
 
 Runs the initialization logic. Enables packages and create cookies for CloudSDK.
 

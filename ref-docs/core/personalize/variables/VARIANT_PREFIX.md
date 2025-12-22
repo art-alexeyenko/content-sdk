@@ -8,6 +8,6 @@
 
 > `const` **VARIANT\_PREFIX**: `"_variantId_"` = `'_variantId_'`
 
-Defined in: [packages/core/src/personalize/utils.ts:4](https://github.com/art-alexeyenko/content-sdk/blob/d96ab64898241c3cb9197f84dcbc4c22efaafecb/packages/core/src/personalize/utils.ts#L4)
+Defined in: [packages/core/src/personalize/utils.ts:4](https://github.com/art-alexeyenko/content-sdk/blob/196b017521e79e8f998bfe09c293d5f0857bfcf0/packages/core/src/personalize/utils.ts#L4)
 
 **`Internal`**
