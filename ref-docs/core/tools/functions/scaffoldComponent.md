@@ -8,7 +8,7 @@
 
 > **scaffoldComponent**(`outputFolderPath`, `componentName`, `templateName`, `templates`): `void`
 
-Defined in: [packages/core/src/tools/scaffold.ts:47](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/tools/scaffold.ts#L47)
+Defined in: [packages/core/src/tools/scaffold.ts:47](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/tools/scaffold.ts#L47)
 
 **`Internal`**
 

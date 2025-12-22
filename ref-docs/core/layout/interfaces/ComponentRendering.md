@@ -6,7 +6,7 @@
 
 # Interface: ComponentRendering\<T\>
 
-Defined in: [packages/core/src/layout/models.ts:103](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/layout/models.ts#L103)
+Defined in: [packages/core/src/layout/models.ts:103](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/layout/models.ts#L103)
 
 Definition of a component instance within a placeholder on a route
 
@@ -22,7 +22,7 @@ Definition of a component instance within a placeholder on a route
 
 > **componentName**: `string`
 
-Defined in: [packages/core/src/layout/models.ts:104](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/layout/models.ts#L104)
+Defined in: [packages/core/src/layout/models.ts:104](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/layout/models.ts#L104)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [packages/core/src/layout/models.ts:104](https://github.com/art-alex
 
 > `optional` **dataSource**: `string`
 
-Defined in: [packages/core/src/layout/models.ts:105](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/layout/models.ts#L105)
+Defined in: [packages/core/src/layout/models.ts:105](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/layout/models.ts#L105)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/layout/models.ts:105](https://github.com/art-alex
 
 > `optional` **fields**: `T`
 
-Defined in: [packages/core/src/layout/models.ts:108](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/layout/models.ts#L108)
+Defined in: [packages/core/src/layout/models.ts:108](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/layout/models.ts#L108)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [packages/core/src/layout/models.ts:108](https://github.com/art-alex
 
 > `optional` **params**: [`ComponentParams`](ComponentParams.md)
 
-Defined in: [packages/core/src/layout/models.ts:109](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/layout/models.ts#L109)
+Defined in: [packages/core/src/layout/models.ts:109](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/layout/models.ts#L109)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [packages/core/src/layout/models.ts:109](https://github.com/art-alex
 
 > `optional` **placeholders**: [`PlaceholdersData`](../type-aliases/PlaceholdersData.md)\<`string`\>
 
-Defined in: [packages/core/src/layout/models.ts:107](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/layout/models.ts#L107)
+Defined in: [packages/core/src/layout/models.ts:107](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/layout/models.ts#L107)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [packages/core/src/layout/models.ts:107](https://github.com/art-alex
 
 > `optional` **uid**: `string`
 
-Defined in: [packages/core/src/layout/models.ts:106](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/layout/models.ts#L106)
+Defined in: [packages/core/src/layout/models.ts:106](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/layout/models.ts#L106)

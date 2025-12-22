@@ -8,7 +8,7 @@
 
 > **processDebugResponse**(`namespace`, `response`): `object`
 
-Defined in: [src/debug/debug.ts:13](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/__core__/src/debug/debug.ts#L13)
+Defined in: [src/debug/debug.ts:13](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/__core__/src/debug/debug.ts#L13)
 
 Extracts debug information from an HTTP response if debugging is enabled.
 

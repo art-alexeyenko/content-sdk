@@ -6,7 +6,7 @@
 
 # Enumeration: DesignLibraryStatus
 
-Defined in: [packages/core/src/editing/design-library.ts:53](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/design-library.ts#L53)
+Defined in: [packages/core/src/editing/design-library.ts:53](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/editing/design-library.ts#L53)
 
 **`Internal`**
 
@@ -18,7 +18,7 @@ Enumeration of statuses for the design library.
 
 > **READY**: `"ready"`
 
-Defined in: [packages/core/src/editing/design-library.ts:54](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/design-library.ts#L54)
+Defined in: [packages/core/src/editing/design-library.ts:54](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/editing/design-library.ts#L54)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [packages/core/src/editing/design-library.ts:54](https://github.com/
 
 > **RENDERED**: `"rendered"`
 
-Defined in: [packages/core/src/editing/design-library.ts:55](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/design-library.ts#L55)
+Defined in: [packages/core/src/editing/design-library.ts:55](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/editing/design-library.ts#L55)

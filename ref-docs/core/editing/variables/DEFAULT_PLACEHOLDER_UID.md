@@ -8,7 +8,7 @@
 
 > `const` **DEFAULT\_PLACEHOLDER\_UID**: `"00000000-0000-0000-0000-000000000000"` = `'00000000-0000-0000-0000-000000000000'`
 
-Defined in: [packages/core/src/editing/utils.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/utils.ts#L8)
+Defined in: [packages/core/src/editing/utils.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/core/src/editing/utils.ts#L8)
 
 **`Internal`**
 

@@ -8,7 +8,7 @@
 
 > **writeImportMap**(`args`): (`__namedParameters?`) => `Promise`\<`void`\>
 
-Defined in: [nextjs/src/tools/codegen/import-map.ts:16](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/nextjs/src/tools/codegen/import-map.ts#L16)
+Defined in: [nextjs/src/tools/codegen/import-map.ts:16](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/nextjs/src/tools/codegen/import-map.ts#L16)
 
 Entry point function for generating import-map. Parses provided paths and outputs the modules and imports from those files into .sitecore/import-map.ts
 

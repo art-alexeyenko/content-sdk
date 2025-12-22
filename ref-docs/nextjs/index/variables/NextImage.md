@@ -8,6 +8,6 @@
 
 > `const` **NextImage**: `React.FC`\<`NextImageProps`\>
 
-Defined in: [nextjs/src/components/NextImage.tsx:23](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/nextjs/src/components/NextImage.tsx#L23)
+Defined in: [nextjs/src/components/NextImage.tsx:23](https://github.com/art-alexeyenko/content-sdk/blob/cb360062d5d2727c847137947cca7f385d30f982/packages/nextjs/src/components/NextImage.tsx#L23)
 
 Next.js specific Image component implementation.
