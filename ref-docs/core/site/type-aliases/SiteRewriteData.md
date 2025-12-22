@@ -8,7 +8,7 @@
 
 > **SiteRewriteData** = `object`
 
-Defined in: [packages/core/src/site/utils.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/core/src/site/utils.ts#L17)
+Defined in: [packages/core/src/site/utils.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/site/utils.ts#L17)
 
 Object model of site rewrite data
 
@@ -18,4 +18,4 @@ Object model of site rewrite data
 
 > **siteName**: `string`
 
-Defined in: [packages/core/src/site/utils.ts:18](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/core/src/site/utils.ts#L18)
+Defined in: [packages/core/src/site/utils.ts:18](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/site/utils.ts#L18)

@@ -6,7 +6,7 @@
 
 # Enumeration: ErrorMessages
 
-Defined in: [consts.ts:1](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/utils/src/consts.ts#L1)
+Defined in: [consts.ts:1](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/utils/src/consts.ts#L1)
 
 ## Enumeration Members
 
@@ -14,7 +14,7 @@ Defined in: [consts.ts:1](https://github.com/art-alexeyenko/content-sdk/blob/c41
 
 > **IE\_0002**: `"[IE-0002] Timeout exceeded. The server did not respond within the allotted time."`
 
-Defined in: [consts.ts:3](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/utils/src/consts.ts#L3)
+Defined in: [consts.ts:3](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/utils/src/consts.ts#L3)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [consts.ts:3](https://github.com/art-alexeyenko/content-sdk/blob/c41
 
 > **IV\_0006**: "\[IV-0006\] Incorrect value for \"timeout\". Set the value to an integer greater than or equal to 0."
 
-Defined in: [consts.ts:2](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/utils/src/consts.ts#L2)
+Defined in: [consts.ts:2](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/utils/src/consts.ts#L2)

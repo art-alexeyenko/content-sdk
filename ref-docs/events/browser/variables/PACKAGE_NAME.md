@@ -8,4 +8,4 @@
 
 > `const` **PACKAGE\_NAME**: `string` = `packageJson.name`
 
-Defined in: [events/src/consts.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/events/src/consts.ts#L6)
+Defined in: [events/src/consts.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/events/src/consts.ts#L6)

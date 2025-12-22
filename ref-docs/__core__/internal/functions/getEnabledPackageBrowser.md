@@ -8,7 +8,7 @@
 
 > **getEnabledPackageBrowser**(`packageName`): [`PackageInitializer`](../classes/PackageInitializer.md) \| `undefined`
 
-Defined in: [src/initializer/browser/initializer.ts:173](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/__core__/src/initializer/browser/initializer.ts#L173)
+Defined in: [src/initializer/browser/initializer.ts:173](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/__core__/src/initializer/browser/initializer.ts#L173)
 
 Gets an enabled package by name.
 

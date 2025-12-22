@@ -8,7 +8,7 @@
 
 > `const` **GRAPHQL\_LAYOUT\_QUERY\_NAME**: `"ContentSdkLayoutQuery"` = `'ContentSdkLayoutQuery'`
 
-Defined in: [packages/core/src/layout/layout-service.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/c4121ed79c517668fe049d0732ca31a70ead1500/packages/core/src/layout/layout-service.ts#L11)
+Defined in: [packages/core/src/layout/layout-service.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/1f74497189be4ad455e192385eecc140a39cd240/packages/core/src/layout/layout-service.ts#L11)
 
 **`Internal`**
 
