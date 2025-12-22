@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "fix search",
-  "packageName": "@sitecore-content-sdk/search",
-  "email": "ala@sitecore.net",
-  "dependentChangeType": "patch"
-}

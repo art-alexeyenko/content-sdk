@@ -30,7 +30,7 @@ module.exports = {
   },
 
   // Branch configuration
-  branch: 'dev',
+  branch: 'release/1.4.0',
 
   // Automatically update dependent packages
   bumpDeps: true,
