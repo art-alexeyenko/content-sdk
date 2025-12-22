@@ -3,7 +3,9 @@
   "changelog": "./changelog.ts",
   "commit": false,
   "fixed": [],
-  "linked": [],
+  "linked": [
+    ["@sitecore-content-sdk/nextjs", "@sitecore-content-sdk/react", "@sitecore-content-sdk/core"]
+  ],
   "access": "public",
   "baseBranch": "dev",
   "updateInternalDependencies": "patch",
