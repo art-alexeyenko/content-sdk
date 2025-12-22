@@ -8,7 +8,7 @@
 
 > **createCookieString**(`name`, `value`, `attributes`): `string`
 
-Defined in: [cookies/create-cookie-string.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/utils/src/cookies/create-cookie-string.ts#L10)
+Defined in: [cookies/create-cookie-string.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/utils/src/cookies/create-cookie-string.ts#L10)
 
 Creates a cookie string with the provided attributes.
 

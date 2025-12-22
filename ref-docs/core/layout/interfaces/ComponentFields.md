@@ -6,7 +6,7 @@
 
 # Interface: ComponentFields
 
-Defined in: [packages/core/src/layout/models.ts:87](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/core/src/layout/models.ts#L87)
+Defined in: [packages/core/src/layout/models.ts:87](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/core/src/layout/models.ts#L87)
 
 Content field data passed to a component
 

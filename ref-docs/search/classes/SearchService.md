@@ -6,7 +6,7 @@
 
 # Class: SearchService
 
-Defined in: [search-service.ts:98](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/search/src/search-service.ts#L98)
+Defined in: [search-service.ts:98](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/search/src/search-service.ts#L98)
 
 Service that fetches search results from Sitecore.
 
@@ -16,7 +16,7 @@ Service that fetches search results from Sitecore.
 
 > **new SearchService**(`config`): `SearchService`
 
-Defined in: [search-service.ts:101](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/search/src/search-service.ts#L101)
+Defined in: [search-service.ts:101](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/search/src/search-service.ts#L101)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [search-service.ts:101](https://github.com/art-alexeyenko/content-sd
 
 > **search**\<`T`\>(`params`, `fetchOptions?`): `Promise`\<[`SearchResponse`](../interfaces/SearchResponse.md)\<`T`\>\>
 
-Defined in: [search-service.ts:121](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/search/src/search-service.ts#L121)
+Defined in: [search-service.ts:121](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/search/src/search-service.ts#L121)
 
 Search for items in the search index.
 

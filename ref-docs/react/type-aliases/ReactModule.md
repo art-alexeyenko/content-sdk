@@ -8,7 +8,7 @@
 
 > **ReactModule** = `object`
 
-Defined in: [packages/react/src/components/sharedTypes/components.ts:25](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/react/src/components/sharedTypes/components.ts#L25)
+Defined in: [packages/react/src/components/sharedTypes/components.ts:25](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/react/src/components/sharedTypes/components.ts#L25)
 
 The type of the React module.
 
@@ -24,7 +24,7 @@ Custom exports
 
 > `optional` **default**: `ComponentType`
 
-Defined in: [packages/react/src/components/sharedTypes/components.ts:37](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/react/src/components/sharedTypes/components.ts#L37)
+Defined in: [packages/react/src/components/sharedTypes/components.ts:37](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/react/src/components/sharedTypes/components.ts#L37)
 
 Default non-standard export
 
@@ -34,6 +34,6 @@ Default non-standard export
 
 > `optional` **Default**: `ComponentType`
 
-Defined in: [packages/react/src/components/sharedTypes/components.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/react/src/components/sharedTypes/components.ts#L33)
+Defined in: [packages/react/src/components/sharedTypes/components.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/react/src/components/sharedTypes/components.ts#L33)
 
 Default module export

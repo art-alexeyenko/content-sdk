@@ -8,7 +8,7 @@
 
 > **isDesignLibraryMode**(`mode`): `mode is DesignLibraryMode`
 
-Defined in: [packages/core/src/editing/design-library.ts:238](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/core/src/editing/design-library.ts#L238)
+Defined in: [packages/core/src/editing/design-library.ts:238](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/core/src/editing/design-library.ts#L238)
 
 **`Internal`**
 

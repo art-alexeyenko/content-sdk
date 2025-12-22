@@ -8,7 +8,7 @@
 
 > **RedirectsMiddlewareConfig** = `Omit`\<[`RedirectsServiceConfig`](../../index/type-aliases/RedirectsServiceConfig.md), `"fetch"` \| `"clientFactory"`\> & `SitecoreConfig`\[`"api"`\]\[`"edge"`\] & `Partial`\<`NonNullable`\<`SitecoreConfig`\[`"api"`\]\[`"local"`\]\>\> & [`MiddlewareBaseConfig`](MiddlewareBaseConfig.md) & `SitecoreConfig`\[`"redirects"`\] & `object`
 
-Defined in: [nextjs/src/middleware/redirects-middleware.ts:32](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/nextjs/src/middleware/redirects-middleware.ts#L32)
+Defined in: [nextjs/src/middleware/redirects-middleware.ts:32](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/nextjs/src/middleware/redirects-middleware.ts#L32)
 
 The interface for the RedirectsMiddleware configuration.
 

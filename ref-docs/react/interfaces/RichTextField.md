@@ -6,7 +6,7 @@
 
 # Interface: RichTextField
 
-Defined in: [packages/react/src/components/RichText.tsx:13](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/react/src/components/RichText.tsx#L13)
+Defined in: [packages/react/src/components/RichText.tsx:13](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/react/src/components/RichText.tsx#L13)
 
 The interface for the RichText field.
 
@@ -36,4 +36,4 @@ Defined in: packages/core/types/layout/models.d.ts:123
 
 > `optional` **value**: `string`
 
-Defined in: [packages/react/src/components/RichText.tsx:14](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/react/src/components/RichText.tsx#L14)
+Defined in: [packages/react/src/components/RichText.tsx:14](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/react/src/components/RichText.tsx#L14)

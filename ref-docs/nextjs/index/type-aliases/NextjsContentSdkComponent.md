@@ -8,7 +8,7 @@
 
 > **NextjsContentSdkComponent** = `ReactContentSdkComponent` & `object`
 
-Defined in: [nextjs/src/sharedTypes/component-props.ts:47](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/nextjs/src/sharedTypes/component-props.ts#L47)
+Defined in: [nextjs/src/sharedTypes/component-props.ts:47](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/nextjs/src/sharedTypes/component-props.ts#L47)
 
 Represents a nextjs component import
 

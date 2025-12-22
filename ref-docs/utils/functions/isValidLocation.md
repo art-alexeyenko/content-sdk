@@ -8,7 +8,7 @@
 
 > **isValidLocation**(`location`): `LocationValidity`
 
-Defined in: [validators/is-valid-location.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/2dd3f0c6f575bbf108a517b44c8f7fbfc11506ed/packages/utils/src/validators/is-valid-location.ts#L6)
+Defined in: [validators/is-valid-location.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/09b59284000728bdee7ab5526621488e0f0efaa4/packages/utils/src/validators/is-valid-location.ts#L6)
 
 Checks whether the provided coordinates fall within valid latitude and longitude ranges.
 
