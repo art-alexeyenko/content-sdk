@@ -1,0 +1,54 @@
+name: Pull Request Change Files
+
+on:
+  pull_request:
+    branches:
+      - dev
+      - 'release/**'
+    paths:
+      - '**'
+
+jobs:
+  check-change-files:
+    runs-on: ubuntu-latest
+    # Skip this check for release PRs (title starts with [release] or (release))
+    if: ${{ !startsWith(github.event.pull_request.title, '[release]') && !startsWith(github.event.pull_request.title, '(release)') }}
+    # This check reports failure but should not be required in branch protection rules
+    # to avoid blocking PR merges
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check for beachball change files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "Checking for beachball change files in PR #${{ github.event.pull_request.number }}..."
+
+          # Get list of files changed in this PR
+          CHANGED_FILES=$(gh pr view ${{ github.event.pull_request.number }} --json files --jq '.files[].path')
+
+          # Check if any changed files are beachball change files (json or yml in change/ directory)
+          CHANGE_FILES=$(echo "$CHANGED_FILES" | grep -E '^change/.*\.(json|yml|yaml)$' || true)
+
+          if [ -z "$CHANGE_FILES" ]; then
+            echo "::error::❌ No beachball change files found in this PR."
+            echo ""
+            echo "To fix this, run the following command and commit the generated change file:"
+            echo "  yarn beachball change"
+            echo ""
+            exit 1
+          else
+            echo "✅ Beachball change files found in PR:"
+            echo "$CHANGE_FILES"
+            echo ""
+            echo "Verifying change files with beachball check..."
+            npx beachball check
+          fi
