@@ -15,7 +15,7 @@
     "version": "yarn install && git stage yarn.lock",
     "changeset": "changeset",
     "changeset:add": "changeset add",
-    "changeset:prep-release": "changeset version && node scripts/fix-dependency-ranges.js",
+    "changeset:prep-release": "changeset version && node scripts/fix-dependency-ranges.js && yarn install",
     "changeset:status": "changeset status"
   },
   "author": {
