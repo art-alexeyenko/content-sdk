@@ -8,7 +8,7 @@
 
 > **EditingOptions** = `object`
 
-Defined in: [packages/core/src/editing/editing-service.ts:41](https://github.com/art-alexeyenko/content-sdk/blob/50a3b14013beb4be9ef33bd52ca9b5e96b0129e9/packages/core/src/editing/editing-service.ts#L41)
+Defined in: [packages/core/src/editing/editing-service.ts:41](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/editing-service.ts#L41)
 
 Options for fetching editing data
 
@@ -18,7 +18,7 @@ Options for fetching editing data
 
 > **itemId**: `string`
 
-Defined in: [packages/core/src/editing/editing-service.ts:42](https://github.com/art-alexeyenko/content-sdk/blob/50a3b14013beb4be9ef33bd52ca9b5e96b0129e9/packages/core/src/editing/editing-service.ts#L42)
+Defined in: [packages/core/src/editing/editing-service.ts:42](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/editing-service.ts#L42)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/core/src/editing/editing-service.ts:42](https://github.com
 
 > **language**: `string`
 
-Defined in: [packages/core/src/editing/editing-service.ts:43](https://github.com/art-alexeyenko/content-sdk/blob/50a3b14013beb4be9ef33bd52ca9b5e96b0129e9/packages/core/src/editing/editing-service.ts#L43)
+Defined in: [packages/core/src/editing/editing-service.ts:43](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/editing-service.ts#L43)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/core/src/editing/editing-service.ts:43](https://github.com
 
 > `optional` **layoutKind**: [`LayoutKind`](../enumerations/LayoutKind.md)
 
-Defined in: [packages/core/src/editing/editing-service.ts:45](https://github.com/art-alexeyenko/content-sdk/blob/50a3b14013beb4be9ef33bd52ca9b5e96b0129e9/packages/core/src/editing/editing-service.ts#L45)
+Defined in: [packages/core/src/editing/editing-service.ts:45](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/editing-service.ts#L45)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/core/src/editing/editing-service.ts:45](https://github.com
 
 > **mode**: `Exclude`\<[`LayoutServicePageState`](../../layout/enumerations/LayoutServicePageState.md), `"Normal"`\>
 
-Defined in: [packages/core/src/editing/editing-service.ts:46](https://github.com/art-alexeyenko/content-sdk/blob/50a3b14013beb4be9ef33bd52ca9b5e96b0129e9/packages/core/src/editing/editing-service.ts#L46)
+Defined in: [packages/core/src/editing/editing-service.ts:46](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/editing-service.ts#L46)
 
 ***
 
@@ -50,4 +50,4 @@ Defined in: [packages/core/src/editing/editing-service.ts:46](https://github.com
 
 > `optional` **version**: `string`
 
-Defined in: [packages/core/src/editing/editing-service.ts:44](https://github.com/art-alexeyenko/content-sdk/blob/50a3b14013beb4be9ef33bd52ca9b5e96b0129e9/packages/core/src/editing/editing-service.ts#L44)
+Defined in: [packages/core/src/editing/editing-service.ts:44](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/core/src/editing/editing-service.ts#L44)

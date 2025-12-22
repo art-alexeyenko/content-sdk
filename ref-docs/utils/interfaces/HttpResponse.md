@@ -6,7 +6,7 @@
 
 # Interface: HttpResponse
 
-Defined in: [interfaces.ts:29](https://github.com/art-alexeyenko/content-sdk/blob/50a3b14013beb4be9ef33bd52ca9b5e96b0129e9/packages/utils/src/interfaces.ts#L29)
+Defined in: [interfaces.ts:29](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/utils/src/interfaces.ts#L29)
 
 Interface for supporting response OutgoingMessage http node type
 
@@ -16,7 +16,7 @@ Interface for supporting response OutgoingMessage http node type
 
 > **setHeader**(`name`, `value`): `void`
 
-Defined in: [interfaces.ts:30](https://github.com/art-alexeyenko/content-sdk/blob/50a3b14013beb4be9ef33bd52ca9b5e96b0129e9/packages/utils/src/interfaces.ts#L30)
+Defined in: [interfaces.ts:30](https://github.com/art-alexeyenko/content-sdk/blob/a28d01a31cb61fe53b3a755950bf4f24aa65f393/packages/utils/src/interfaces.ts#L30)
 
 #### Parameters
 
