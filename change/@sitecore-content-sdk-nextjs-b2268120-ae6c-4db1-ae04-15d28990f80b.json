@@ -1,7 +1,0 @@
-{
-  "type": "patch",
-  "comment": "test change",
-  "packageName": "@sitecore-content-sdk/nextjs",
-  "email": "ala@sitecore.net",
-  "dependentChangeType": "patch"
-}
