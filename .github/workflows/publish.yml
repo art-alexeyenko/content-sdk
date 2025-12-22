@@ -81,7 +81,7 @@ jobs:
           yarn generate-docs
           if [ -n "$(git status --porcelain)" ]; then
             git add ./ref-docs/**/*
-            git commit -m "Update API docs" || echo "⚠️ Failed to commit API docs (may already be committed)"
+            git commit -m "Update API docs [skip ci]" || echo "⚠️ Failed to commit API docs (may already be committed)"
             git push origin HEAD:${{ github.ref_name }} || echo "⚠️ Failed to push API docs (may already be pushed or no changes)"
           else
             echo "No API doc changes to commit"
