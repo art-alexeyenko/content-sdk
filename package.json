@@ -18,7 +18,8 @@
     "changeset:publish": "changeset publish",
     "checkchange": "beachball check",
     "change": "beachball change --no-commit",
-    "bump": "beachball bump --keep-change-files",
+    "bump": "beachball bump --keep-change-files && node .beachball/cleanup-changelogs.js",
+    "prep-release": "beachball bump && node .beachball/cleanup-changelogs.js",
     "release": "beachball publish"
   },
   "author": {
