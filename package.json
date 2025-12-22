@@ -13,13 +13,9 @@
     "api-extractor": "lerna run api-extractor",
     "api-extractor:verify": "lerna run api-extractor:verify",
     "version": "yarn install && git stage yarn.lock",
-    "changeset:add": "changeset add",
-    "changeset:version": "changeset version",
-    "changeset:publish": "changeset publish",
     "checkchange": "beachball check",
     "change": "beachball change --no-commit",
-    "bump": "beachball bump --keep-change-files",
-    "release": "beachball publish"
+    "prep-release": "beachball bump"
   },
   "author": {
     "name": "Sitecore Corporation",
