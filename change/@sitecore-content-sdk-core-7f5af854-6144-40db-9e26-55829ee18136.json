@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Test changelog generation",
+  "packageName": "@sitecore-content-sdk/core",
+  "email": "ala@sitecore.net",
+  "dependentChangeType": "patch"
+}
