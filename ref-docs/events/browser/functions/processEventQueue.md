@@ -8,7 +8,7 @@
 
 > **processEventQueue**(): `Promise`\<`void`\>
 
-Defined in: [events/src/eventStorage/processEventQueue.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/beadd6e495d5f24730d94de024b63002d04f529b/packages/events/src/eventStorage/processEventQueue.ts#L8)
+Defined in: [events/src/eventStorage/processEventQueue.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/4c9ea5968bf0802c84b425d093645467fbdba101/packages/events/src/eventStorage/processEventQueue.ts#L8)
 
 A function that sends all queue events to SitecoreCloud API.
 Clears the queue upon completion.

@@ -8,7 +8,7 @@
 
 > **omit**\<`Data`, `Keys`\>(`data`, `keys`): `Omit`\<`Data`, `Keys`\>
 
-Defined in: [objects/omit.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/beadd6e495d5f24730d94de024b63002d04f529b/packages/utils/src/objects/omit.ts#L7)
+Defined in: [objects/omit.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/4c9ea5968bf0802c84b425d093645467fbdba101/packages/utils/src/objects/omit.ts#L7)
 
 Omits the provided keys from the given object.
 
