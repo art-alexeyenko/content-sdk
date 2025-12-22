@@ -3239,7 +3239,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sitecore-content-sdk/__core__@^1.4.0-canary.15, @sitecore-content-sdk/__core__@workspace:packages/__core__":
+"@sitecore-content-sdk/__core__@1.4.0-canary.15, @sitecore-content-sdk/__core__@workspace:packages/__core__":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/__core__@workspace:packages/__core__"
   dependencies:
@@ -3265,11 +3265,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/cli@^1.4.1-canary.2, @sitecore-content-sdk/cli@workspace:packages/cli":
+"@sitecore-content-sdk/cli@1.4.1-canary.2, @sitecore-content-sdk/cli@workspace:packages/cli":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/cli@workspace:packages/cli"
   dependencies:
-    "@sitecore-content-sdk/core": ^1.4.1-canary.2
+    "@sitecore-content-sdk/core": 1.4.1-canary.2
     "@stylistic/eslint-plugin": ^5.2.2
     "@types/chai": ^5.2.2
     "@types/inquirer": ^9.0.9
@@ -3308,7 +3308,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/core@^1.4.1-canary.2, @sitecore-content-sdk/core@workspace:packages/core":
+"@sitecore-content-sdk/core@1.4.1-canary.2, @sitecore-content-sdk/core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/core@workspace:packages/core"
   dependencies:
@@ -3360,14 +3360,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/events@^1.4.0-canary.15, @sitecore-content-sdk/events@workspace:packages/events":
+"@sitecore-content-sdk/events@1.4.0-canary.15, @sitecore-content-sdk/events@workspace:packages/events":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/events@workspace:packages/events"
   dependencies:
     "@jest/globals": ^30.2.0
     "@jest/types": ^29.6.3
-    "@sitecore-content-sdk/__core__": ^1.4.0-canary.15
-    "@sitecore-content-sdk/utils": ^1.4.0-canary.15
+    "@sitecore-content-sdk/__core__": 1.4.0-canary.15
+    "@sitecore-content-sdk/utils": 1.4.0-canary.15
     "@stylistic/eslint-plugin": ^5.2.2
     "@types/debug": ^4.1.12
     "@types/jest": ^29.5.12
@@ -3388,15 +3388,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/nextjs@^1.4.2-canary.1, @sitecore-content-sdk/nextjs@workspace:packages/nextjs":
+"@sitecore-content-sdk/nextjs@1.4.2-canary.1, @sitecore-content-sdk/nextjs@workspace:packages/nextjs":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/nextjs@workspace:packages/nextjs"
   dependencies:
     "@babel/parser": ^7.27.2
     "@sitecore-cloudsdk/core": ^0.5.1
     "@sitecore-cloudsdk/personalize": ^0.5.1
-    "@sitecore-content-sdk/core": ^1.4.1-canary.2
-    "@sitecore-content-sdk/react": ^1.5.1-canary.1
+    "@sitecore-content-sdk/core": 1.4.1-canary.2
+    "@sitecore-content-sdk/react": 1.5.1-canary.1
     "@stylistic/eslint-plugin": ^5.2.2
     "@testing-library/dom": ^10.4.0
     "@testing-library/react": ^16.3.0
@@ -3459,9 +3459,9 @@ __metadata:
   resolution: "@sitecore-content-sdk/personalize@workspace:packages/personalize"
   dependencies:
     "@jest/types": ^29.6.3
-    "@sitecore-content-sdk/__core__": ^1.4.0-canary.15
-    "@sitecore-content-sdk/events": ^1.4.0-canary.15
-    "@sitecore-content-sdk/utils": ^1.4.0-canary.15
+    "@sitecore-content-sdk/__core__": 1.4.0-canary.15
+    "@sitecore-content-sdk/events": 1.4.0-canary.15
+    "@sitecore-content-sdk/utils": 1.4.0-canary.15
     "@stylistic/eslint-plugin": ^5.2.2
     "@types/debug": ^4.1.12
     "@types/jest": ^29.5.12
@@ -3482,12 +3482,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/react@^1.5.1-canary.1, @sitecore-content-sdk/react@workspace:packages/react":
+"@sitecore-content-sdk/react@1.5.1-canary.1, @sitecore-content-sdk/react@workspace:packages/react":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/react@workspace:packages/react"
   dependencies:
-    "@sitecore-content-sdk/core": ^1.4.1-canary.2
-    "@sitecore-content-sdk/search": ^0.1.3-canary.2
+    "@sitecore-content-sdk/core": 1.4.1-canary.2
+    "@sitecore-content-sdk/search": 0.1.3-canary.2
     "@sitecore-feaas/clientside": ^0.6.0
     "@stylistic/eslint-plugin": ^5.2.2
     "@testing-library/dom": ^10.4.0
@@ -3533,11 +3533,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/search@^0.1.3-canary.2, @sitecore-content-sdk/search@workspace:packages/search":
+"@sitecore-content-sdk/search@0.1.3-canary.2, @sitecore-content-sdk/search@workspace:packages/search":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/search@workspace:packages/search"
   dependencies:
-    "@sitecore-content-sdk/core": ^1.4.1-canary.2
+    "@sitecore-content-sdk/core": 1.4.1-canary.2
     "@types/chai": ^5.2.3
     "@types/mocha": ^10.0.10
     chai: ^6.2.1
@@ -3554,7 +3554,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/utils@^1.4.0-canary.15, @sitecore-content-sdk/utils@workspace:packages/utils":
+"@sitecore-content-sdk/utils@1.4.0-canary.15, @sitecore-content-sdk/utils@^1.4.0-canary.15, @sitecore-content-sdk/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/utils@workspace:packages/utils"
   dependencies:
@@ -4069,13 +4069,6 @@ __metadata:
   version: 2.4.4
   resolution: "@types/normalize-package-data@npm:2.4.4"
   checksum: 65dff72b543997b7be8b0265eca7ace0e34b75c3e5fee31de11179d08fa7124a7a5587265d53d0409532ecb7f7fba662c2012807963e1f9b059653ec2c83ee05
-  languageName: node
-  linkType: hard
-
-"@types/parse-path@npm:^7.0.0":
-  version: 7.0.3
-  resolution: "@types/parse-path@npm:7.0.3"
-  checksum: 21a12c228d38f5a75659dfd7cb127dc2001ed3f6acbd1b2e0575d1348c735594c0bab06a97fe849c151438384829f20ea5971cb045f7ecd37d53c76a9fcb9de3
   languageName: node
   linkType: hard
 
@@ -5325,27 +5318,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"beachball@npm:2.60.1":
-  version: 2.60.1
-  resolution: "beachball@npm:2.60.1"
-  dependencies:
-    cosmiconfig: ^9.0.0
-    execa: ^5.0.0
-    fs-extra: ^11.1.1
-    minimatch: ^3.0.4
-    p-graph: ^1.1.2
-    p-limit: ^3.0.2
-    prompts: ^2.4.2
-    semver: ^7.0.0
-    toposort: ^2.0.2
-    workspace-tools: ^0.40.0
-    yargs-parser: ^21.0.0
-  bin:
-    beachball: bin/beachball.js
-  checksum: 69fead2f7b71b9ba252ed5f1815b08b75753fff100073b3539cb285adc0696054056746c23de21303982a09e7f890f973edf2aeeaf6ad189d9f6da276c9e8e00
-  languageName: node
-  linkType: hard
-
 "before-after-hook@npm:^2.2.0":
   version: 2.2.3
   resolution: "before-after-hook@npm:2.2.3"
@@ -6118,7 +6090,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:9.0.0, cosmiconfig@npm:^9.0.0":
+"cosmiconfig@npm:9.0.0":
   version: 9.0.0
   resolution: "cosmiconfig@npm:9.0.0"
   dependencies:
@@ -6139,8 +6111,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "create-content-sdk-app@workspace:packages/create-content-sdk-app"
   dependencies:
-    "@sitecore-content-sdk/cli": ^1.4.1-canary.2
-    "@sitecore-content-sdk/nextjs": ^1.4.2-canary.1
+    "@sitecore-content-sdk/cli": 1.4.1-canary.2
+    "@sitecore-content-sdk/nextjs": 1.4.2-canary.1
     "@stylistic/eslint-plugin": ^5.2.2
     "@types/chai": ^5.2.2
     "@types/cross-spawn": ^6.0.6
@@ -7618,7 +7590,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.1, fast-glob@npm:^3.3.2, fast-glob@npm:^3.3.3":
+"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.2, fast-glob@npm:^3.3.3":
   version: 3.3.3
   resolution: "fast-glob@npm:3.3.3"
   dependencies:
@@ -7878,7 +7850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^11.1.1, fs-extra@npm:^11.2.0, fs-extra@npm:^11.3.0, fs-extra@npm:~11.3.0":
+"fs-extra@npm:^11.2.0, fs-extra@npm:^11.3.0, fs-extra@npm:~11.3.0":
   version: 11.3.3
   resolution: "fs-extra@npm:11.3.3"
   dependencies:
@@ -8149,31 +8121,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-up@npm:^8.1.0":
-  version: 8.1.1
-  resolution: "git-up@npm:8.1.1"
-  dependencies:
-    is-ssh: ^1.4.0
-    parse-url: ^9.2.0
-  checksum: 3b7c89bcd0c46e09154f3509ac5f69f3c746ec032390b86a34f7e831a3b60c0a976548780682cd490a522dd8eb4ff2a13b1b882ff0e94a35fe6fc317f09042a5
-  languageName: node
-  linkType: hard
-
 "git-url-parse@npm:14.0.0":
   version: 14.0.0
   resolution: "git-url-parse@npm:14.0.0"
   dependencies:
     git-up: ^7.0.0
   checksum: b011c5de652e60e5f19de9815d1b78b2f725deb07e73d1b9ff8ca6657406d0a6c691fbe4460017822676a80635f93099345cadbd06361b76f53c4556265d3e48
-  languageName: node
-  linkType: hard
-
-"git-url-parse@npm:^16.0.0":
-  version: 16.1.0
-  resolution: "git-url-parse@npm:16.1.0"
-  dependencies:
-    git-up: ^8.1.0
-  checksum: 386b0e1bf55c2732ae5d9d75a8063a46179c832794a010b0d8952f89e79dbda7bdf1d00ef478a13ab3962bcad1d1f7a1a1de18769de1514ffe1fb11c90a82270
   languageName: node
   linkType: hard
 
@@ -10035,7 +9988,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jju@npm:^1.4.0, jju@npm:~1.4.0":
+"jju@npm:~1.4.0":
   version: 1.4.0
   resolution: "jju@npm:1.4.0"
   checksum: 3790481bd2b7827dd6336e6e3dc2dcc6d425679ba7ebde7b679f61dceb4457ea0cda330972494de608571f4973c6dfb5f70fab6f3c5037dbab19ac449a60424f
@@ -10913,7 +10866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromatch@npm:^4.0.0, micromatch@npm:^4.0.4, micromatch@npm:^4.0.8":
+"micromatch@npm:^4.0.4, micromatch@npm:^4.0.8":
   version: 4.0.8
   resolution: "micromatch@npm:4.0.8"
   dependencies:
@@ -12039,13 +11992,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-graph@npm:^1.1.2":
-  version: 1.2.0
-  resolution: "p-graph@npm:1.2.0"
-  checksum: 613dd34086535782a5b1b25c525de3fd6b41e622225f8ee066023ee86cfe92a14a9387547c726afe3b5257258c6f4c3d10fde903e9283e1c63eb7c981b51dedf
-  languageName: node
-  linkType: hard
-
 "p-limit@npm:^1.1.0":
   version: 1.3.0
   resolution: "p-limit@npm:1.3.0"
@@ -12350,16 +12296,6 @@ __metadata:
   dependencies:
     parse-path: ^7.0.0
   checksum: b93e21ab4c93c7d7317df23507b41be7697694d4c94f49ed5c8d6288b01cba328fcef5ba388e147948eac20453dee0df9a67ab2012415189fff85973bdffe8d9
-  languageName: node
-  linkType: hard
-
-"parse-url@npm:^9.2.0":
-  version: 9.2.0
-  resolution: "parse-url@npm:9.2.0"
-  dependencies:
-    "@types/parse-path": ^7.0.0
-    parse-path: ^7.0.0
-  checksum: 765d4beac7de59c88007018e2a4b95ed8ff96cdcd0ff510b1ad00ab3d17f63949c7664218685394fe35af52061516c5efbba520fb760d7104b8238a6196f28c4
   languageName: node
   linkType: hard
 
@@ -12676,7 +12612,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prompts@npm:^2.0.1, prompts@npm:^2.4.2":
+"prompts@npm:^2.0.1":
   version: 2.4.2
   resolution: "prompts@npm:2.4.2"
   dependencies:
@@ -13205,7 +13141,6 @@ __metadata:
     "@stylistic/eslint-plugin": ^5.2.2
     "@typescript-eslint/eslint-plugin": ^8.39.0
     "@typescript-eslint/parser": ^8.39.0
-    beachball: 2.60.1
     conventional-changelog: ^7.1.1
     eslint: ^9.32.0
     eslint-config-next: 15.4.6
@@ -14304,13 +14239,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"toposort@npm:^2.0.2":
-  version: 2.0.2
-  resolution: "toposort@npm:2.0.2"
-  checksum: d64c74b570391c9432873f48e231b439ee56bc49f7cb9780b505cfdf5cb832f808d0bae072515d93834dd6bceca5bb34448b5b4b408335e4d4716eaf68195dcb
-  languageName: node
-  linkType: hard
-
 "tough-cookie@npm:^4.1.2":
   version: 4.1.4
   resolution: "tough-cookie@npm:4.1.4"
@@ -15288,21 +15216,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"workspace-tools@npm:^0.40.0":
-  version: 0.40.2
-  resolution: "workspace-tools@npm:0.40.2"
-  dependencies:
-    "@yarnpkg/lockfile": ^1.1.0
-    fast-glob: ^3.3.1
-    git-url-parse: ^16.0.0
-    globby: ^11.0.0
-    jju: ^1.4.0
-    js-yaml: ^4.1.0
-    micromatch: ^4.0.0
-  checksum: 3165ed6b95410bc1dec60c8880ca631813bc588605d0b0c63a844d032bb36dc33d514aa8c8f29abb84723a6272d34417572a809c793fccde0efdd4b42fdfb82f
-  languageName: node
-  linkType: hard
-
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0, wrap-ansi@npm:^7.0.0":
   version: 7.0.0
   resolution: "wrap-ansi@npm:7.0.0"
@@ -15508,7 +15421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:21.1.1, yargs-parser@npm:^21.0.0, yargs-parser@npm:^21.1.1":
+"yargs-parser@npm:21.1.1, yargs-parser@npm:^21.1.1":
   version: 21.1.1
   resolution: "yargs-parser@npm:21.1.1"
   checksum: ed2d96a616a9e3e1cc7d204c62ecc61f7aaab633dcbfab2c6df50f7f87b393993fe6640d017759fe112d0cb1e0119f2b4150a87305cc873fd90831c6a58ccf1c
