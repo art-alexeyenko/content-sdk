@@ -6,7 +6,7 @@
 
 # Interface: DesignLibraryRenderPreviewData
 
-Defined in: [packages/core/src/editing/models.ts:99](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L99)
+Defined in: [packages/core/src/editing/models.ts:99](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L99)
 
 Data for Design Library rendering mode
 
@@ -16,7 +16,7 @@ Data for Design Library rendering mode
 
 > **componentUid**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:103](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L103)
+Defined in: [packages/core/src/editing/models.ts:103](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L103)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/core/src/editing/models.ts:103](https://github.com/art-ale
 
 > `optional` **dataSourceId**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:108](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L108)
+Defined in: [packages/core/src/editing/models.ts:108](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L108)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [packages/core/src/editing/models.ts:108](https://github.com/art-ale
 
 > `optional` **generation**: [`Variant`](../enumerations/DesignLibraryVariantGeneration.md#variant)
 
-Defined in: [packages/core/src/editing/models.ts:109](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L109)
+Defined in: [packages/core/src/editing/models.ts:109](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L109)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [packages/core/src/editing/models.ts:109](https://github.com/art-ale
 
 > **itemId**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:101](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L101)
+Defined in: [packages/core/src/editing/models.ts:101](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L101)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [packages/core/src/editing/models.ts:101](https://github.com/art-ale
 
 > **language**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:104](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L104)
+Defined in: [packages/core/src/editing/models.ts:104](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L104)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [packages/core/src/editing/models.ts:104](https://github.com/art-ale
 
 > **mode**: [`DesignLibraryMode`](../enumerations/DesignLibraryMode.md)
 
-Defined in: [packages/core/src/editing/models.ts:105](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L105)
+Defined in: [packages/core/src/editing/models.ts:105](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L105)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [packages/core/src/editing/models.ts:105](https://github.com/art-ale
 
 > **renderingId**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:102](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L102)
+Defined in: [packages/core/src/editing/models.ts:102](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L102)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [packages/core/src/editing/models.ts:102](https://github.com/art-ale
 
 > **site**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:100](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L100)
+Defined in: [packages/core/src/editing/models.ts:100](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L100)
 
 ***
 
@@ -80,7 +80,7 @@ Defined in: [packages/core/src/editing/models.ts:100](https://github.com/art-ale
 
 > `optional` **variant**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:106](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L106)
+Defined in: [packages/core/src/editing/models.ts:106](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L106)
 
 ***
 
@@ -88,4 +88,4 @@ Defined in: [packages/core/src/editing/models.ts:106](https://github.com/art-ale
 
 > `optional` **version**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:107](https://github.com/art-alexeyenko/content-sdk/blob/15ce87fa45b76ccd3b61279c9df36ed30f585447/packages/core/src/editing/models.ts#L107)
+Defined in: [packages/core/src/editing/models.ts:107](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/editing/models.ts#L107)
