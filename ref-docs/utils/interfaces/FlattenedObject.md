@@ -6,7 +6,7 @@
 
 # Interface: FlattenedObject
 
-Defined in: [converters/flatten-object.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/1b2a179d259d1764bc31716a149252d59a5ba5be/packages/utils/src/converters/flatten-object.ts#L48)
+Defined in: [converters/flatten-object.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/d4e9fb1eec4b9df146febaa5566096221de3f17c/packages/utils/src/converters/flatten-object.ts#L48)
 
 Interface for the return object of the flattenObject function
 
