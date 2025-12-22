@@ -1,4 +1,4 @@
-name: Pull Request Change Files
+name: Check if beachball change files present
 
 on:
   pull_request:
@@ -12,7 +12,7 @@ jobs:
   check-change-files:
     runs-on: ubuntu-latest
     # Skip this check for release PRs (title starts with [release] or (release))
-    if: ${{ !startsWith(github.event.pull_request.title, '[release]') && !startsWith(github.event.pull_request.title, '(release)') }}
+    if: ${{ !startsWith(github.event.pull_request.title, '[chore]') && !startsWith(github.event.pull_request.title, '[release]') && !startsWith(github.event.pull_request.title, '(release)') }}
     # This check reports failure but should not be required in branch protection rules
     # to avoid blocking PR merges
     continue-on-error: true
@@ -39,7 +39,8 @@ jobs:
           CHANGE_FILES=$(echo "$CHANGED_FILES" | grep -E '^change/.*\.(json|yml|yaml)$' || true)
 
           if [ -z "$CHANGE_FILES" ]; then
-            echo "::error::❌ No beachball change files found in this PR."
+            echo "::warning::⚠️ No beachball change files found in this PR."
+            echo "You can continue with the merge if this is a chore PR"
             echo ""
             echo "To fix this, run the following command and commit the generated change file:"
             echo "  yarn beachball change"
