@@ -6,7 +6,7 @@
 
 # Interface: ComponentImport
 
-Defined in: [packages/core/src/tools/templating/components.ts:98](https://github.com/art-alexeyenko/content-sdk/blob/b8246f9021f5af08e8401dc62db33cfc1828e995/packages/core/src/tools/templating/components.ts#L98)
+Defined in: [packages/core/src/tools/templating/components.ts:98](https://github.com/art-alexeyenko/content-sdk/blob/84f33d3dfa259e1f93151ebba6e8b47fff4e8b7a/packages/core/src/tools/templating/components.ts#L98)
 
 Definition for custom components to be included in component map.
 Use this to define components imported from modules/dependencies/packages
@@ -17,7 +17,7 @@ Use this to define components imported from modules/dependencies/packages
 
 > **importInfo**: `object`
 
-Defined in: [packages/core/src/tools/templating/components.ts:102](https://github.com/art-alexeyenko/content-sdk/blob/b8246f9021f5af08e8401dc62db33cfc1828e995/packages/core/src/tools/templating/components.ts#L102)
+Defined in: [packages/core/src/tools/templating/components.ts:102](https://github.com/art-alexeyenko/content-sdk/blob/84f33d3dfa259e1f93151ebba6e8b47fff4e8b7a/packages/core/src/tools/templating/components.ts#L102)
 
 Information about how to import the package
 
@@ -39,6 +39,6 @@ The specific named components to import from the package. Leave empty to have wh
 
 > **importName**: `string`
 
-Defined in: [packages/core/src/tools/templating/components.ts:100](https://github.com/art-alexeyenko/content-sdk/blob/b8246f9021f5af08e8401dc62db33cfc1828e995/packages/core/src/tools/templating/components.ts#L100)
+Defined in: [packages/core/src/tools/templating/components.ts:100](https://github.com/art-alexeyenko/content-sdk/blob/84f33d3dfa259e1f93151ebba6e8b47fff4e8b7a/packages/core/src/tools/templating/components.ts#L100)
 
 The name of the import (e.g., 'MyComponent')
