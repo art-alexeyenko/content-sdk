@@ -100,7 +100,7 @@ jobs:
         run: |
           echo "Publishing canary packages to npm..."
           echo //${NPM_REGISTRY}/:_authToken=${NPM_TOKEN} > .npmrc
-          npx lerna publish from-package --canary --pre-dist-tag canary --preid canary --no-verify-access --no --yes
+          npx lerna publish from-package --canary --pre-dist-tag canary --preid canary --no-verify-access --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
