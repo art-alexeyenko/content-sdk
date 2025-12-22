@@ -1,6 +1,8 @@
 import { NativeDataFetcher, debug, constants } from '@sitecore-content-sdk/core';
 import { SearchDocument, PathsToStringProps } from './models';
 
+// search hotfix here
+
 /**
  * Options for sorting the search results.
  * @public
