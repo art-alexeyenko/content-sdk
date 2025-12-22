@@ -92,8 +92,9 @@ jobs:
       - name: Pre-release version update (Canary - Lerna)
         if: steps.configure-action.outputs.isFullRelease != 'true' && github.ref_name == 'dev'
         run: |
-          echo "Creating canary release on dev branch..."
-          npx lerna version prerelease --preid canary --message "%s [skip ci]" --sign-git-tag false --yes
+          echo "Creating canary release on dev branch (no tags)..."
+               npx lerna version prerelease --preid canary --message "%s [skip ci]" --sign-git-tag false --yes --no-git-tag-version
+               git push origin HEAD:${{ github.ref_name }}
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
 
