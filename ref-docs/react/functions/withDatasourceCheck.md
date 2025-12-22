@@ -8,7 +8,7 @@
 
 > **withDatasourceCheck**(`options?`): \<`ComponentProps`\>(`Component`) => (`props`) => `Element` \| `null`
 
-Defined in: [packages/react/src/enhancers/withDatasourceCheck.tsx:31](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/react/src/enhancers/withDatasourceCheck.tsx#L31)
+Defined in: [packages/react/src/enhancers/withDatasourceCheck.tsx:31](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/react/src/enhancers/withDatasourceCheck.tsx#L31)
 
 Checks whether a Sitecore datasource is present and renders appropriately depending on page mode (normal vs editing).
 

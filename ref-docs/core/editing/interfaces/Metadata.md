@@ -6,7 +6,7 @@
 
 # Interface: Metadata
 
-Defined in: [packages/core/src/editing/utils.ts:73](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/utils.ts#L73)
+Defined in: [packages/core/src/editing/utils.ts:73](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/utils.ts#L73)
 
 Application metadata
 
@@ -16,7 +16,7 @@ Application metadata
 
 > **packages**: `object`
 
-Defined in: [packages/core/src/editing/utils.ts:74](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/utils.ts#L74)
+Defined in: [packages/core/src/editing/utils.ts:74](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/utils.ts#L74)
 
 #### Index Signature
 

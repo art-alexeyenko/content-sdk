@@ -8,7 +8,7 @@
 
 > `const` **auth**: `object`
 
-Defined in: [packages/core/src/tools/index.ts:26](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/tools/index.ts#L26)
+Defined in: [packages/core/src/tools/index.ts:26](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/tools/index.ts#L26)
 
 Preserve "live binding" semantics similar to ES module imports: production
 code always sees the current implementation; tests can swap it safely and

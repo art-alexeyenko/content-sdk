@@ -6,7 +6,7 @@
 
 # Interface: CacheOptions
 
-Defined in: [packages/core/src/cache-client.ts:37](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/cache-client.ts#L37)
+Defined in: [packages/core/src/cache-client.ts:37](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/cache-client.ts#L37)
 
 Minimum configuration options for classes that implement
 
@@ -24,7 +24,7 @@ CacheClient
 
 > `optional` **cacheEnabled**: `boolean`
 
-Defined in: [packages/core/src/cache-client.ts:42](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/cache-client.ts#L42)
+Defined in: [packages/core/src/cache-client.ts:42](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/cache-client.ts#L42)
 
 Enable/disable caching mechanism
 
@@ -40,7 +40,7 @@ true
 
 > `optional` **cacheTimeout**: `number`
 
-Defined in: [packages/core/src/cache-client.ts:47](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/cache-client.ts#L47)
+Defined in: [packages/core/src/cache-client.ts:47](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/cache-client.ts#L47)
 
 Cache timeout (sec)
 

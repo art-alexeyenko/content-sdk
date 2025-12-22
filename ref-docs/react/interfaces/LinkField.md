@@ -6,7 +6,7 @@
 
 # Interface: LinkField
 
-Defined in: [packages/react/src/components/Link.tsx:30](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/react/src/components/Link.tsx#L30)
+Defined in: [packages/react/src/components/Link.tsx:30](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/react/src/components/Link.tsx#L30)
 
 The interface for the Link field.
 
@@ -16,4 +16,4 @@ The interface for the Link field.
 
 > **value**: [`LinkFieldValue`](LinkFieldValue.md)
 
-Defined in: [packages/react/src/components/Link.tsx:31](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/react/src/components/Link.tsx#L31)
+Defined in: [packages/react/src/components/Link.tsx:31](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/react/src/components/Link.tsx#L31)

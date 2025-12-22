@@ -8,7 +8,7 @@
 
 > **RouteOptions** = `object`
 
-Defined in: [packages/core/src/layout/models.ts:177](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/layout/models.ts#L177)
+Defined in: [packages/core/src/layout/models.ts:177](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/layout/models.ts#L177)
 
 Contract for additional route options when requesting layout data
 
@@ -18,7 +18,7 @@ Contract for additional route options when requesting layout data
 
 > `optional` **locale**: `string`
 
-Defined in: [packages/core/src/layout/models.ts:179](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/layout/models.ts#L179)
+Defined in: [packages/core/src/layout/models.ts:179](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/layout/models.ts#L179)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [packages/core/src/layout/models.ts:179](https://github.com/art-alex
 
 > **site**: `string`
 
-Defined in: [packages/core/src/layout/models.ts:178](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/layout/models.ts#L178)
+Defined in: [packages/core/src/layout/models.ts:178](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/layout/models.ts#L178)

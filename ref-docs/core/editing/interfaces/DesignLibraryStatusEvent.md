@@ -6,7 +6,7 @@
 
 # Interface: DesignLibraryStatusEvent
 
-Defined in: [packages/core/src/editing/design-library.ts:41](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/design-library.ts#L41)
+Defined in: [packages/core/src/editing/design-library.ts:41](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/design-library.ts#L41)
 
 **`Internal`**
 
@@ -22,7 +22,7 @@ Represents an event indicating the status of a component in the library.
 
 > **message**: `object`
 
-Defined in: [packages/core/src/editing/design-library.ts:43](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/design-library.ts#L43)
+Defined in: [packages/core/src/editing/design-library.ts:43](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/design-library.ts#L43)
 
 The message payload for the event.
 
@@ -44,7 +44,7 @@ The message payload for the event.
 
 > **name**: `"component:status"`
 
-Defined in: [packages/core/src/editing/design-library.ts:42](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/design-library.ts#L42)
+Defined in: [packages/core/src/editing/design-library.ts:42](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/design-library.ts#L42)
 
 The name of the event.
 

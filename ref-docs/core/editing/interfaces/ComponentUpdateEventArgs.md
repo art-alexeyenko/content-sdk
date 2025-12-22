@@ -6,7 +6,7 @@
 
 # Interface: ComponentUpdateEventArgs
 
-Defined in: [packages/core/src/editing/utils.ts:61](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/utils.ts#L61)
+Defined in: [packages/core/src/editing/utils.ts:61](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/utils.ts#L61)
 
 **`Internal`**
 
@@ -18,7 +18,7 @@ Event args for Design Library `update` event
 
 > `optional` **details**: `object`
 
-Defined in: [packages/core/src/editing/utils.ts:63](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/utils.ts#L63)
+Defined in: [packages/core/src/editing/utils.ts:63](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/utils.ts#L63)
 
 #### fields?
 
@@ -38,4 +38,4 @@ Defined in: [packages/core/src/editing/utils.ts:63](https://github.com/art-alexe
 
 > **name**: `string`
 
-Defined in: [packages/core/src/editing/utils.ts:62](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/utils.ts#L62)
+Defined in: [packages/core/src/editing/utils.ts:62](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/utils.ts#L62)

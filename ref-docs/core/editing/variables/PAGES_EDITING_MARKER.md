@@ -8,7 +8,7 @@
 
 > `const` **PAGES\_EDITING\_MARKER**: `"jss-hrz-editing"` = `'jss-hrz-editing'`
 
-Defined in: [packages/core/src/editing/utils.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/core/src/editing/utils.ts#L33)
+Defined in: [packages/core/src/editing/utils.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/core/src/editing/utils.ts#L33)
 
 **`Internal`**
 

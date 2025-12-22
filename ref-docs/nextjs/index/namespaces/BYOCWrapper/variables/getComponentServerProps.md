@@ -8,7 +8,7 @@
 
 > `const` **getComponentServerProps**: [`GetComponentServerProps`](../../../type-aliases/GetComponentServerProps.md)
 
-Defined in: [nextjs/src/components/BYOCWrapper.tsx:20](https://github.com/art-alexeyenko/content-sdk/blob/a688f5bf043f74588a1103716d6b87fc7386076c/packages/nextjs/src/components/BYOCWrapper.tsx#L20)
+Defined in: [nextjs/src/components/BYOCWrapper.tsx:20](https://github.com/art-alexeyenko/content-sdk/blob/65f5abbf6bdaa1728e761ce7283a692151f58258/packages/nextjs/src/components/BYOCWrapper.tsx#L20)
 
 **`Internal`**
 
