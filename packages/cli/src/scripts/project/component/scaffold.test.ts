@@ -2,7 +2,7 @@
 import { expect } from 'chai';
 import sinon from 'sinon';
 import { ComponentTemplateType } from '@sitecore-content-sdk/core/config';
-import { SitecoreCliConfig } from '@sitecore-content-sdk/core/src/config';
+import type { SitecoreCliConfig } from '@sitecore-content-sdk/core/config';
 import proxyquire from 'proxyquire';
 import * as loadConfigModule from '../../../utils/load-config';
 

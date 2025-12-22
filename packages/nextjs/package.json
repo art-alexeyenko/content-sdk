@@ -1,6 +1,6 @@
 {
   "name": "@sitecore-content-sdk/nextjs",
-  "version": "1.4.2-canary.0",
+  "version": "1.4.0-canary.10",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "sideEffects": false,
@@ -12,7 +12,7 @@
     "build": "npm run clean && tsc -p tsconfig.json && tsc -p tsconfig-esm.json",
     "clean": "del-cli dist types",
     "lint": "eslint \"./src/**/*.tsx\" \"./src/**/*.ts\"",
-    "test": "mocha --require ./test/setup.js \"./src/**/*.test.ts\" \"./src/**/*.test.tsx\" --exit",
+    "test": "node --no-experimental-strip-types node_modules/mocha/bin/mocha.js --require ./test/setup.js \"./src/**/*.test.ts\" \"./src/**/*.test.tsx\" --exit",
     "prepublishOnly": "npm run build",
     "coverage": "nyc npm test",
     "generate-docs": "npx typedoc --plugin typedoc-plugin-markdown --outputFileStrategy Members --parametersFormat table --readme none --out ../../ref-docs/nextjs --entryPoints src/index.ts --entryPoints src/monitoring/index.ts --entryPoints src/editing/index.ts --entryPoints src/middleware/index.ts --entryPoints src/context/index.ts --entryPoints src/utils/index.ts --entryPoints src/site/index.ts --entryPoints src/client/index.ts --entryPoints src/tools/index.ts --entryPoints src/editing/codegen/index.ts --entryPoints src/route-handler/index.ts --githubPages false",
@@ -91,8 +91,8 @@
   },
   "dependencies": {
     "@babel/parser": "^7.27.2",
-    "@sitecore-content-sdk/core": "^1.4.3-canary.0",
-    "@sitecore-content-sdk/react": "^1.4.2-canary.0",
+    "@sitecore-content-sdk/core": "^1.4.0-canary.10",
+    "@sitecore-content-sdk/react": "^1.4.0-canary.10",
     "recast": "^0.23.11",
     "regex-parser": "^2.3.1",
     "sync-disk-cache": "^2.1.0"
