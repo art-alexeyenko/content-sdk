@@ -6,7 +6,7 @@
 
 # Interface: MiddlewareNextResponse
 
-Defined in: [interfaces.ts:63](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/utils/src/interfaces.ts#L63)
+Defined in: [interfaces.ts:63](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/utils/src/interfaces.ts#L63)
 
 Interface for Edge Next.js Response
 includes types compatible with both NextJS versions 12 & 13
@@ -17,7 +17,7 @@ includes types compatible with both NextJS versions 12 & 13
 
 > **cookies**: `object`
 
-Defined in: [interfaces.ts:64](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/utils/src/interfaces.ts#L64)
+Defined in: [interfaces.ts:64](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/utils/src/interfaces.ts#L64)
 
 #### set
 

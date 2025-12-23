@@ -8,7 +8,7 @@
 
 > **MiddlewareBaseConfig** = `object`
 
-Defined in: [nextjs/src/middleware/middleware.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/nextjs/src/middleware/middleware.ts#L17)
+Defined in: [nextjs/src/middleware/middleware.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/nextjs/src/middleware/middleware.ts#L17)
 
 The interface for the Middleware configuration.
 
@@ -18,7 +18,7 @@ The interface for the Middleware configuration.
 
 > `optional` **defaultHostname**: `string`
 
-Defined in: [nextjs/src/middleware/middleware.ts:28](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/nextjs/src/middleware/middleware.ts#L28)
+Defined in: [nextjs/src/middleware/middleware.ts:28](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/nextjs/src/middleware/middleware.ts#L28)
 
 Fallback hostname in case `host` header is not present
 
@@ -34,7 +34,7 @@ localhost
 
 > `optional` **defaultLanguage**: `string`
 
-Defined in: [nextjs/src/middleware/middleware.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/nextjs/src/middleware/middleware.ts#L33)
+Defined in: [nextjs/src/middleware/middleware.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/nextjs/src/middleware/middleware.ts#L33)
 
 Fallback language in locale cannot be extracted from request URL
 
@@ -50,7 +50,7 @@ Fallback language in locale cannot be extracted from request URL
 
 > **sites**: [`SiteInfo`](../../index/type-aliases/SiteInfo.md)[]
 
-Defined in: [nextjs/src/middleware/middleware.ts:37](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/nextjs/src/middleware/middleware.ts#L37)
+Defined in: [nextjs/src/middleware/middleware.ts:37](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/nextjs/src/middleware/middleware.ts#L37)
 
 Site resolution implementation by name/hostname
 
@@ -60,7 +60,7 @@ Site resolution implementation by name/hostname
 
 > `optional` **skip**: (`req`, `res`) => `boolean`
 
-Defined in: [nextjs/src/middleware/middleware.ts:23](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/nextjs/src/middleware/middleware.ts#L23)
+Defined in: [nextjs/src/middleware/middleware.ts:23](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/nextjs/src/middleware/middleware.ts#L23)
 
 function, determines if middleware execution should be skipped, based on cookie, header, or other considerations
 

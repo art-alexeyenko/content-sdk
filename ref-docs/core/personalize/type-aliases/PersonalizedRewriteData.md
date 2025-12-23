@@ -8,7 +8,7 @@
 
 > **PersonalizedRewriteData** = `object`
 
-Defined in: [packages/core/src/personalize/utils.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/personalize/utils.ts#L7)
+Defined in: [packages/core/src/personalize/utils.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/personalize/utils.ts#L7)
 
 ## Properties
 
@@ -16,7 +16,7 @@ Defined in: [packages/core/src/personalize/utils.ts:7](https://github.com/art-al
 
 > `optional` **componentVariantIds**: `string`[]
 
-Defined in: [packages/core/src/personalize/utils.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/personalize/utils.ts#L9)
+Defined in: [packages/core/src/personalize/utils.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/personalize/utils.ts#L9)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [packages/core/src/personalize/utils.ts:9](https://github.com/art-al
 
 > **variantId**: `string`
 
-Defined in: [packages/core/src/personalize/utils.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/personalize/utils.ts#L8)
+Defined in: [packages/core/src/personalize/utils.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/personalize/utils.ts#L8)

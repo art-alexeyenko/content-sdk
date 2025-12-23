@@ -6,7 +6,7 @@
 
 # Interface: PackageContextDependencyBrowser
 
-Defined in: [src/initializer/browser/interfaces.ts:26](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/__core__/src/initializer/browser/interfaces.ts#L26)
+Defined in: [src/initializer/browser/interfaces.ts:26](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/__core__/src/initializer/browser/interfaces.ts#L26)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/initializer/browser/interfaces.ts:26](https://github.com/art-al
 
 > **method**: `string`
 
-Defined in: [src/initializer/browser/interfaces.ts:28](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/__core__/src/initializer/browser/interfaces.ts#L28)
+Defined in: [src/initializer/browser/interfaces.ts:28](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/__core__/src/initializer/browser/interfaces.ts#L28)
 
 ***
 
@@ -22,4 +22,4 @@ Defined in: [src/initializer/browser/interfaces.ts:28](https://github.com/art-al
 
 > **name**: `string`
 
-Defined in: [src/initializer/browser/interfaces.ts:27](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/__core__/src/initializer/browser/interfaces.ts#L27)
+Defined in: [src/initializer/browser/interfaces.ts:27](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/__core__/src/initializer/browser/interfaces.ts#L27)

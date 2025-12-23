@@ -8,7 +8,7 @@
 
 > **ErrorPages** = `object`
 
-Defined in: [packages/core/src/site/error-pages-service.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/site/error-pages-service.ts#L48)
+Defined in: [packages/core/src/site/error-pages-service.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/site/error-pages-service.ts#L48)
 
 Object model of Error Pages result
 
@@ -18,7 +18,7 @@ Object model of Error Pages result
 
 > **notFoundPage**: `object`
 
-Defined in: [packages/core/src/site/error-pages-service.ts:49](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/site/error-pages-service.ts#L49)
+Defined in: [packages/core/src/site/error-pages-service.ts:49](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/site/error-pages-service.ts#L49)
 
 #### rendered
 
@@ -30,7 +30,7 @@ Defined in: [packages/core/src/site/error-pages-service.ts:49](https://github.co
 
 > **notFoundPagePath**: `string`
 
-Defined in: [packages/core/src/site/error-pages-service.ts:50](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/site/error-pages-service.ts#L50)
+Defined in: [packages/core/src/site/error-pages-service.ts:50](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/site/error-pages-service.ts#L50)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [packages/core/src/site/error-pages-service.ts:50](https://github.co
 
 > **serverErrorPage**: `object`
 
-Defined in: [packages/core/src/site/error-pages-service.ts:51](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/site/error-pages-service.ts#L51)
+Defined in: [packages/core/src/site/error-pages-service.ts:51](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/site/error-pages-service.ts#L51)
 
 #### rendered
 
@@ -50,4 +50,4 @@ Defined in: [packages/core/src/site/error-pages-service.ts:51](https://github.co
 
 > **serverErrorPagePath**: `string`
 
-Defined in: [packages/core/src/site/error-pages-service.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/site/error-pages-service.ts#L52)
+Defined in: [packages/core/src/site/error-pages-service.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/site/error-pages-service.ts#L52)

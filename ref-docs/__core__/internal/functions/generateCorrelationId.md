@@ -8,7 +8,7 @@
 
 > **generateCorrelationId**(): `string`
 
-Defined in: [src/correlation-id/generate-correlation-id.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/__core__/src/correlation-id/generate-correlation-id.ts#L7)
+Defined in: [src/correlation-id/generate-correlation-id.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/__core__/src/correlation-id/generate-correlation-id.ts#L7)
 
 Generates a correlation id.
 

@@ -8,7 +8,7 @@
 
 > **enableDebug**(`namespaces`): `void`
 
-Defined in: [packages/core/src/debug.ts:30](https://github.com/art-alexeyenko/content-sdk/blob/51cdfa8edae49761d6577ce766a3dab9d9196434/packages/core/src/debug.ts#L30)
+Defined in: [packages/core/src/debug.ts:30](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/core/src/debug.ts#L30)
 
 Enable debug logging dynamically
 
