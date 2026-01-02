@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/cli
 
+## 1.4.2
+
+### Patch Changes
+
+- [core] Reset all packages to non-canary version
+
 ## 1.4.1
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/search
 
+## 0.1.4
+
+### Patch Changes
+
+- [core] Reset all packages to non-canary version
+
 ## 0.1.3
 
 ### Patch Changes

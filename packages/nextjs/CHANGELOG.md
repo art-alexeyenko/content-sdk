@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/nextjs
 
+## 1.8.0
+
+### Patch Changes
+
+- [core] Reset all packages to non-canary version
+
 ## 1.7.0
 
 ### Patch Changes

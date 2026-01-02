@@ -1,5 +1,11 @@
 # Change Log - @sitecore-content-sdk/core
 
+## 1.8.0
+
+### Minor Changes
+
+- [core] Reset all packages to non-canary version
+
 ## 1.6.0
 
 ### Minor Changes
