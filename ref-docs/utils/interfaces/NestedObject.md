@@ -6,7 +6,7 @@
 
 # Interface: NestedObject
 
-Defined in: [converters/flatten-object.ts:55](https://github.com/art-alexeyenko/content-sdk/blob/6c9a86bbd7231abfc8551dcf29eee14e028478b7/packages/utils/src/converters/flatten-object.ts#L55)
+Defined in: [converters/flatten-object.ts:55](https://github.com/art-alexeyenko/content-sdk/blob/d93c56feb8a88d750ffcae1ad0021e5fd5a13822/packages/utils/src/converters/flatten-object.ts#L55)
 
 Interface of the object to flatten
 
