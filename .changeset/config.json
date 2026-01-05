@@ -1,11 +1,9 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.1.2/schema.json",
-  "changelog": "./changelog.ts",
+  "changelog": ["@changesets/changelog-github", { "repo": "art-alexeyenko/content-sdk" }],
   "commit": false,
   "fixed": [],
-  "linked": [
-    ["@sitecore-content-sdk/nextjs", "@sitecore-content-sdk/react", "@sitecore-content-sdk/core"]
-  ],
+  "linked": [],
   "access": "public",
   "baseBranch": "dev",
   "updateInternalDependencies": "patch",
@@ -15,9 +13,5 @@
     "@sitecore-content-sdk/__core__",
     "@sitecore-content-sdk/events",
     "@sitecore-content-sdk/personalize"
-  ],
-  "privatePackages": {
-    "version": true,
-    "tag": false
-  }
+  ]
 }
