@@ -1,5 +1,11 @@
 # Change Log - @sitecore-content-sdk/core
 
+## 1.9.0
+
+### Minor Changes
+
+- [`0ed73ce`](https://github.com/art-alexeyenko/content-sdk/commit/0ed73ce8fe13bd7db4b4355919225edac7228777) Thanks [@art-alexeyenko](https://github.com/art-alexeyenko)! - minor core bump again
+
 ## 1.8.0
 
 ### Minor Changes
