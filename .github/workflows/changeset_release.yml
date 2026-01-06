@@ -35,8 +35,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: changeset:prep-release
-          publish: changeset:publish
+          version: yarn changeset:prep-release
+          publish: yarn changeset:publish
           commit: '[skip ci] changelog and version bump'
           title: '[csdk] release'
         env:
