@@ -8,7 +8,7 @@
 
 > **StaticPath** = `object`
 
-Defined in: [packages/core/src/models.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/0ed73ce8fe13bd7db4b4355919225edac7228777/packages/core/src/models.ts#L52)
+Defined in: [packages/core/src/models.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/a13613ea851d13256db0ab1ca1304a784d319602/packages/core/src/models.ts#L52)
 
 Object model of a sitemap's site page item.
 
@@ -18,7 +18,7 @@ Object model of a sitemap's site page item.
 
 > `optional` **locale**: `string`
 
-Defined in: [packages/core/src/models.ts:56](https://github.com/art-alexeyenko/content-sdk/blob/0ed73ce8fe13bd7db4b4355919225edac7228777/packages/core/src/models.ts#L56)
+Defined in: [packages/core/src/models.ts:56](https://github.com/art-alexeyenko/content-sdk/blob/a13613ea851d13256db0ab1ca1304a784d319602/packages/core/src/models.ts#L56)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/core/src/models.ts:56](https://github.com/art-alexeyenko/c
 
 > **params**: `object`
 
-Defined in: [packages/core/src/models.ts:53](https://github.com/art-alexeyenko/content-sdk/blob/0ed73ce8fe13bd7db4b4355919225edac7228777/packages/core/src/models.ts#L53)
+Defined in: [packages/core/src/models.ts:53](https://github.com/art-alexeyenko/content-sdk/blob/a13613ea851d13256db0ab1ca1304a784d319602/packages/core/src/models.ts#L53)
 
 #### path
 

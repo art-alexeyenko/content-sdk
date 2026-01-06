@@ -8,7 +8,7 @@
 
 > **getEnabledPackageServer**(`packageName`): [`PackageInitializerServer`](../classes/PackageInitializerServer.md) \| `undefined`
 
-Defined in: [src/initializer/server/initializer.ts:219](https://github.com/art-alexeyenko/content-sdk/blob/0ed73ce8fe13bd7db4b4355919225edac7228777/packages/__core__/src/initializer/server/initializer.ts#L219)
+Defined in: [src/initializer/server/initializer.ts:219](https://github.com/art-alexeyenko/content-sdk/blob/a13613ea851d13256db0ab1ca1304a784d319602/packages/__core__/src/initializer/server/initializer.ts#L219)
 
 Gets an enabled package by name.
 
