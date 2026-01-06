@@ -96,6 +96,7 @@ jobs:
           npx lerna version prerelease --preid canary --message "%s [skip ci]" --sign-git-tag false --yes --no-git-tag-version
           echo "Fixing dependency ranges (removing carets from canary versions)..."
           node scripts/fix-dependency-ranges.js
+          yarn install
           git commit -a -m "chore: bump versions for canary release [skip ci]"
           git push origin dev
         env:
