@@ -6,7 +6,7 @@
 
 # Class: PackageInitializerServer
 
-Defined in: [src/initializer/server/package-initializer.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/8a81844b730cd0c9856d26d6c197b5d1dc6e8fa4/packages/__core__/src/initializer/server/package-initializer.ts#L9)
+Defined in: [src/initializer/server/package-initializer.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/1914034281c6c835e714fcb244e0e7540b3cd812/packages/__core__/src/initializer/server/package-initializer.ts#L9)
 
 Package initializer for server environments.
 This class is used by other packages to plugin to the core CloudSDK initializer.
@@ -18,7 +18,7 @@ It manages package dependencies, settings, and side effects execution on the ser
 
 > **new PackageInitializerServer**(`packageContext`): `PackageInitializerServer`
 
-Defined in: [src/initializer/server/package-initializer.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/8a81844b730cd0c9856d26d6c197b5d1dc6e8fa4/packages/__core__/src/initializer/server/package-initializer.ts#L17)
+Defined in: [src/initializer/server/package-initializer.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/1914034281c6c835e714fcb244e0e7540b3cd812/packages/__core__/src/initializer/server/package-initializer.ts#L17)
 
 Creates a new PackageInitializerServer instance.
 
@@ -40,7 +40,7 @@ Creates a new PackageInitializerServer instance.
 
 > **get** **settings**(): `unknown`
 
-Defined in: [src/initializer/server/package-initializer.ts:27](https://github.com/art-alexeyenko/content-sdk/blob/8a81844b730cd0c9856d26d6c197b5d1dc6e8fa4/packages/__core__/src/initializer/server/package-initializer.ts#L27)
+Defined in: [src/initializer/server/package-initializer.ts:27](https://github.com/art-alexeyenko/content-sdk/blob/1914034281c6c835e714fcb244e0e7540b3cd812/packages/__core__/src/initializer/server/package-initializer.ts#L27)
 
 Gets the package-specific settings.
 
@@ -56,7 +56,7 @@ The package settings.
 
 > **exec**(): `Promise`\<`void`\>
 
-Defined in: [src/initializer/server/package-initializer.ts:36](https://github.com/art-alexeyenko/content-sdk/blob/8a81844b730cd0c9856d26d6c197b5d1dc6e8fa4/packages/__core__/src/initializer/server/package-initializer.ts#L36)
+Defined in: [src/initializer/server/package-initializer.ts:36](https://github.com/art-alexeyenko/content-sdk/blob/1914034281c6c835e714fcb244e0e7540b3cd812/packages/__core__/src/initializer/server/package-initializer.ts#L36)
 
 Executes the package initialization.
 Validates dependencies and executes side effects.

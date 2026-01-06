@@ -8,7 +8,7 @@
 
 > **getGuestId**(): `Promise`\<`string`\>
 
-Defined in: [src/guest-id/get-guest-id.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/8a81844b730cd0c9856d26d6c197b5d1dc6e8fa4/packages/__core__/src/guest-id/get-guest-id.ts#L10)
+Defined in: [src/guest-id/get-guest-id.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/1914034281c6c835e714fcb244e0e7540b3cd812/packages/__core__/src/guest-id/get-guest-id.ts#L10)
 
 Returns the guest ID.
 

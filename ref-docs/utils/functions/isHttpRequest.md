@@ -8,7 +8,7 @@
 
 > **isHttpRequest**(`request`): `request is HttpRequest`
 
-Defined in: [typeguards/is-http-request.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/8a81844b730cd0c9856d26d6c197b5d1dc6e8fa4/packages/utils/src/typeguards/is-http-request.ts#L8)
+Defined in: [typeguards/is-http-request.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/1914034281c6c835e714fcb244e0e7540b3cd812/packages/utils/src/typeguards/is-http-request.ts#L8)
 
 Determines whether the given request is an HTTP request instance.
 
