@@ -8,7 +8,7 @@
 
 > **CloudSDK**(`request`, `response`, `settings`): [`CloudSDKServerInitializer`](../classes/CloudSDKServerInitializer.md)
 
-Defined in: [src/initializer/server/initializer.ts:259](https://github.com/art-alexeyenko/content-sdk/blob/a13613ea851d13256db0ab1ca1304a784d319602/packages/__core__/src/initializer/server/initializer.ts#L259)
+Defined in: [src/initializer/server/initializer.ts:259](https://github.com/art-alexeyenko/content-sdk/blob/8a81844b730cd0c9856d26d6c197b5d1dc6e8fa4/packages/__core__/src/initializer/server/initializer.ts#L259)
 
 Runs the initialization logic. Enables packages and creates cookies for CloudSDK.
 
