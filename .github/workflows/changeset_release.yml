@@ -28,16 +28,15 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
-
       - name: Install Dependencies
-        run: yarn install
+        run: yarn
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
         uses: changesets/action@v1
         with:
-          version: yarn changeset:prep-release
-          publish: yarn changeset:publish
+          version: changeset:prep-release
+          publish: changeset:publish
           commit: '[skip ci] changelog and version bump'
           title: '[csdk] release'
         env:
