@@ -37,7 +37,7 @@ function getPackagePrefix(changeset: NewChangesetWithCommit): string {
 /**
  * Custom changelog entry renderer that includes commit links and package prefix
  */
-async function getReleaseLine(changeset: NewChangesetWithCommit, _type: string): Promise<string> {
+async function getReleaseLine(changeset: NewChangesetWithCommit): Promise<string> {
   const [firstLine, ...remainingLines] = changeset.summary.split('\n').map((l) => l.trimEnd());
 
   let commitLink = '';
