@@ -7,9 +7,9 @@
     "url": "https://github.com/sitecore/content-sdk/issues"
   },
   "dependencies": {
-    "@sitecore-content-sdk/__core__": "1.4.0-canary.22",
-    "@sitecore-content-sdk/events": "1.4.0-canary.26",
-    "@sitecore-content-sdk/utils": "1.4.0-canary.18",
+    "@sitecore-content-sdk/__core__": "1.4.0-canary.23",
+    "@sitecore-content-sdk/events": "1.4.0-canary.27",
+    "@sitecore-content-sdk/utils": "1.4.0-canary.19",
     "debug": "^4.4.3"
   },
   "description": "> TODO: description",
@@ -66,5 +66,5 @@
     "prepublishOnly": "npm run build",
     "test": "jest --config jest.config.ts"
   },
-  "version": "1.4.0-canary.26"
+  "version": "1.4.0-canary.27"
 }
