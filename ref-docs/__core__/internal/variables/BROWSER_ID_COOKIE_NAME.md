@@ -8,4 +8,4 @@
 
 > `const` **BROWSER\_ID\_COOKIE\_NAME**: `"cid"` = `'cid'`
 
-Defined in: [src/consts.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/b519c9fc143fc3b861a5423024d8583334df14cf/packages/__core__/src/consts.ts#L7)
+Defined in: [src/consts.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/b6e41aa7734010a43e172f661838132f3f789d2d/packages/__core__/src/consts.ts#L7)
