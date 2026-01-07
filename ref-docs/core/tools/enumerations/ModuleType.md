@@ -6,7 +6,7 @@
 
 # Enumeration: ModuleType
 
-Defined in: [packages/core/src/tools/templating/plugins.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/8f2fe16ab17f3993fad2e9f7aa56d9d996a278ef/packages/core/src/tools/templating/plugins.ts#L9)
+Defined in: [packages/core/src/tools/templating/plugins.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/a507c9a85dfef93e58e7ac894f95287b5348a2f3/packages/core/src/tools/templating/plugins.ts#L9)
 
 Identifies the format of the module to be compiled
 
@@ -16,7 +16,7 @@ Identifies the format of the module to be compiled
 
 > **CJS**: `0`
 
-Defined in: [packages/core/src/tools/templating/plugins.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/8f2fe16ab17f3993fad2e9f7aa56d9d996a278ef/packages/core/src/tools/templating/plugins.ts#L10)
+Defined in: [packages/core/src/tools/templating/plugins.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/a507c9a85dfef93e58e7ac894f95287b5348a2f3/packages/core/src/tools/templating/plugins.ts#L10)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [packages/core/src/tools/templating/plugins.ts:10](https://github.co
 
 > **ESM**: `1`
 
-Defined in: [packages/core/src/tools/templating/plugins.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/8f2fe16ab17f3993fad2e9f7aa56d9d996a278ef/packages/core/src/tools/templating/plugins.ts#L11)
+Defined in: [packages/core/src/tools/templating/plugins.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/a507c9a85dfef93e58e7ac894f95287b5348a2f3/packages/core/src/tools/templating/plugins.ts#L11)
