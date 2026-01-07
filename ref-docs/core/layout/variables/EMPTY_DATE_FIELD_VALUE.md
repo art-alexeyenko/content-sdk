@@ -8,7 +8,7 @@
 
 > `const` **EMPTY\_DATE\_FIELD\_VALUE**: `"0001-01-01T00:00:00Z"` = `'0001-01-01T00:00:00Z'`
 
-Defined in: [packages/core/src/layout/utils.ts:110](https://github.com/art-alexeyenko/content-sdk/blob/1e7c0f41c94bd5d18622e4f7e52cdf15e3231ce8/packages/core/src/layout/utils.ts#L110)
+Defined in: [packages/core/src/layout/utils.ts:110](https://github.com/art-alexeyenko/content-sdk/blob/75e7a567361e1351326647bf354059123e8e5299/packages/core/src/layout/utils.ts#L110)
 
 **`Internal`**
 

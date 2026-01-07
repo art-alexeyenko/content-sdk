@@ -8,7 +8,7 @@
 
 > **resolveUrl**(`urlBase`, `params`): `string`
 
-Defined in: [packages/core/src/utils/utils.ts:36](https://github.com/art-alexeyenko/content-sdk/blob/1e7c0f41c94bd5d18622e4f7e52cdf15e3231ce8/packages/core/src/utils/utils.ts#L36)
+Defined in: [packages/core/src/utils/utils.ts:36](https://github.com/art-alexeyenko/content-sdk/blob/75e7a567361e1351326647bf354059123e8e5299/packages/core/src/utils/utils.ts#L36)
 
 Resolves a base URL that may contain query string parameters and an additional set of query
 string parameters into a unified string representation.

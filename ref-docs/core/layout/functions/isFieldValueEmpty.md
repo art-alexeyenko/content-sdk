@@ -8,7 +8,7 @@
 
 > **isFieldValueEmpty**(`field`): field is null \| undefined
 
-Defined in: [packages/core/src/layout/utils.ts:119](https://github.com/art-alexeyenko/content-sdk/blob/1e7c0f41c94bd5d18622e4f7e52cdf15e3231ce8/packages/core/src/layout/utils.ts#L119)
+Defined in: [packages/core/src/layout/utils.ts:119](https://github.com/art-alexeyenko/content-sdk/blob/75e7a567361e1351326647bf354059123e8e5299/packages/core/src/layout/utils.ts#L119)
 
 Determines if the passed in field object's value is empty.
 

@@ -8,7 +8,7 @@
 
 > **getGuestIdServer**(`browserId`): `Promise`\<`string`\>
 
-Defined in: [src/guest-id/get-guest-id-server.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/1e7c0f41c94bd5d18622e4f7e52cdf15e3231ce8/packages/__core__/src/guest-id/get-guest-id-server.ts#L10)
+Defined in: [src/guest-id/get-guest-id-server.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/75e7a567361e1351326647bf354059123e8e5299/packages/__core__/src/guest-id/get-guest-id-server.ts#L10)
 
 Returns the guest ID for the given browser ID.
 
