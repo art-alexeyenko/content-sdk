@@ -8,7 +8,7 @@
 
 > **isHttpResponse**(`response`): `response is HttpResponse`
 
-Defined in: [typeguards/is-http-response.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/8f2fe16ab17f3993fad2e9f7aa56d9d996a278ef/packages/utils/src/typeguards/is-http-response.ts#L8)
+Defined in: [typeguards/is-http-response.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/a507c9a85dfef93e58e7ac894f95287b5348a2f3/packages/utils/src/typeguards/is-http-response.ts#L8)
 
 Determines whether the given response is an HTTP response instance.
 
