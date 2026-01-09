@@ -15,7 +15,8 @@
     "version": "yarn install && git stage yarn.lock",
     "changeset": "changeset",
     "changeset:add": "changeset add",
-    "changeset:prep-release": "changeset version && yarn install",
+    "changeset:prep-release": "node scripts/cascade-version.js && yarn install",
+    "changeset:prep-release:dry-run": "node scripts/cascade-version.js --dry-run",
     "changeset:status": "changeset status",
     "changeset:publish": "changeset publish"
   },
