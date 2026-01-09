@@ -15,8 +15,8 @@
     "version": "yarn install && git stage yarn.lock",
     "changeset": "changeset",
     "changeset:add": "changeset add",
-    "changeset:prep-release": "node scripts/cascade-version.js && yarn install",
-    "changeset:prep-release:dry-run": "node scripts/cascade-version.js --dry-run",
+    "changeset:prep-release": "tsx ./.changeset/scripts/cascade-version.ts && yarn install",
+    "changeset:prep-release:dry-run": "tsx ./.changeset/scripts/cascade-version.ts --dry-run",
     "changeset:status": "changeset status",
     "changeset:publish": "changeset publish"
   },
@@ -47,6 +47,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "lerna": "^9.0.3",
     "prettier": "^2.8.0",
+    "tsx": "^4.19.4",
     "typedoc": "^0.28.4",
     "typedoc-plugin-markdown": "^4.6.3",
     "typescript": "~5.8.3"

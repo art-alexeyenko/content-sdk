@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env tsx
 /**
  * Integrated cascade version script using changesets programmatic API
  *
@@ -13,18 +13,21 @@
  *   (directly or transitively) get the same bump type
  * - This applies to ALL packages, not just "main" packages
  *
- * Usage: node scripts/cascade-version.js [--dry-run]
+ * Usage: tsx .changeset/scripts/cascade-version.ts [--dry-run]
  */
 
-const assembleReleasePlan = require('@changesets/assemble-release-plan').default;
-const applyReleasePlan = require('@changesets/apply-release-plan').default;
-const readChangesets = require('@changesets/read').default;
-const { read: readConfig } = require('@changesets/config');
-const { getPackages } = require('@manypkg/get-packages');
-const { getDependentsGraph } = require('@changesets/get-dependents-graph');
+import assembleReleasePlan from '@changesets/assemble-release-plan';
+import applyReleasePlan from '@changesets/apply-release-plan';
+import parseChangeset from '@changesets/parse';
+import { read as readConfig } from '@changesets/config';
+import { getPackages } from '@manypkg/get-packages';
+import { getDependentsGraph } from '@changesets/get-dependents-graph';
+import type { VersionType, NewChangeset } from '@changesets/types';
+import * as fs from 'fs';
+import * as path from 'path';
 
 // Bump type priority (higher = more significant)
-const BUMP_PRIORITY = {
+const BUMP_PRIORITY: Record<VersionType | 'none', number> = {
   major: 3,
   minor: 2,
   patch: 1,
@@ -32,20 +35,65 @@ const BUMP_PRIORITY = {
 };
 
 /**
+ * Read changesets from .changeset directory, excluding subdirectories
+ * This is a custom implementation to avoid reading from .changeset/scripts/
+ */
+async function readChangesetsFromDir(cwd: string): Promise<NewChangeset[]> {
+  const changesetDir = path.join(cwd, '.changeset');
+  const entries = fs.readdirSync(changesetDir, { withFileTypes: true });
+
+  const changesets: NewChangeset[] = [];
+
+  for (const entry of entries) {
+    // Only read .md files from root of .changeset, skip directories and README
+    if (
+      entry.isFile() &&
+      entry.name.endsWith('.md') &&
+      entry.name !== 'README.md'
+    ) {
+      const filePath = path.join(changesetDir, entry.name);
+      const content = fs.readFileSync(filePath, 'utf-8');
+
+      try {
+        const parsed = parseChangeset(content);
+        const id = entry.name.replace(/\.md$/, '');
+        changesets.push({
+          id,
+          summary: parsed.summary,
+          releases: parsed.releases,
+        });
+      } catch {
+        // Skip files that can't be parsed as changesets
+        console.warn(`Warning: Could not parse ${entry.name} as a changeset`);
+      }
+    }
+  }
+
+  return changesets;
+}
+
+interface BumpInfo {
+  type: VersionType;
+  source: string;
+}
+
+type DependentsGraph = Map<string, string[]>;
+
+/**
  * Get direct dependents of a package (one level only)
  */
-function getDirectDependents(packageName, dependentsGraph) {
+function getDirectDependents(packageName: string, dependentsGraph: DependentsGraph): string[] {
   return dependentsGraph.get(packageName) || [];
 }
 
 /**
  * Generate a random changeset ID
  */
-function generateChangesetId() {
+function generateChangesetId(): string {
   const adjectives = ['cascade', 'auto', 'sync'];
   const nouns = ['bump', 'version', 'update'];
   const random = Math.random().toString(36).substring(2, 8);
-  const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
+  const pick = <T>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
   return `${pick(adjectives)}-${pick(nouns)}-${random}`;
 }
 
@@ -53,9 +101,12 @@ function generateChangesetId() {
  * Propagate bumps through the dependency graph
  * Uses iterative approach to handle transitive dependencies correctly
  */
-function propagateBumps(initialBumps, dependentsGraph) {
+function propagateBumps(
+  initialBumps: Map<string, VersionType>,
+  dependentsGraph: DependentsGraph
+): Map<string, BumpInfo> {
   // Map of package -> { type, source } for final bump decisions
-  const finalBumps = new Map();
+  const finalBumps = new Map<string, BumpInfo>();
 
   // Initialize with existing bumps
   initialBumps.forEach((type, pkg) => {
@@ -91,7 +142,7 @@ function propagateBumps(initialBumps, dependentsGraph) {
   return finalBumps;
 }
 
-async function main() {
+async function main(): Promise<void> {
   const dryRun = process.argv.includes('--dry-run');
   const cwd = process.cwd();
 
@@ -104,7 +155,8 @@ async function main() {
   // Read all necessary data
   const packages = await getPackages(cwd);
   const config = await readConfig(cwd, packages);
-  const changesets = await readChangesets(cwd);
+  // Use custom reader to avoid reading from .changeset/scripts/ subdirectory
+  const changesets = await readChangesetsFromDir(cwd);
 
   if (changesets.length === 0) {
     console.log('No pending changesets found.');
@@ -112,10 +164,10 @@ async function main() {
   }
 
   // Build dependents graph
-  const dependentsGraph = getDependentsGraph(packages);
+  const dependentsGraph = getDependentsGraph(packages) as DependentsGraph;
 
   // Collect initial bumps from all changesets (highest priority per package)
-  const initialBumps = new Map();
+  const initialBumps = new Map<string, VersionType>();
   changesets.forEach((changeset) => {
     changeset.releases.forEach((release) => {
       const existing = initialBumps.get(release.name);
@@ -126,7 +178,7 @@ async function main() {
   });
 
   // Find packages with major/minor bumps (these will cascade)
-  const cascadeSources = new Map();
+  const cascadeSources = new Map<string, VersionType>();
   initialBumps.forEach((type, pkg) => {
     if (BUMP_PRIORITY[type] >= BUMP_PRIORITY.minor) {
       cascadeSources.set(pkg, type);
@@ -155,7 +207,7 @@ async function main() {
   const finalBumps = propagateBumps(initialBumps, dependentsGraph);
 
   // Determine which packages need synthetic changesets (cascade bumps)
-  const syntheticChangesets = [];
+  const syntheticChangesets: NewChangeset[] = [];
 
   finalBumps.forEach((info, pkgName) => {
     const originalBump = initialBumps.get(pkgName);
@@ -164,15 +216,13 @@ async function main() {
     // 1. Package didn't have an original changeset, OR
     // 2. The cascaded bump is higher priority than the original
     if (!originalBump || BUMP_PRIORITY[info.type] > BUMP_PRIORITY[originalBump]) {
-      const syntheticChangeset = {
+      const syntheticChangeset: NewChangeset = {
         id: generateChangesetId(),
         summary: `Cascading ${info.type} bump from ${info.source}`,
         releases: [{ name: pkgName, type: info.type }],
       };
       syntheticChangesets.push(syntheticChangeset);
-      console.log(
-        `  🔄 ${pkgName}: ${originalBump || 'none'} → ${info.type} (from ${info.source})`
-      );
+      console.log(`  🔄 ${pkgName}: ${originalBump || 'none'} → ${info.type} (from ${info.source})`);
     }
   });
 
@@ -216,8 +266,9 @@ async function main() {
   console.log('✅ Version updates applied with cascading bumps.');
 }
 
-main().catch((error) => {
+main().catch((error: Error) => {
   console.error('❌ Error:', error.message);
   console.error(error.stack);
   process.exit(1);
 });
+
