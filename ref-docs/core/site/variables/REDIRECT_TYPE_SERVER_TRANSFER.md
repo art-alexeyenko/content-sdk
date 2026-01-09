@@ -8,6 +8,6 @@
 
 > `const` **REDIRECT\_TYPE\_SERVER\_TRANSFER**: `"SERVER_TRANSFER"` = `'SERVER_TRANSFER'`
 
-Defined in: [packages/core/src/site/redirects-service.ts:23](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/site/redirects-service.ts#L23)
+Defined in: [packages/core/src/site/redirects-service.ts:23](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/site/redirects-service.ts#L23)
 
 Redirect type for server transfer

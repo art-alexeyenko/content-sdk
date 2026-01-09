@@ -6,7 +6,7 @@
 
 # Enumeration: LayoutKind
 
-Defined in: [packages/core/src/editing/models.ts:46](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/editing/models.ts#L46)
+Defined in: [packages/core/src/editing/models.ts:46](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/editing/models.ts#L46)
 
 Represents the Editing Layout variant.
 - shared - shared layout
@@ -18,7 +18,7 @@ Represents the Editing Layout variant.
 
 > **Final**: `"final"`
 
-Defined in: [packages/core/src/editing/models.ts:47](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/editing/models.ts#L47)
+Defined in: [packages/core/src/editing/models.ts:47](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/editing/models.ts#L47)
 
 ***
 
@@ -26,4 +26,4 @@ Defined in: [packages/core/src/editing/models.ts:47](https://github.com/art-alex
 
 > **Shared**: `"shared"`
 
-Defined in: [packages/core/src/editing/models.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/editing/models.ts#L48)
+Defined in: [packages/core/src/editing/models.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/editing/models.ts#L48)

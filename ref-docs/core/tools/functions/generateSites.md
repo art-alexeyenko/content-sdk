@@ -8,7 +8,7 @@
 
 > **generateSites**(`config`): () => `Promise`\<`void`\>
 
-Defined in: [packages/core/src/tools/generateSites.ts:37](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/tools/generateSites.ts#L37)
+Defined in: [packages/core/src/tools/generateSites.ts:37](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/tools/generateSites.ts#L37)
 
 Generates site information and writes it to a specified destination path.
 

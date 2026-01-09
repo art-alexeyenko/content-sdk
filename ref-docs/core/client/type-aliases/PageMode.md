@@ -8,7 +8,7 @@
 
 > **PageMode** = `object`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:51](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/client/sitecore-client.ts#L51)
+Defined in: [packages/core/src/client/sitecore-client.ts:51](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/client/sitecore-client.ts#L51)
 
 Represents the mode of the page
 
@@ -18,7 +18,7 @@ Represents the mode of the page
 
 > **designLibrary**: `object`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:59](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/client/sitecore-client.ts#L59)
+Defined in: [packages/core/src/client/sitecore-client.ts:59](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/client/sitecore-client.ts#L59)
 
 Design Library related properties. Only available in Design Library mode.
 
@@ -34,7 +34,7 @@ Whether the page is in variant generation mode
 
 > **isDesignLibrary**: `boolean`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:80](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/client/sitecore-client.ts#L80)
+Defined in: [packages/core/src/client/sitecore-client.ts:80](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/client/sitecore-client.ts#L80)
 
 Whether the page is in Design Library mode
 
@@ -44,7 +44,7 @@ Whether the page is in Design Library mode
 
 > **isEditing**: `boolean`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:76](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/client/sitecore-client.ts#L76)
+Defined in: [packages/core/src/client/sitecore-client.ts:76](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/client/sitecore-client.ts#L76)
 
 Whether the page is in editing mode
 
@@ -54,7 +54,7 @@ Whether the page is in editing mode
 
 > **isNormal**: `boolean`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:68](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/client/sitecore-client.ts#L68)
+Defined in: [packages/core/src/client/sitecore-client.ts:68](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/client/sitecore-client.ts#L68)
 
 Whether the page is in normal mode
 
@@ -64,7 +64,7 @@ Whether the page is in normal mode
 
 > **isPreview**: `boolean`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:72](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/client/sitecore-client.ts#L72)
+Defined in: [packages/core/src/client/sitecore-client.ts:72](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/client/sitecore-client.ts#L72)
 
 Whether the page is in preview mode
 
@@ -74,6 +74,6 @@ Whether the page is in preview mode
 
 > **name**: `PageModeName`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:55](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/client/sitecore-client.ts#L55)
+Defined in: [packages/core/src/client/sitecore-client.ts:55](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/client/sitecore-client.ts#L55)
 
 Page mode name.

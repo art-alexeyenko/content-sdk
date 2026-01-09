@@ -6,7 +6,7 @@
 
 # Interface: EPResponse
 
-Defined in: [src/interfaces.ts:4](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/__core__/src/interfaces.ts#L4)
+Defined in: [src/interfaces.ts:4](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/__core__/src/interfaces.ts#L4)
 
 The response object that Sitecore EP returns.
 
@@ -16,7 +16,7 @@ The response object that Sitecore EP returns.
 
 > **client\_key**: `string`
 
-Defined in: [src/interfaces.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/__core__/src/interfaces.ts#L8)
+Defined in: [src/interfaces.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/__core__/src/interfaces.ts#L8)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/interfaces.ts:8](https://github.com/art-alexeyenko/content-sdk/
 
 > **customer\_ref**: `string`
 
-Defined in: [src/interfaces.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/__core__/src/interfaces.ts#L9)
+Defined in: [src/interfaces.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/__core__/src/interfaces.ts#L9)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [src/interfaces.ts:9](https://github.com/art-alexeyenko/content-sdk/
 
 > **ref**: `string`
 
-Defined in: [src/interfaces.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/__core__/src/interfaces.ts#L5)
+Defined in: [src/interfaces.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/__core__/src/interfaces.ts#L5)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [src/interfaces.ts:5](https://github.com/art-alexeyenko/content-sdk/
 
 > **status**: `string`
 
-Defined in: [src/interfaces.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/__core__/src/interfaces.ts#L6)
+Defined in: [src/interfaces.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/__core__/src/interfaces.ts#L6)
 
 ***
 
@@ -48,4 +48,4 @@ Defined in: [src/interfaces.ts:6](https://github.com/art-alexeyenko/content-sdk/
 
 > **version**: `string`
 
-Defined in: [src/interfaces.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/__core__/src/interfaces.ts#L7)
+Defined in: [src/interfaces.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/__core__/src/interfaces.ts#L7)

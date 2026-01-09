@@ -6,7 +6,7 @@
 
 # Interface: ComponentLayoutServiceConfig
 
-Defined in: [packages/core/src/editing/component-layout-service.ts:58](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/editing/component-layout-service.ts#L58)
+Defined in: [packages/core/src/editing/component-layout-service.ts:58](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/editing/component-layout-service.ts#L58)
 
 Config for ComponentLayoutService.
 Provide contextId (server) and optionally clientContextId (browser).
@@ -17,7 +17,7 @@ Provide contextId (server) and optionally clientContextId (browser).
 
 > `optional` **clientContextId**: `string`
 
-Defined in: [packages/core/src/editing/component-layout-service.ts:62](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/editing/component-layout-service.ts#L62)
+Defined in: [packages/core/src/editing/component-layout-service.ts:62](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/editing/component-layout-service.ts#L62)
 
 A unified identifier used to connect and retrieve data from XM Cloud instance used on the client
 
@@ -27,7 +27,7 @@ A unified identifier used to connect and retrieve data from XM Cloud instance us
 
 > **contextId**: `string`
 
-Defined in: [packages/core/src/editing/component-layout-service.ts:66](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/editing/component-layout-service.ts#L66)
+Defined in: [packages/core/src/editing/component-layout-service.ts:66](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/editing/component-layout-service.ts#L66)
 
 A unified identifier used to connect and retrieve data from XM Cloud instance used on the server
 
@@ -37,7 +37,7 @@ A unified identifier used to connect and retrieve data from XM Cloud instance us
 
 > `optional` **edgeUrl**: `string`
 
-Defined in: [packages/core/src/editing/component-layout-service.ts:71](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/editing/component-layout-service.ts#L71)
+Defined in: [packages/core/src/editing/component-layout-service.ts:71](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/editing/component-layout-service.ts#L71)
 
 XM Cloud endpoint that the app will communicate and retrieve data from
 

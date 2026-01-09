@@ -8,7 +8,7 @@
 
 > **personalize**(`personalizeData`, `opts?`): `Promise`\<`unknown`\>
 
-Defined in: [personalization/personalize.ts:29](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/personalize/src/personalization/personalize.ts#L29)
+Defined in: [personalization/personalize.ts:29](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/personalize/src/personalization/personalize.ts#L29)
 
 A function that executes an interactive experiment or web experiment over any web-based or mobile application.
 

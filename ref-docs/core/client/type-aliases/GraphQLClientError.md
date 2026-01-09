@@ -8,7 +8,7 @@
 
 > **GraphQLClientError** = `Partial`\<[`ClientError`](../../index/classes/ClientError.md)\> & [`GenericGraphQLClientError`](../../index/type-aliases/GenericGraphQLClientError.md)
 
-Defined in: [packages/core/src/graphql-request-client.ts:31](https://github.com/art-alexeyenko/content-sdk/blob/be971d8507ca2ee50b70c8f8e04cbf8e7b423cf9/packages/core/src/graphql-request-client.ts#L31)
+Defined in: [packages/core/src/graphql-request-client.ts:31](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/graphql-request-client.ts#L31)
 
 This type represents errors that can occur in a GraphQL client.
 In cases where an error status was sent back from the server (`!response.ok`), the `response` will be populated with details. In cases where a response was never received, the `code` can be populated with the error code (e.g. Node's 'ECONNRESET', 'ETIMEDOUT', etc).
