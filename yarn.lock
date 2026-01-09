@@ -13188,6 +13188,7 @@ __metadata:
     eslint-plugin-react-hooks: ^5.2.0
     lerna: ^9.0.3
     prettier: ^2.8.0
+    tsx: ^4.19.4
     typedoc: ^0.28.4
     typedoc-plugin-markdown: ^4.6.3
     typescript: ~5.8.3

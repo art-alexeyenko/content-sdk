@@ -7,7 +7,9 @@
   "access": "public",
   "baseBranch": "dev",
   "updateInternalDependencies": "patch",
-  "updateInternalDependents": "always",
+  "___experimentalUnsafeOptions_WILL_CHANGE_IN_PATCH": {
+    "updateInternalDependents": "always"
+  },
   "ignore": [
     "@sitecore-content-sdk/utils",
     "@sitecore-content-sdk/__core__",
