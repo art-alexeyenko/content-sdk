@@ -8,7 +8,7 @@
 
 > **getCache**\<`T`\>(`key`): `T` \| `undefined`
 
-Defined in: [packages/core/src/utils/globalCache.ts:28](https://github.com/art-alexeyenko/content-sdk/blob/b6e41aa7734010a43e172f661838132f3f789d2d/packages/core/src/utils/globalCache.ts#L28)
+Defined in: [packages/core/src/utils/globalCache.ts:28](https://github.com/art-alexeyenko/content-sdk/blob/a2e5449061eca8a0474be5de5d08769f4f17aeb8/packages/core/src/utils/globalCache.ts#L28)
 
 **`Internal`**
 
