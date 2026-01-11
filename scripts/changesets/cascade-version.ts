@@ -18,13 +18,12 @@
 
 import assembleReleasePlan from '@changesets/assemble-release-plan';
 import applyReleasePlan from '@changesets/apply-release-plan';
-import parseChangeset from '@changesets/parse';
+import readChangesets from '@changesets/read';
+import * as git from '@changesets/git';
 import { read as readConfig } from '@changesets/config';
 import { getPackages } from '@manypkg/get-packages';
 import { getDependentsGraph } from '@changesets/get-dependents-graph';
-import type { VersionType, NewChangeset } from '@changesets/types';
-import * as fs from 'fs';
-import * as path from 'path';
+import type { VersionType, NewChangesetWithCommit } from '@changesets/types';
 
 // Bump type priority (higher = more significant)
 const BUMP_PRIORITY: Record<VersionType | 'none', number> = {
@@ -34,100 +33,67 @@ const BUMP_PRIORITY: Record<VersionType | 'none', number> = {
   none: 0,
 };
 
-/**
- * Read changesets from .changeset directory, excluding subdirectories
- * This is a custom implementation to avoid reading from .changeset/scripts/
- */
-async function readChangesetsFromDir(cwd: string): Promise<NewChangeset[]> {
-  const changesetDir = path.join(cwd, '.changeset');
-  const entries = fs.readdirSync(changesetDir, { withFileTypes: true });
-
-  const changesets: NewChangeset[] = [];
-
-  for (const entry of entries) {
-    // Only read .md files from root of .changeset, skip directories and README
-    if (entry.isFile() && entry.name.endsWith('.md') && entry.name !== 'README.md') {
-      const filePath = path.join(changesetDir, entry.name);
-      const content = fs.readFileSync(filePath, 'utf-8');
-
-      try {
-        const parsed = parseChangeset(content);
-        const id = entry.name.replace(/\.md$/, '');
-        changesets.push({
-          id,
-          summary: parsed.summary,
-          releases: parsed.releases,
-        });
-      } catch {
-        // Skip files that can't be parsed as changesets
-        console.warn(`Warning: Could not parse ${entry.name} as a changeset`);
-      }
-    }
-  }
-
-  return changesets;
-}
-
 interface BumpInfo {
   type: VersionType;
-  source: string;
+  sourcePkg: string;
+  summary: string;
+  commit?: string;
 }
 
 type DependentsGraph = Map<string, string[]>;
 
 /**
- * Get direct dependents of a package (one level only)
+ * Read changesets with associated commits
+ * @param {string} cwd monorepo working directory
  */
-function getDirectDependents(packageName: string, dependentsGraph: DependentsGraph): string[] {
-  return dependentsGraph.get(packageName) || [];
+async function getChangesets(cwd: string): Promise<NewChangesetWithCommit[]> {
+  const changesets = await readChangesets(cwd);
+  const ids = changesets.map((chset) => chset.id);
+  const paths = ids.map((id) => `.changeset/${id}.md`);
+  // will return an array with commit SHA or undefined string if changeset path has no commit
+  const commits = await git.getCommitsThatAddFiles(paths, { cwd });
+  return changesets.map((chset, index) => ({ ...chset, commit: commits[index] }));
 }
 
 /**
  * Generate a random changeset ID
  */
 function generateChangesetId(): string {
-  const adjectives = ['cascade', 'auto', 'sync'];
-  const nouns = ['bump', 'version', 'update'];
-  const random = Math.random().toString(36).substring(2, 8);
-  const pick = <T>(arr: T[]): T => arr[Math.floor(Math.random() * arr.length)];
-  return `${pick(adjectives)}-${pick(nouns)}-${random}`;
+  const random = crypto.randomUUID();
+  return `${'cascade-changeset-' + random}`;
 }
 
 /**
  * Propagate bumps through the dependency graph
  * Uses iterative approach to handle transitive dependencies correctly
+ * @param {Map} originalBumps packages' versions from existing changesets
+ * @param {DependentsGraph} dependentsGraph map of package dependents
  */
-function propagateBumps(
-  initialBumps: Map<string, VersionType>,
+function getPropagatedBumps(
+  originalBumps: Map<string, BumpInfo>,
   dependentsGraph: DependentsGraph
 ): Map<string, BumpInfo> {
   // Map of package -> { type, source } for final bump decisions
-  const finalBumps = new Map<string, BumpInfo>();
+  const extraBumps = new Map<string, BumpInfo>();
 
-  // Initialize with existing bumps
-  initialBumps.forEach((type, pkg) => {
-    finalBumps.set(pkg, { type, source: pkg });
-  });
-
-  // Keep propagating until no changes
+  // Keep propagating until no more changes to add
   let changed = true;
   while (changed) {
     changed = false;
 
-    finalBumps.forEach((info, pkg) => {
-      // Only cascade major/minor bumps
-      if (BUMP_PRIORITY[info.type] < BUMP_PRIORITY.minor) return;
-
-      const dependents = getDirectDependents(pkg, dependentsGraph);
+    originalBumps.forEach((original, pkg) => {
+      const dependents = dependentsGraph.get(pkg) || [];
 
       dependents.forEach((depPkg) => {
-        const existing = finalBumps.get(depPkg);
+        const existing = extraBumps.get(depPkg);
 
         // If dependent doesn't have a bump, or has a lower priority bump, upgrade it
-        if (!existing || BUMP_PRIORITY[info.type] > BUMP_PRIORITY[existing.type]) {
-          finalBumps.set(depPkg, {
-            type: info.type,
-            source: pkg,
+        if (!existing || BUMP_PRIORITY[original.type] > BUMP_PRIORITY[existing.type]) {
+          extraBumps.set(depPkg, {
+            type: original.type,
+            sourcePkg: pkg,
+            summary: `[${pkg}] ${original.summary}`,
+            commit: original.commit,
           });
           changed = true;
         }
@@ -135,24 +101,59 @@ function propagateBumps(
     });
   }
 
-  return finalBumps;
+  return extraBumps;
 }
 
+/**
+ * Generate synthetic changesets for cascaded bumps
+ * @param {Map} initialBumps packages' versions from existing changesets
+ * @param {Map} extraBumps generated propagated bumps from dependency graph
+ * @returns Array of synthetic NewChangeset objects
+ */
+function generateSyntethicChangesets(
+  initialBumps: Map<string, BumpInfo>,
+  extraBumps: Map<string, BumpInfo>
+): NewChangesetWithCommit[] {
+  const syntheticChangesets: NewChangesetWithCommit[] = [];
+  extraBumps.forEach((info, pkgName) => {
+    const originalBump = initialBumps.get(pkgName);
+
+    // Create synthetic changeset if:
+    // 1. Package didn't have an original changeset, OR
+    // 2. The cascaded bump is higher priority than the original
+    if (!originalBump || BUMP_PRIORITY[info.type] > BUMP_PRIORITY[originalBump.type]) {
+      const syntheticChangeset: NewChangesetWithCommit = {
+        id: generateChangesetId(),
+        summary: info.summary,
+        releases: [{ name: pkgName, type: info.type }],
+        commit: info.commit,
+      };
+      syntheticChangesets.push(syntheticChangeset);
+      console.log(
+        `  🔄 ${pkgName}: ${originalBump || 'none'} → ${info.type} (from ${info.sourcePkg})`
+      );
+    }
+  });
+  return syntheticChangesets;
+}
+
+/**
+ * Main script entry point
+ */
 async function main(): Promise<void> {
   const dryRun = process.argv.includes('--dry-run');
   const cwd = process.cwd();
 
-  if (dryRun) {
-    console.log('🔍 DRY RUN MODE - No changes will be made\n');
-  }
-
-  console.log('📦 Reading changesets and packages...\n');
-
+  console.log('📦 Custom changeset cascade version script: start...');
   // Read all necessary data
   const packages = await getPackages(cwd);
   const config = await readConfig(cwd, packages);
+  if (dryRun) {
+    console.log('🔍 DRY RUN MODE - Forcing no git commit to be made');
+    config.commit = false;
+  }
   // Use custom reader to avoid reading from .changeset/scripts/ subdirectory
-  const changesets = await readChangesetsFromDir(cwd);
+  const changesets = await getChangesets(cwd);
 
   if (changesets.length === 0) {
     console.log('No pending changesets found.');
@@ -163,76 +164,31 @@ async function main(): Promise<void> {
   const dependentsGraph = getDependentsGraph(packages) as DependentsGraph;
 
   // Collect initial bumps from all changesets (highest priority per package)
-  const initialBumps = new Map<string, VersionType>();
+  const initialBumps = new Map<string, BumpInfo>();
   changesets.forEach((changeset) => {
     changeset.releases.forEach((release) => {
       const existing = initialBumps.get(release.name);
-      if (!existing || BUMP_PRIORITY[release.type] > BUMP_PRIORITY[existing]) {
-        initialBumps.set(release.name, release.type);
+      if (!existing || BUMP_PRIORITY[release.type] > BUMP_PRIORITY[existing.type]) {
+        initialBumps.set(release.name, {
+          type: release.type,
+          sourcePkg: release.name,
+          summary: changeset.summary,
+          commit: changeset.commit,
+        });
       }
     });
   });
 
-  // Find packages with major/minor bumps (these will cascade)
-  const cascadeSources = new Map<string, VersionType>();
-  initialBumps.forEach((type, pkg) => {
-    if (BUMP_PRIORITY[type] >= BUMP_PRIORITY.minor) {
-      cascadeSources.set(pkg, type);
-    }
-  });
-
-  if (cascadeSources.size === 0) {
-    console.log('No major/minor bumps found. Proceeding with standard changeset version...\n');
-
-    const releasePlan = assembleReleasePlan(changesets, packages, config, undefined);
-
-    if (!dryRun) {
-      await applyReleasePlan(releasePlan, packages, config);
-      console.log('✅ Version updates applied.');
-    }
-    return;
-  }
-
-  console.log('📊 Packages with major/minor bumps (will cascade to dependents):');
-  cascadeSources.forEach((type, name) => {
-    console.log(`  ${name}: ${type}`);
-  });
-  console.log('');
-
   // Propagate bumps through dependency graph
-  const finalBumps = propagateBumps(initialBumps, dependentsGraph);
+  const extraBumps = getPropagatedBumps(initialBumps, dependentsGraph);
 
   // Determine which packages need synthetic changesets (cascade bumps)
-  const syntheticChangesets: NewChangeset[] = [];
-
-  finalBumps.forEach((info, pkgName) => {
-    const originalBump = initialBumps.get(pkgName);
-
-    // Create synthetic changeset if:
-    // 1. Package didn't have an original changeset, OR
-    // 2. The cascaded bump is higher priority than the original
-    if (!originalBump || BUMP_PRIORITY[info.type] > BUMP_PRIORITY[originalBump]) {
-      const syntheticChangeset: NewChangeset = {
-        id: generateChangesetId(),
-        summary: `Cascading ${info.type} bump from ${info.source}`,
-        releases: [{ name: pkgName, type: info.type }],
-      };
-      syntheticChangesets.push(syntheticChangeset);
-      console.log(
-        `  🔄 ${pkgName}: ${originalBump || 'none'} → ${info.type} (from ${info.source})`
-      );
-    }
-  });
+  const syntheticChangesets = generateSyntethicChangesets(initialBumps, extraBumps);
 
   if (syntheticChangesets.length === 0) {
-    console.log('✅ All dependent packages already have appropriate changesets.');
-    const releasePlan = assembleReleasePlan(changesets, packages, config, undefined);
-
-    if (!dryRun) {
-      await applyReleasePlan(releasePlan, packages, config);
-      console.log('✅ Version updates applied.');
-    }
-    return;
+    console.log(
+      'All dependent packages already have appropriate changesets, no extra bumps added.'
+    );
   }
 
   // Combine original and synthetic changesets
@@ -248,24 +204,15 @@ async function main(): Promise<void> {
       console.log(`  ${r.name}: ${r.oldVersion} → ${r.newVersion} (${r.type})`);
     });
 
-  if (dryRun) {
-    console.log('\n🔍 DRY RUN complete. No changes made.');
-    console.log('\nNote: Synthetic changesets would be:');
-    syntheticChangesets.forEach((cs) => {
-      console.log(`  - ${cs.id}: ${cs.summary}`);
-    });
-    return;
-  }
-
-  console.log('\n🚀 Applying release plan...\n');
-
   await applyReleasePlan(releasePlan, packages, config);
 
   console.log('✅ Version updates applied with cascading bumps.');
 }
 
-main().catch((error: Error) => {
+try {
+  main();
+} catch (error: any) {
   console.error('❌ Error:', error.message);
   console.error(error.stack);
   process.exit(1);
-});
+}

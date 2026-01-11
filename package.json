@@ -14,10 +14,8 @@
     "api-extractor:verify": "lerna run api-extractor:verify",
     "version": "yarn install && git stage yarn.lock",
     "changeset": "changeset",
-    "prep-release": "tsx ./scripts/changesets/cascade-version.ts && yarn install",
-    "prep-release:dry-run": "tsx ./scripts/changesets/cascade-version.ts --dry-run",
-    "changeset:status": "changeset status",
-    "changeset:publish": "changeset publish"
+    "changeset:cascade-version": "tsx ./scripts/changesets/cascade-version.ts",
+    "prep-release": "yarn changeset:cascade-version && yarn install"
   },
   "author": {
     "name": "Sitecore Corporation",
