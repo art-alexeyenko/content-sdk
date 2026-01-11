@@ -8,7 +8,7 @@
 
 > **normalizeHeaders**(`incomingHeaders`): `Record`\<`string`, `string` \| `string`[]\>
 
-Defined in: [converters/normalizeHeaders.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/dd815f61843bffe1347e778d4be73c363130373d/packages/utils/src/converters/normalizeHeaders.ts#L6)
+Defined in: [converters/normalizeHeaders.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/a1544d7573ce221b8fa383f903d8ea496a58d2ed/packages/utils/src/converters/normalizeHeaders.ts#L6)
 
 Converts headers from various formats into a uniform key-value pair object.
 
