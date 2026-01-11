@@ -46,11 +46,7 @@ async function readChangesetsFromDir(cwd: string): Promise<NewChangeset[]> {
 
   for (const entry of entries) {
     // Only read .md files from root of .changeset, skip directories and README
-    if (
-      entry.isFile() &&
-      entry.name.endsWith('.md') &&
-      entry.name !== 'README.md'
-    ) {
+    if (entry.isFile() && entry.name.endsWith('.md') && entry.name !== 'README.md') {
       const filePath = path.join(changesetDir, entry.name);
       const content = fs.readFileSync(filePath, 'utf-8');
 
@@ -222,7 +218,9 @@ async function main(): Promise<void> {
         releases: [{ name: pkgName, type: info.type }],
       };
       syntheticChangesets.push(syntheticChangeset);
-      console.log(`  🔄 ${pkgName}: ${originalBump || 'none'} → ${info.type} (from ${info.source})`);
+      console.log(
+        `  🔄 ${pkgName}: ${originalBump || 'none'} → ${info.type} (from ${info.source})`
+      );
     }
   });
 
@@ -271,4 +269,3 @@ main().catch((error: Error) => {
   console.error(error.stack);
   process.exit(1);
 });
-

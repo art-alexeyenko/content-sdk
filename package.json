@@ -14,9 +14,8 @@
     "api-extractor:verify": "lerna run api-extractor:verify",
     "version": "yarn install && git stage yarn.lock",
     "changeset": "changeset",
-    "changeset:add": "changeset add",
-    "changeset:prep-release": "tsx ./.changeset/scripts/cascade-version.ts && yarn install",
-    "changeset:prep-release:dry-run": "tsx ./.changeset/scripts/cascade-version.ts --dry-run",
+    "prep-release": "tsx ./scripts/changesets/cascade-version.ts && yarn install",
+    "prep-release:dry-run": "tsx ./scripts/changesets/cascade-version.ts --dry-run",
     "changeset:status": "changeset status",
     "changeset:publish": "changeset publish"
   },
