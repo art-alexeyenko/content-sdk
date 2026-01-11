@@ -8,7 +8,7 @@
 
 > **generateV4UUID**(): `string`
 
-Defined in: [generators/generate-v4-uuid.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/7d6b6bcd429d8765579a73cb4dabefc4d9064576/packages/utils/src/generators/generate-v4-uuid.ts#L5)
+Defined in: [generators/generate-v4-uuid.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/87f30499afc81160963d293ab9e455b746087d3c/packages/utils/src/generators/generate-v4-uuid.ts#L5)
 
 Generates a v4 UUID string using the global crypto API.
 

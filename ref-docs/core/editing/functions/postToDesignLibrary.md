@@ -8,7 +8,7 @@
 
 > **postToDesignLibrary**(`evt`): `void`
 
-Defined in: [packages/core/src/editing/design-library.ts:247](https://github.com/art-alexeyenko/content-sdk/blob/7d6b6bcd429d8765579a73cb4dabefc4d9064576/packages/core/src/editing/design-library.ts#L247)
+Defined in: [packages/core/src/editing/design-library.ts:247](https://github.com/art-alexeyenko/content-sdk/blob/87f30499afc81160963d293ab9e455b746087d3c/packages/core/src/editing/design-library.ts#L247)
 
 **`Internal`**
 

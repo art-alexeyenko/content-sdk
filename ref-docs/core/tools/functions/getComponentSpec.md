@@ -8,7 +8,7 @@
 
 > **getComponentSpec**(`params`): `Promise`\<`ComponentSpec`\>
 
-Defined in: [packages/core/src/tools/codegen/component-generation.ts:67](https://github.com/art-alexeyenko/content-sdk/blob/7d6b6bcd429d8765579a73cb4dabefc4d9064576/packages/core/src/tools/codegen/component-generation.ts#L67)
+Defined in: [packages/core/src/tools/codegen/component-generation.ts:67](https://github.com/art-alexeyenko/content-sdk/blob/87f30499afc81160963d293ab9e455b746087d3c/packages/core/src/tools/codegen/component-generation.ts#L67)
 
 **`Internal`**
 

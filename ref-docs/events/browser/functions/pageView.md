@@ -8,7 +8,7 @@
 
 > **pageView**(`pageViewData?`): `Promise`\<`EPResponse` \| `null`\>
 
-Defined in: [events/src/events/page-view/page-view.ts:15](https://github.com/art-alexeyenko/content-sdk/blob/7d6b6bcd429d8765579a73cb4dabefc4d9064576/packages/events/src/events/page-view/page-view.ts#L15)
+Defined in: [events/src/events/page-view/page-view.ts:15](https://github.com/art-alexeyenko/content-sdk/blob/87f30499afc81160963d293ab9e455b746087d3c/packages/events/src/events/page-view/page-view.ts#L15)
 
 A function that sends a VIEW event to SitecoreCloud API
 
