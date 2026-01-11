@@ -6,7 +6,7 @@
 
 # Interface: Field\<T\>
 
-Defined in: [packages/core/src/layout/models.ts:129](https://github.com/art-alexeyenko/content-sdk/blob/dd815f61843bffe1347e778d4be73c363130373d/packages/core/src/layout/models.ts#L129)
+Defined in: [packages/core/src/layout/models.ts:129](https://github.com/art-alexeyenko/content-sdk/blob/a1544d7573ce221b8fa383f903d8ea496a58d2ed/packages/core/src/layout/models.ts#L129)
 
 Field interface
 
@@ -26,7 +26,7 @@ Field interface
 
 > `optional` **metadata**: `object`
 
-Defined in: [packages/core/src/layout/models.ts:138](https://github.com/art-alexeyenko/content-sdk/blob/dd815f61843bffe1347e778d4be73c363130373d/packages/core/src/layout/models.ts#L138)
+Defined in: [packages/core/src/layout/models.ts:138](https://github.com/art-alexeyenko/content-sdk/blob/a1544d7573ce221b8fa383f903d8ea496a58d2ed/packages/core/src/layout/models.ts#L138)
 
 #### Index Signature
 
@@ -42,4 +42,4 @@ Defined in: [packages/core/src/layout/models.ts:138](https://github.com/art-alex
 
 > **value**: `T`
 
-Defined in: [packages/core/src/layout/models.ts:130](https://github.com/art-alexeyenko/content-sdk/blob/dd815f61843bffe1347e778d4be73c363130373d/packages/core/src/layout/models.ts#L130)
+Defined in: [packages/core/src/layout/models.ts:130](https://github.com/art-alexeyenko/content-sdk/blob/a1544d7573ce221b8fa383f903d8ea496a58d2ed/packages/core/src/layout/models.ts#L130)
