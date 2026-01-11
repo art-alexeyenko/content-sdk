@@ -76,25 +76,40 @@ function getPropagatedBumps(
   // Map of package -> { type, source } for final bump decisions
   const extraBumps = new Map<string, BumpInfo>();
 
+  // Combined map of all bumps (original + extra) for propagation
+  const allBumps = new Map<string, BumpInfo>(originalBumps);
+
   // Keep propagating until no more changes to add
   let changed = true;
   while (changed) {
     changed = false;
 
-    originalBumps.forEach((original, pkg) => {
+    // Iterate over ALL bumps (original + newly added extras)
+    allBumps.forEach((bumpInfo, pkg) => {
+      // Only cascade major/minor bumps
+      if (BUMP_PRIORITY[bumpInfo.type] < BUMP_PRIORITY.minor) return;
+
       const dependents = dependentsGraph.get(pkg) || [];
 
       dependents.forEach((depPkg) => {
-        const existing = extraBumps.get(depPkg);
+        const existingExtra = extraBumps.get(depPkg);
+        const existingOriginal = originalBumps.get(depPkg);
 
         // If dependent doesn't have a bump, or has a lower priority bump, upgrade it
-        if (!existing || BUMP_PRIORITY[original.type] > BUMP_PRIORITY[existing.type]) {
-          extraBumps.set(depPkg, {
-            type: original.type,
+        const currentPriority = Math.max(
+          BUMP_PRIORITY[existingExtra?.type || 'none'],
+          BUMP_PRIORITY[existingOriginal?.type || 'none']
+        );
+
+        if (BUMP_PRIORITY[bumpInfo.type] > currentPriority) {
+          const newBumpInfo: BumpInfo = {
+            type: bumpInfo.type,
             sourcePkg: pkg,
-            summary: `[${pkg}] ${original.summary}`,
-            commit: original.commit,
-          });
+            summary: `[${pkg}] ${bumpInfo.summary}`,
+            commit: bumpInfo.commit,
+          };
+          extraBumps.set(depPkg, newBumpInfo);
+          allBumps.set(depPkg, newBumpInfo); // Add to allBumps so it can propagate further
           changed = true;
         }
       });
@@ -110,7 +125,7 @@ function getPropagatedBumps(
  * @param {Map} extraBumps generated propagated bumps from dependency graph
  * @returns Array of synthetic NewChangeset objects
  */
-function generateSyntethicChangesets(
+function generateSynteticChangesets(
   initialBumps: Map<string, BumpInfo>,
   extraBumps: Map<string, BumpInfo>
 ): NewChangesetWithCommit[] {
@@ -130,7 +145,7 @@ function generateSyntethicChangesets(
       };
       syntheticChangesets.push(syntheticChangeset);
       console.log(
-        `  🔄 ${pkgName}: ${originalBump || 'none'} → ${info.type} (from ${info.sourcePkg})`
+        `  🔄 ${pkgName}: ${originalBump?.type || 'none'} → ${info.type} (from ${info.sourcePkg})`
       );
     }
   });
@@ -183,7 +198,7 @@ async function main(): Promise<void> {
   const extraBumps = getPropagatedBumps(initialBumps, dependentsGraph);
 
   // Determine which packages need synthetic changesets (cascade bumps)
-  const syntheticChangesets = generateSyntethicChangesets(initialBumps, extraBumps);
+  const syntheticChangesets = generateSynteticChangesets(initialBumps, extraBumps);
 
   if (syntheticChangesets.length === 0) {
     console.log(
