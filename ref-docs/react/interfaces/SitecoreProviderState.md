@@ -6,7 +6,7 @@
 
 # Interface: SitecoreProviderState
 
-Defined in: [packages/react/src/components/SitecoreProvider.tsx:36](https://github.com/art-alexeyenko/content-sdk/blob/4479601bf50a9f4bb26411730673ca67f3b1ac3a/packages/react/src/components/SitecoreProvider.tsx#L36)
+Defined in: [packages/react/src/components/SitecoreProvider.tsx:36](https://github.com/art-alexeyenko/content-sdk/blob/891a27dcda7d5fa26b063fd4ea814c213b0ed3d2/packages/react/src/components/SitecoreProvider.tsx#L36)
 
 The state for the SitecoreProvider component.
 
@@ -16,7 +16,7 @@ The state for the SitecoreProvider component.
 
 > `optional` **api**: `Required`\<\{ `edge?`: `Required`\<\{ `clientContextId?`: `string`; `contextId`: `string`; `edgeUrl?`: `string`; \} \| `undefined`\>; `local?`: `Required`\<\{ `apiHost`: `string`; `apiKey`: `string`; `path?`: `string`; \} \| `undefined`\>; \}\>
 
-Defined in: [packages/react/src/components/SitecoreProvider.tsx:50](https://github.com/art-alexeyenko/content-sdk/blob/4479601bf50a9f4bb26411730673ca67f3b1ac3a/packages/react/src/components/SitecoreProvider.tsx#L50)
+Defined in: [packages/react/src/components/SitecoreProvider.tsx:50](https://github.com/art-alexeyenko/content-sdk/blob/891a27dcda7d5fa26b063fd4ea814c213b0ed3d2/packages/react/src/components/SitecoreProvider.tsx#L50)
 
 The API configuration defined in the `SitecoreConfig`.
 
@@ -26,7 +26,7 @@ The API configuration defined in the `SitecoreConfig`.
 
 > **page**: [`Page`](../type-aliases/Page.md)
 
-Defined in: [packages/react/src/components/SitecoreProvider.tsx:46](https://github.com/art-alexeyenko/content-sdk/blob/4479601bf50a9f4bb26411730673ca67f3b1ac3a/packages/react/src/components/SitecoreProvider.tsx#L46)
+Defined in: [packages/react/src/components/SitecoreProvider.tsx:46](https://github.com/art-alexeyenko/content-sdk/blob/891a27dcda7d5fa26b063fd4ea814c213b0ed3d2/packages/react/src/components/SitecoreProvider.tsx#L46)
 
 The current page.
 
@@ -36,7 +36,7 @@ The current page.
 
 > **setPage**: (`value`) => `void`
 
-Defined in: [packages/react/src/components/SitecoreProvider.tsx:42](https://github.com/art-alexeyenko/content-sdk/blob/4479601bf50a9f4bb26411730673ca67f3b1ac3a/packages/react/src/components/SitecoreProvider.tsx#L42)
+Defined in: [packages/react/src/components/SitecoreProvider.tsx:42](https://github.com/art-alexeyenko/content-sdk/blob/891a27dcda7d5fa26b063fd4ea814c213b0ed3d2/packages/react/src/components/SitecoreProvider.tsx#L42)
 
 Method to set the page.
 

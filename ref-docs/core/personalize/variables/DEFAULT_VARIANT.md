@@ -8,6 +8,6 @@
 
 > `const` **DEFAULT\_VARIANT**: `"_default"` = `'_default'`
 
-Defined in: [packages/core/src/personalize/utils.ts:2](https://github.com/art-alexeyenko/content-sdk/blob/4479601bf50a9f4bb26411730673ca67f3b1ac3a/packages/core/src/personalize/utils.ts#L2)
+Defined in: [packages/core/src/personalize/utils.ts:2](https://github.com/art-alexeyenko/content-sdk/blob/891a27dcda7d5fa26b063fd4ea814c213b0ed3d2/packages/core/src/personalize/utils.ts#L2)
 
 **`Internal`**
