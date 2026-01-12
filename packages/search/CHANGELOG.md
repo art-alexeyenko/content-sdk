@@ -5,6 +5,7 @@
 ### Patch Changes
 
 - [search] [core] Reset core and all to release version
+- [search] [core] patch core to reseet versions again ([3709442](https://github.com/sitecore/content-sdk/commit/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19))
 
 ## 0.1.6
 

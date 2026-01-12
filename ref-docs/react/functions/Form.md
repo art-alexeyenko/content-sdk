@@ -8,7 +8,7 @@
 
 > **Form**(`props`): `Element`
 
-Defined in: [packages/react/src/components/Form.tsx:47](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/react/src/components/Form.tsx#L47)
+Defined in: [packages/react/src/components/Form.tsx:47](https://github.com/art-alexeyenko/content-sdk/blob/0adb4462accb7c4e48c0c26517d98bf04f73a27e/packages/react/src/components/Form.tsx#L47)
 
 The Form component.
 
