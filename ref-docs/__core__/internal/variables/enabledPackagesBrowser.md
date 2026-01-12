@@ -8,4 +8,4 @@
 
 > `const` **enabledPackagesBrowser**: `Map`\<`string`, [`PackageInitializer`](../classes/PackageInitializer.md)\>
 
-Defined in: [src/initializer/browser/initializer.ts:21](https://github.com/art-alexeyenko/content-sdk/blob/a1b608d7430d39cdc031d12a01971d89deb9d1dd/packages/__core__/src/initializer/browser/initializer.ts#L21)
+Defined in: [src/initializer/browser/initializer.ts:21](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/__core__/src/initializer/browser/initializer.ts#L21)
