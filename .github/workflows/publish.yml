@@ -117,7 +117,7 @@ jobs:
         uses: changesets/action@v1
         with:
           version: yarn prep-release
-          publish: yarn changeset:publish
+          publish: yarn publish-release
           commit: '[release][ci] changelog, release and version bump'
           title: '[csdk] release'
         env:

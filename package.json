@@ -14,7 +14,7 @@
     "api-extractor:verify": "lerna run api-extractor:verify",
     "version": "yarn install && git stage yarn.lock",
     "changeset": "changeset",
-    "publish": "changeset tag && lerna publish from-package && git push --follow-tags",
+    "publish-release": "changeset tag && lerna publish from-package && git push --follow-tags",
     "changeset:cascade-version": "tsx ./scripts/changesets/cascade-version.ts",
     "prep-release": "yarn changeset:cascade-version && node scripts/fix-dependency-ranges.js && yarn install"
   },
