@@ -26,6 +26,7 @@ import { getPackages } from '@manypkg/get-packages';
 import { getDependentsGraph } from '@changesets/get-dependents-graph';
 import type { VersionType, NewChangesetWithCommit } from '@changesets/types';
 
+const REPO = 'sitecore/content-sdk';
 // Bump type priority (higher = more significant)
 const BUMP_PRIORITY: Record<VersionType | 'none', number> = {
   major: 3,
@@ -202,11 +203,15 @@ function generateSynteticChangesets(
     // 1. Package didn't have an original changeset, OR
     // 2. The cascaded bump is higher priority than the original
     if (!originalBump || BUMP_PRIORITY[info.type] > BUMP_PRIORITY[originalBump.type]) {
+      // syntetic changeset's commit will be ignored by changesets, so we add it to summary
+      const shortCommit = info.commit?.substring(0, 7);
+      const commitLink = shortCommit
+        ? ` ([${shortCommit}](https://github.com/${REPO}/commit/${info.commit}))`
+        : '';
       const syntheticChangeset: NewChangesetWithCommit = {
         id: generateChangesetId(),
-        summary: info.summary,
+        summary: `${info.summary} ${commitLink}`,
         releases: [{ name: pkgName, type: info.type }],
-        commit: info.commit,
       };
       syntheticChangesets.push(syntheticChangeset);
       console.log(
