@@ -8,7 +8,7 @@
 
 > **isShortISODateString**(`date`): `boolean`
 
-Defined in: [validators/is-short-iso-date-string.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/891a27dcda7d5fa26b063fd4ea814c213b0ed3d2/packages/utils/src/validators/is-short-iso-date-string.ts#L6)
+Defined in: [validators/is-short-iso-date-string.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/c8186e61be966473f7057847cb9f594a30e438c4/packages/utils/src/validators/is-short-iso-date-string.ts#L6)
 
 Checks if the provided string matches the shortened ISO 8601 format (`YYYY-MM-DDThh:mm`).
 
