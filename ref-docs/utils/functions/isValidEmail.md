@@ -8,7 +8,7 @@
 
 > **isValidEmail**(`email`): `boolean`
 
-Defined in: [validators/is-valid-email.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/utils/src/validators/is-valid-email.ts#L6)
+Defined in: [validators/is-valid-email.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/utils/src/validators/is-valid-email.ts#L6)
 
 Validates whether the provided value matches a basic email pattern.
 

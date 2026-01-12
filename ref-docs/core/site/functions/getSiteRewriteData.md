@@ -8,7 +8,7 @@
 
 > **getSiteRewriteData**(`pathname`, `defaultSiteName`): [`SiteRewriteData`](../type-aliases/SiteRewriteData.md)
 
-Defined in: [packages/core/src/site/utils.ts:41](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/core/src/site/utils.ts#L41)
+Defined in: [packages/core/src/site/utils.ts:41](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/core/src/site/utils.ts#L41)
 
 Get site data from the rewrite path
 

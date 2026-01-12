@@ -8,7 +8,7 @@
 
 > **addToEventQueue**(`eventData`): `Promise`\<`void`\>
 
-Defined in: [events/src/eventStorage/addToEventQueue.ts:12](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/events/src/eventStorage/addToEventQueue.ts#L12)
+Defined in: [events/src/eventStorage/addToEventQueue.ts:12](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/events/src/eventStorage/addToEventQueue.ts#L12)
 
 A function that adds event to the queue
 

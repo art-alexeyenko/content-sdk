@@ -6,7 +6,7 @@
 
 # Interface: SearchResponse\<T\>
 
-Defined in: [search-service.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/search/src/search-service.ts#L48)
+Defined in: [search-service.ts:48](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/search/src/search-service.ts#L48)
 
 Response from the Search Service.
 
@@ -22,7 +22,7 @@ Response from the Search Service.
 
 > **results**: `T`[]
 
-Defined in: [search-service.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/search/src/search-service.ts#L52)
+Defined in: [search-service.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/search/src/search-service.ts#L52)
 
 The search results.
 
@@ -32,6 +32,6 @@ The search results.
 
 > **total**: `number`
 
-Defined in: [search-service.ts:56](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/search/src/search-service.ts#L56)
+Defined in: [search-service.ts:56](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/search/src/search-service.ts#L56)
 
 The total number of search results.

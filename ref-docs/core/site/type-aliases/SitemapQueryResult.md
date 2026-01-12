@@ -8,7 +8,7 @@
 
 > **SitemapQueryResult** = `object`
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:39](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/core/src/site/sitemap-xml-service.ts#L39)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:39](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/core/src/site/sitemap-xml-service.ts#L39)
 
 The schema of data returned in response to sitemaps request
 
@@ -18,7 +18,7 @@ The schema of data returned in response to sitemaps request
 
 > **site**: `object`
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:39](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/core/src/site/sitemap-xml-service.ts#L39)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:39](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/core/src/site/sitemap-xml-service.ts#L39)
 
 #### siteInfo
 

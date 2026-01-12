@@ -8,7 +8,7 @@
 
 > **WriteImportMapArgs** = `object`
 
-Defined in: [packages/core/src/tools/codegen/import-map.ts:76](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/core/src/tools/codegen/import-map.ts#L76)
+Defined in: [packages/core/src/tools/codegen/import-map.ts:76](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/core/src/tools/codegen/import-map.ts#L76)
 
 Args for import map generation
 Specifies paths to include and exclude when generating imports
@@ -19,7 +19,7 @@ Specifies paths to include and exclude when generating imports
 
 > `optional` **exclude**: `string`[]
 
-Defined in: [packages/core/src/tools/codegen/import-map.ts:82](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/core/src/tools/codegen/import-map.ts#L82)
+Defined in: [packages/core/src/tools/codegen/import-map.ts:82](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/core/src/tools/codegen/import-map.ts#L82)
 
 ***
 
@@ -27,7 +27,7 @@ Defined in: [packages/core/src/tools/codegen/import-map.ts:82](https://github.co
 
 > **paths**: `string`[]
 
-Defined in: [packages/core/src/tools/codegen/import-map.ts:77](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/core/src/tools/codegen/import-map.ts#L77)
+Defined in: [packages/core/src/tools/codegen/import-map.ts:77](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/core/src/tools/codegen/import-map.ts#L77)
 
 ***
 
@@ -35,7 +35,7 @@ Defined in: [packages/core/src/tools/codegen/import-map.ts:77](https://github.co
 
 > `optional` **scConfig**: [`SitecoreConfig`](../../config/type-aliases/SitecoreConfig.md)
 
-Defined in: [packages/core/src/tools/codegen/import-map.ts:81](https://github.com/art-alexeyenko/content-sdk/blob/4b84bfb5807c6dcb4783150dcb4b23fe57d15982/packages/core/src/tools/codegen/import-map.ts#L81)
+Defined in: [packages/core/src/tools/codegen/import-map.ts:81](https://github.com/art-alexeyenko/content-sdk/blob/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19/packages/core/src/tools/codegen/import-map.ts#L81)
 
 #### Deprecated
 
