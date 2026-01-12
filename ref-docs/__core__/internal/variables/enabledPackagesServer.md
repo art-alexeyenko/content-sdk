@@ -8,4 +8,4 @@
 
 > `const` **enabledPackagesServer**: `Map`\<`string`, [`PackageInitializerServer`](../classes/PackageInitializerServer.md)\>
 
-Defined in: [src/initializer/server/initializer.ts:34](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/initializer/server/initializer.ts#L34)
+Defined in: [src/initializer/server/initializer.ts:34](https://github.com/art-alexeyenko/content-sdk/blob/2680e037360f0231e0106d83c98cceac287339b8/packages/__core__/src/initializer/server/initializer.ts#L34)
