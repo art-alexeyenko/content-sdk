@@ -1,5 +1,11 @@
 # create-content-sdk-app
 
+## 1.5.1
+
+### Patch Changes
+
+- [create-content-sdk-app] [nextjs] [react] Minor react update ([6010078](https://github.com/sitecore/content-sdk/commit/6010078f55415f0023b25ae4281ade9086dcf919))
+
 ## 1.5.0
 
 ### Minor Changes

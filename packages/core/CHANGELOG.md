@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/core
 
+## 1.9.2
+
+### Patch Changes
+
+- [core] patch core to reseet versions again ([3709442](https://github.com/sitecore/content-sdk/commit/3709442f3c3b8e0fa2c79d9e54a72606d98e6b19))
+
 ## 1.9.1
 
 ### Patch Changes
