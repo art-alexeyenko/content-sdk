@@ -8,7 +8,7 @@
 
 > **isValidHttpURL**(`url`): `boolean`
 
-Defined in: [validators/is-valid-http-url.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/utils/src/validators/is-valid-http-url.ts#L6)
+Defined in: [validators/is-valid-http-url.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/utils/src/validators/is-valid-http-url.ts#L6)
 
 Validates whether a URL string uses the HTTP or HTTPS protocol.
 
