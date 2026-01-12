@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/nextjs
 
+## 1.9.1
+
+### Patch Changes
+
+- [nextjs] [react] Minor react update ([6010078](https://github.com/sitecore/content-sdk/commit/6010078f55415f0023b25ae4281ade9086dcf919))
+
 ## 1.9.0
 
 ### Minor Changes

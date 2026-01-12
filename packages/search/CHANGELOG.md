@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/search
 
+## 0.1.7
+
+### Patch Changes
+
+- [search] [core] Reset core and all to release version
+
 ## 0.1.6
 
 ### Patch Changes

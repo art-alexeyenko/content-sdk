@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/cli
 
+## 1.4.5
+
+### Patch Changes
+
+- [cli] [core] Reset core and all to release version
+
 ## 1.4.4
 
 ### Patch Changes

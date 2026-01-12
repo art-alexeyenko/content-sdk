@@ -16,7 +16,7 @@
     "changeset": "changeset",
     "changeset:publish": "changeset publish",
     "changeset:cascade-version": "tsx ./scripts/changesets/cascade-version.ts",
-    "prep-release": "yarn changeset:cascade-version && yarn install"
+    "prep-release": "yarn changeset:cascade-version && node scripts/fix-dependency-ranges.js && yarn install"
   },
   "author": {
     "name": "Sitecore Corporation",

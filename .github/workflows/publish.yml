@@ -124,3 +124,4 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+
