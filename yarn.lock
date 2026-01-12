@@ -3409,15 +3409,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/nextjs@1.9.1-canary.1, @sitecore-content-sdk/nextjs@workspace:packages/nextjs":
+"@sitecore-content-sdk/nextjs@1.9.1, @sitecore-content-sdk/nextjs@workspace:packages/nextjs":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/nextjs@workspace:packages/nextjs"
   dependencies:
     "@babel/parser": ^7.27.2
     "@sitecore-cloudsdk/core": ^0.5.1
     "@sitecore-cloudsdk/personalize": ^0.5.1
-    "@sitecore-content-sdk/core": 1.9.2-canary.1
-    "@sitecore-content-sdk/react": 1.9.1-canary.1
+    "@sitecore-content-sdk/core": 1.9.2
+    "@sitecore-content-sdk/react": 1.9.1
     "@stylistic/eslint-plugin": ^5.2.2
     "@testing-library/dom": ^10.4.0
     "@testing-library/react": ^16.3.0
@@ -3503,12 +3503,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@sitecore-content-sdk/react@1.9.1-canary.1, @sitecore-content-sdk/react@workspace:packages/react":
+"@sitecore-content-sdk/react@1.9.1, @sitecore-content-sdk/react@workspace:packages/react":
   version: 0.0.0-use.local
   resolution: "@sitecore-content-sdk/react@workspace:packages/react"
   dependencies:
-    "@sitecore-content-sdk/core": 1.9.2-canary.1
-    "@sitecore-content-sdk/search": 0.1.7-canary.1
+    "@sitecore-content-sdk/core": 1.9.2
+    "@sitecore-content-sdk/search": 0.1.7
     "@sitecore-feaas/clientside": ^0.6.0
     "@stylistic/eslint-plugin": ^5.2.2
     "@testing-library/dom": ^10.4.0
@@ -6132,8 +6132,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "create-content-sdk-app@workspace:packages/create-content-sdk-app"
   dependencies:
-    "@sitecore-content-sdk/cli": 1.4.5-canary.1
-    "@sitecore-content-sdk/nextjs": 1.9.1-canary.1
+    "@sitecore-content-sdk/cli": 1.4.5
+    "@sitecore-content-sdk/nextjs": 1.9.1
     "@stylistic/eslint-plugin": ^5.2.2
     "@types/chai": ^5.2.2
     "@types/cross-spawn": ^6.0.6
