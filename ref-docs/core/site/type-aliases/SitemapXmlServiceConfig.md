@@ -8,7 +8,7 @@
 
 > **SitemapXmlServiceConfig** = `object`
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:23](https://github.com/art-alexeyenko/content-sdk/blob/c8186e61be966473f7057847cb9f594a30e438c4/packages/core/src/site/sitemap-xml-service.ts#L23)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:23](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/site/sitemap-xml-service.ts#L23)
 
 Configuration for
 
@@ -22,7 +22,7 @@ SitemapXmlService instances
 
 > **clientFactory**: [`GraphQLRequestClientFactory`](../../index/type-aliases/GraphQLRequestClientFactory.md)
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:32](https://github.com/art-alexeyenko/content-sdk/blob/c8186e61be966473f7057847cb9f594a30e438c4/packages/core/src/site/sitemap-xml-service.ts#L32)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:32](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/site/sitemap-xml-service.ts#L32)
 
 A GraphQL Request Client Factory is a function that accepts configuration and returns an instance of a GraphQLRequestClient.
 This factory function is used to create and configure GraphQL clients for making GraphQL API requests.
@@ -33,6 +33,6 @@ This factory function is used to create and configure GraphQL clients for making
 
 > **siteName**: `string`
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:27](https://github.com/art-alexeyenko/content-sdk/blob/c8186e61be966473f7057847cb9f594a30e438c4/packages/core/src/site/sitemap-xml-service.ts#L27)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:27](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/site/sitemap-xml-service.ts#L27)
 
 The Content SDK application name

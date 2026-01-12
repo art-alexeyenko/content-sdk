@@ -8,6 +8,6 @@
 
 > `const` **SITE\_KEY**: `"sc_site"` = `'sc_site'`
 
-Defined in: [packages/core/src/site/utils.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/c8186e61be966473f7057847cb9f594a30e438c4/packages/core/src/site/utils.ts#L11)
+Defined in: [packages/core/src/site/utils.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/site/utils.ts#L11)
 
 Site key for cookie and query string parameter access

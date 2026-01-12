@@ -8,7 +8,7 @@
 
 > **identity**(`request`, `identityData`): `Promise`\<`EPResponse` \| `null`\>
 
-Defined in: [events/src/events/identity/identityServer.ts:18](https://github.com/art-alexeyenko/content-sdk/blob/c8186e61be966473f7057847cb9f594a30e438c4/packages/events/src/events/identity/identityServer.ts#L18)
+Defined in: [events/src/events/identity/identityServer.ts:18](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/events/src/events/identity/identityServer.ts#L18)
 
 A function that sends an IDENTITY event to SitecoreCloud API
 

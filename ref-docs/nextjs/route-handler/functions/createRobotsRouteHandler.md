@@ -8,7 +8,7 @@
 
 > **createRobotsRouteHandler**(`options`): `object`
 
-Defined in: [nextjs/src/route-handler/robots-route-handler.ts:30](https://github.com/art-alexeyenko/content-sdk/blob/c8186e61be966473f7057847cb9f594a30e438c4/packages/nextjs/src/route-handler/robots-route-handler.ts#L30)
+Defined in: [nextjs/src/route-handler/robots-route-handler.ts:30](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/nextjs/src/route-handler/robots-route-handler.ts#L30)
 
 Creates a route handler to serve the robots.txt file.
 
