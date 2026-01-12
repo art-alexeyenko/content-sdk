@@ -60,35 +60,11 @@ async function getReleaseLine(changeset: NewChangesetWithCommit): Promise<string
 }
 
 /**
- * Custom dependency update renderer
- * Shows the actual change descriptions from dependencies with package prefix
+ * Return empty string for dependency release line as dependency are
+ * processed by cascade versioning script
  */
-async function getDependencyReleaseLine(
-  changesets: NewChangesetWithCommit[],
-  dependenciesUpdated: ModCompWithPackage[]
-): Promise<string> {
-  if (dependenciesUpdated.length === 0 || changesets.length === 0) {
-    return '';
-  }
-
-  // Get all the change descriptions from the dependency changesets
-  const changeEntries = changesets.map((changeset) => {
-    const [firstLine] = changeset.summary.split('\n').map((l) => l.trimEnd());
-
-    let commitLink = '';
-    if (changeset.commit) {
-      const shortCommit = changeset.commit.substring(0, 7);
-      commitLink = ` ([${shortCommit}](https://github.com/${REPO}/commit/${changeset.commit}))`;
-    }
-
-    // Get package prefix
-    const prefix = getPackagePrefix(changeset);
-    const prefixStr = prefix ? `${prefix} ` : '';
-
-    return `- ${prefixStr}${firstLine}${commitLink}`;
-  });
-
-  return changeEntries.join('\n');
+async function getDependencyReleaseLine(): Promise<string> {
+  return '';
 }
 
 const changelogFunctions: ChangelogFunctions = {
