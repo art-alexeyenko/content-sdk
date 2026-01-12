@@ -121,7 +121,7 @@ jobs:
         uses: changesets/action@v1
         with:
           version: yarn prep-release
-          commit: '[skip ci] changelog, release and version bump'
+          commit: '[ci][csdk] changelog, release and version bump'
           title: '[csdk] release'
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
