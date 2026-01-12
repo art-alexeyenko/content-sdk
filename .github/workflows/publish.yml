@@ -2,8 +2,8 @@ name: Publish
 
 on:
   # Trigger for canary and stable releases:
-  # - Full release: Push to release/** branch with (release) prefix in commit message
-  # - Canary release: Push to dev branch (without (release) prefix)
+  # - Full release: When PR from changeset-release/dev branch is merged
+  # - Canary release: Push to dev branch (not from changeset-release/dev)
   push:
     branches:
       - dev
@@ -27,11 +27,15 @@ jobs:
 
       - name: Configure action
         id: configure-action
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: |
-          # Check commit message for (release) prefix to determine if this is a full release
-          # For push events, head_commit.message contains the commit message
-          COMMIT_MSG="${{ github.event.head_commit.message }}"
-          if [[ "$COMMIT_MSG" =~ ^\(release\) ]]; then
+          # Check if this push is from a merged PR from the changeset-release/dev branch
+          # Query the GitHub API for PRs merged with this commit SHA
+          COMMIT_SHA="${{ github.sha }}"
+          PR_HEAD_REF=$(gh api "repos/${{ github.repository }}/commits/${COMMIT_SHA}/pulls" --jq '.[0].head.ref // empty')
+
+          if [[ "$PR_HEAD_REF" == "changeset-release/dev" ]]; then
             echo "isFullRelease=true" >> $GITHUB_OUTPUT
           else
             echo "isFullRelease=false" >> $GITHUB_OUTPUT
