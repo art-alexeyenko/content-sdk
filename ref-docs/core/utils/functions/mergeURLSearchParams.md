@@ -8,7 +8,7 @@
 
 > **mergeURLSearchParams**(`params1`, `params2`): `string`
 
-Defined in: [packages/core/src/utils/utils.ts:294](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/utils/utils.ts#L294)
+Defined in: [packages/core/src/utils/utils.ts:294](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/core/src/utils/utils.ts#L294)
 
 Merges two URLSearchParams objects. If both objects contain the same key, the value from the second object overrides the first.
 
