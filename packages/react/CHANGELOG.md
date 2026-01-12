@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/react
 
+## 1.9.1
+
+### Patch Changes
+
+- [react] Minor react update ([4b84bfb](https://github.com/sitecore/content-sdk/commit/4b84bfb5807c6dcb4783150dcb4b23fe57d15982))
+
 ## 1.9.0
 
 ### Minor Changes
