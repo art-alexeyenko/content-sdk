@@ -8,7 +8,7 @@
 
 > **SitemapXmlOptions** = `object`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:118](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/client/sitecore-client.ts#L118)
+Defined in: [packages/core/src/client/sitecore-client.ts:118](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/client/sitecore-client.ts#L118)
 
 Request options for the getSiteMap method
 
@@ -18,7 +18,7 @@ Request options for the getSiteMap method
 
 > `optional` **id**: `string`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:124](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/client/sitecore-client.ts#L124)
+Defined in: [packages/core/src/client/sitecore-client.ts:124](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/client/sitecore-client.ts#L124)
 
 Optional sitemap identifier when requesting a specific sitemap
 
@@ -28,7 +28,7 @@ Optional sitemap identifier when requesting a specific sitemap
 
 > **reqHost**: `string`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:120](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/client/sitecore-client.ts#L120)
+Defined in: [packages/core/src/client/sitecore-client.ts:120](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/client/sitecore-client.ts#L120)
 
 The hostname from the request (e.g., 'example.com')
 
@@ -38,7 +38,7 @@ The hostname from the request (e.g., 'example.com')
 
 > **reqProtocol**: `string` \| `string`[]
 
-Defined in: [packages/core/src/client/sitecore-client.ts:122](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/client/sitecore-client.ts#L122)
+Defined in: [packages/core/src/client/sitecore-client.ts:122](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/client/sitecore-client.ts#L122)
 
 The protocol from request headers (e.g., 'https' or 'http')
 
@@ -48,6 +48,6 @@ The protocol from request headers (e.g., 'https' or 'http')
 
 > `optional` **siteName**: `string`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:126](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/client/sitecore-client.ts#L126)
+Defined in: [packages/core/src/client/sitecore-client.ts:126](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/client/sitecore-client.ts#L126)
 
 The site name to resolve the sitemap for

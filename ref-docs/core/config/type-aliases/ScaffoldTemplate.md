@@ -8,7 +8,7 @@
 
 > **ScaffoldTemplate** = `object`
 
-Defined in: [packages/core/src/config/models.ts:268](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/config/models.ts#L268)
+Defined in: [packages/core/src/config/models.ts:268](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/config/models.ts#L268)
 
 Represents a scaffold template used for generating components
 
@@ -18,7 +18,7 @@ Represents a scaffold template used for generating components
 
 > **fileExtension**: `string`
 
-Defined in: [packages/core/src/config/models.ts:276](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/config/models.ts#L276)
+Defined in: [packages/core/src/config/models.ts:276](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/config/models.ts#L276)
 
 File extension for the generated component
 
@@ -28,7 +28,7 @@ File extension for the generated component
 
 > **generateTemplate**: (`componentName`) => `string`
 
-Defined in: [packages/core/src/config/models.ts:282](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/config/models.ts#L282)
+Defined in: [packages/core/src/config/models.ts:282](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/config/models.ts#L282)
 
 Function to generate the component file contents based on the component name.
 
@@ -50,7 +50,7 @@ The generated content as a string.
 
 > `optional` **getNextSteps**: (`componentOutputPath`) => `string`[]
 
-Defined in: [packages/core/src/config/models.ts:288](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/config/models.ts#L288)
+Defined in: [packages/core/src/config/models.ts:288](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/config/models.ts#L288)
 
 Optional function to get the next steps to be shown by the cli after generating the component.
 
@@ -72,6 +72,6 @@ An array of strings representing the next steps.
 
 > **name**: `string`
 
-Defined in: [packages/core/src/config/models.ts:272](https://github.com/art-alexeyenko/content-sdk/blob/c373a0816d0e2a743faa1b13197d302f46e1962c/packages/core/src/config/models.ts#L272)
+Defined in: [packages/core/src/config/models.ts:272](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/config/models.ts#L272)
 
 Name of the template
