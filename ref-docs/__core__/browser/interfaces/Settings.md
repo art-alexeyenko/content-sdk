@@ -6,7 +6,7 @@
 
 # Interface: Settings
 
-Defined in: [src/initializer/browser/interfaces.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/__core__/src/initializer/browser/interfaces.ts#L11)
+Defined in: [src/initializer/browser/interfaces.ts:11](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/__core__/src/initializer/browser/interfaces.ts#L11)
 
 ## Properties
 
@@ -14,7 +14,7 @@ Defined in: [src/initializer/browser/interfaces.ts:11](https://github.com/art-al
 
 > **cookieSettings**: `object`
 
-Defined in: [src/initializer/browser/interfaces.ts:15](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/__core__/src/initializer/browser/interfaces.ts#L15)
+Defined in: [src/initializer/browser/interfaces.ts:15](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/__core__/src/initializer/browser/interfaces.ts#L15)
 
 #### domain?
 
@@ -46,7 +46,7 @@ Defined in: [src/initializer/browser/interfaces.ts:15](https://github.com/art-al
 
 > **sitecoreEdgeContextId**: `string`
 
-Defined in: [src/initializer/browser/interfaces.ts:12](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/__core__/src/initializer/browser/interfaces.ts#L12)
+Defined in: [src/initializer/browser/interfaces.ts:12](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/__core__/src/initializer/browser/interfaces.ts#L12)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [src/initializer/browser/interfaces.ts:12](https://github.com/art-al
 
 > **sitecoreEdgeUrl**: `string`
 
-Defined in: [src/initializer/browser/interfaces.ts:14](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/__core__/src/initializer/browser/interfaces.ts#L14)
+Defined in: [src/initializer/browser/interfaces.ts:14](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/__core__/src/initializer/browser/interfaces.ts#L14)
 
 ***
 
@@ -62,4 +62,4 @@ Defined in: [src/initializer/browser/interfaces.ts:14](https://github.com/art-al
 
 > **siteName**: `string`
 
-Defined in: [src/initializer/browser/interfaces.ts:13](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/__core__/src/initializer/browser/interfaces.ts#L13)
+Defined in: [src/initializer/browser/interfaces.ts:13](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/__core__/src/initializer/browser/interfaces.ts#L13)

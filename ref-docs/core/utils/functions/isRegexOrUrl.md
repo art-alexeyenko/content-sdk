@@ -8,7 +8,7 @@
 
 > **isRegexOrUrl**(`input`): `"regex"` \| `"url"`
 
-Defined in: [packages/core/src/utils/utils.ts:228](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/utils/utils.ts#L228)
+Defined in: [packages/core/src/utils/utils.ts:228](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/utils/utils.ts#L228)
 
 Determines whether the given input is a regular expression or resembles a URL.
 

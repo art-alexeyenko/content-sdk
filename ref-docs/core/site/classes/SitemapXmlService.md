@@ -6,7 +6,7 @@
 
 # Class: SitemapXmlService
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:45](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/site/sitemap-xml-service.ts#L45)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:45](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/site/sitemap-xml-service.ts#L45)
 
 Service that fetch the sitemaps data using Sitecore's GraphQL API.
 
@@ -16,7 +16,7 @@ Service that fetch the sitemaps data using Sitecore's GraphQL API.
 
 > **new SitemapXmlService**(`options`): `SitemapXmlService`
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/site/sitemap-xml-service.ts#L52)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/site/sitemap-xml-service.ts#L52)
 
 Creates an instance of graphQL sitemaps service with the provided options
 
@@ -36,7 +36,7 @@ Creates an instance of graphQL sitemaps service with the provided options
 
 > **options**: [`SitemapXmlServiceConfig`](../type-aliases/SitemapXmlServiceConfig.md)
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/site/sitemap-xml-service.ts#L52)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:52](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/site/sitemap-xml-service.ts#L52)
 
 instance
 
@@ -48,7 +48,7 @@ instance
 
 > **get** `protected` **query**(): `string`
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:56](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/site/sitemap-xml-service.ts#L56)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:56](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/site/sitemap-xml-service.ts#L56)
 
 ##### Returns
 
@@ -60,7 +60,7 @@ Defined in: [packages/core/src/site/sitemap-xml-service.ts:56](https://github.co
 
 > **fetchSitemaps**(`fetchOptions?`): `Promise`\<`string`[]\>
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:66](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/site/sitemap-xml-service.ts#L66)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:66](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/site/sitemap-xml-service.ts#L66)
 
 Fetch list of sitemaps for the site
 
@@ -86,7 +86,7 @@ if the siteName is empty.
 
 > `protected` **getGraphQLClient**(): [`GraphQLClient`](../../index/interfaces/GraphQLClient.md)
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:115](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/site/sitemap-xml-service.ts#L115)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:115](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/site/sitemap-xml-service.ts#L115)
 
 Gets a GraphQL client that can make requests to the API. Uses graphql-request as the default
 library for fetching graphql data (@see GraphQLRequestClient). Override this method if you
@@ -104,7 +104,7 @@ implementation
 
 > **getSitemap**(`id`): `Promise`\<`string` \| `undefined`\>
 
-Defined in: [packages/core/src/site/sitemap-xml-service.ts:92](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/site/sitemap-xml-service.ts#L92)
+Defined in: [packages/core/src/site/sitemap-xml-service.ts:92](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/site/sitemap-xml-service.ts#L92)
 
 Get sitemap file path for sitemap id
 
