@@ -6,7 +6,7 @@
 
 # Interface: WithSitecoreOptions
 
-Defined in: [packages/react/src/enhancers/withSitecore.tsx:14](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/react/src/enhancers/withSitecore.tsx#L14)
+Defined in: [packages/react/src/enhancers/withSitecore.tsx:14](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/react/src/enhancers/withSitecore.tsx#L14)
 
 The options for the withSitecore HOC.
 
@@ -16,6 +16,6 @@ The options for the withSitecore HOC.
 
 > `optional` **updatable**: `boolean`
 
-Defined in: [packages/react/src/enhancers/withSitecore.tsx:18](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/react/src/enhancers/withSitecore.tsx#L18)
+Defined in: [packages/react/src/enhancers/withSitecore.tsx:18](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/react/src/enhancers/withSitecore.tsx#L18)
 
 If set to true, the `updateContext` method will be injected into the component props.

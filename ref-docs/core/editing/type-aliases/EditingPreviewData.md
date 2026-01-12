@@ -8,7 +8,7 @@
 
 > **EditingPreviewData** = `object`
 
-Defined in: [packages/core/src/editing/models.ts:66](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/editing/models.ts#L66)
+Defined in: [packages/core/src/editing/models.ts:66](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/core/src/editing/models.ts#L66)
 
 Data for Preview (Editing) Mode.
 
@@ -18,7 +18,7 @@ Data for Preview (Editing) Mode.
 
 > **itemId**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:68](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/editing/models.ts#L68)
+Defined in: [packages/core/src/editing/models.ts:68](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/core/src/editing/models.ts#L68)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [packages/core/src/editing/models.ts:68](https://github.com/art-alex
 
 > **language**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:69](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/editing/models.ts#L69)
+Defined in: [packages/core/src/editing/models.ts:69](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/core/src/editing/models.ts#L69)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [packages/core/src/editing/models.ts:69](https://github.com/art-alex
 
 > `optional` **layoutKind**: [`LayoutKind`](../enumerations/LayoutKind.md)
 
-Defined in: [packages/core/src/editing/models.ts:73](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/editing/models.ts#L73)
+Defined in: [packages/core/src/editing/models.ts:73](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/core/src/editing/models.ts#L73)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [packages/core/src/editing/models.ts:73](https://github.com/art-alex
 
 > **mode**: `Exclude`\<[`LayoutServicePageState`](../../layout/enumerations/LayoutServicePageState.md), `"Normal"`\>
 
-Defined in: [packages/core/src/editing/models.ts:70](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/editing/models.ts#L70)
+Defined in: [packages/core/src/editing/models.ts:70](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/core/src/editing/models.ts#L70)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [packages/core/src/editing/models.ts:70](https://github.com/art-alex
 
 > **site**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:67](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/editing/models.ts#L67)
+Defined in: [packages/core/src/editing/models.ts:67](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/core/src/editing/models.ts#L67)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [packages/core/src/editing/models.ts:67](https://github.com/art-alex
 
 > **variantIds**: `string`[] \| `string`
 
-Defined in: [packages/core/src/editing/models.ts:71](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/editing/models.ts#L71)
+Defined in: [packages/core/src/editing/models.ts:71](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/core/src/editing/models.ts#L71)
 
 ***
 
@@ -66,4 +66,4 @@ Defined in: [packages/core/src/editing/models.ts:71](https://github.com/art-alex
 
 > `optional` **version**: `string`
 
-Defined in: [packages/core/src/editing/models.ts:72](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/core/src/editing/models.ts#L72)
+Defined in: [packages/core/src/editing/models.ts:72](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/core/src/editing/models.ts#L72)

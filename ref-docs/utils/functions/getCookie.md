@@ -8,7 +8,7 @@
 
 > **getCookie**(`cookieStr`, `cookieName`): \{ `name`: `string`; `value`: `string`; \} \| `undefined`
 
-Defined in: [cookies/get-cookie.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/utils/src/cookies/get-cookie.ts#L7)
+Defined in: [cookies/get-cookie.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/2b832659ae160ef9ca74750ee8a38981ea98a9cf/packages/utils/src/cookies/get-cookie.ts#L7)
 
 Retrieves a cookie by name from a cookie string.
 
