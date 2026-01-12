@@ -6,7 +6,7 @@
 
 # Enumeration: SitecoreTemplateId
 
-Defined in: [packages/core/src/constants.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/constants.ts#L5)
+Defined in: [packages/core/src/constants.ts:5](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/core/src/constants.ts#L5)
 
 Sitecore template IDs
 
@@ -16,7 +16,7 @@ Sitecore template IDs
 
 > **ContentSdkApp**: `"061cba1554744b918a0617903b102b82"`
 
-Defined in: [packages/core/src/constants.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/constants.ts#L7)
+Defined in: [packages/core/src/constants.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/core/src/constants.ts#L7)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [packages/core/src/constants.ts:7](https://github.com/art-alexeyenko
 
 > **DictionaryEntry**: `"6d1cd89719364a3aa511289a94c2a7b1"`
 
-Defined in: [packages/core/src/constants.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/constants.ts#L10)
+Defined in: [packages/core/src/constants.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/core/src/constants.ts#L10)

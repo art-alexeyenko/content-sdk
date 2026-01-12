@@ -8,7 +8,7 @@
 
 > **enforceCors**(`req`, `res`, `allowedOrigins?`): `boolean`
 
-Defined in: [packages/core/src/utils/utils.ts:121](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/utils/utils.ts#L121)
+Defined in: [packages/core/src/utils/utils.ts:121](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/core/src/utils/utils.ts#L121)
 
 Tests origin from incoming request against allowed origins list that can be
 set in JSS's JSS_ALLOWED_ORIGINS env variable, passed via allowedOrigins param and/or

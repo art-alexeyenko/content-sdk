@@ -8,7 +8,7 @@
 
 > **clearEventQueue**(): `Promise`\<`void`\>
 
-Defined in: [events/src/eventStorage/clearEventQueue.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/events/src/eventStorage/clearEventQueue.ts#L7)
+Defined in: [events/src/eventStorage/clearEventQueue.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/events/src/eventStorage/clearEventQueue.ts#L7)
 
 Deletes the queue from session.
 

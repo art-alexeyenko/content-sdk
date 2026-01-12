@@ -6,7 +6,7 @@
 
 # Interface: PlaceholderData
 
-Defined in: [packages/core/src/layout/models.ts:159](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/layout/models.ts#L159)
+Defined in: [packages/core/src/layout/models.ts:159](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/core/src/layout/models.ts#L159)
 
 Contents of a single placeholder returned from placeholder service
 
@@ -16,7 +16,7 @@ Contents of a single placeholder returned from placeholder service
 
 > **elements**: [`ComponentRendering`](ComponentRendering.md)\<[`ComponentFields`](ComponentFields.md)\>[]
 
-Defined in: [packages/core/src/layout/models.ts:162](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/layout/models.ts#L162)
+Defined in: [packages/core/src/layout/models.ts:162](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/core/src/layout/models.ts#L162)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [packages/core/src/layout/models.ts:162](https://github.com/art-alex
 
 > **name**: `string`
 
-Defined in: [packages/core/src/layout/models.ts:160](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/layout/models.ts#L160)
+Defined in: [packages/core/src/layout/models.ts:160](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/core/src/layout/models.ts#L160)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [packages/core/src/layout/models.ts:160](https://github.com/art-alex
 
 > **path**: `string`
 
-Defined in: [packages/core/src/layout/models.ts:161](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/core/src/layout/models.ts#L161)
+Defined in: [packages/core/src/layout/models.ts:161](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/core/src/layout/models.ts#L161)

@@ -6,7 +6,7 @@
 
 # Interface: DebugResponse
 
-Defined in: [src/interfaces.ts:28](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/__core__/src/interfaces.ts#L28)
+Defined in: [src/interfaces.ts:28](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/interfaces.ts#L28)
 
 Interface for supporting the debug object.
 
@@ -16,7 +16,7 @@ Interface for supporting the debug object.
 
 > `optional` **body**: `unknown`
 
-Defined in: [src/interfaces.ts:36](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/__core__/src/interfaces.ts#L36)
+Defined in: [src/interfaces.ts:36](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/interfaces.ts#L36)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [src/interfaces.ts:36](https://github.com/art-alexeyenko/content-sdk
 
 > `optional` **headers**: `object`
 
-Defined in: [src/interfaces.ts:29](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/__core__/src/interfaces.ts#L29)
+Defined in: [src/interfaces.ts:29](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/interfaces.ts#L29)
 
 #### Index Signature
 
@@ -36,7 +36,7 @@ Defined in: [src/interfaces.ts:29](https://github.com/art-alexeyenko/content-sdk
 
 > `optional` **redirected**: `boolean`
 
-Defined in: [src/interfaces.ts:32](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/__core__/src/interfaces.ts#L32)
+Defined in: [src/interfaces.ts:32](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/interfaces.ts#L32)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [src/interfaces.ts:32](https://github.com/art-alexeyenko/content-sdk
 
 > `optional` **status**: `number`
 
-Defined in: [src/interfaces.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/__core__/src/interfaces.ts#L33)
+Defined in: [src/interfaces.ts:33](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/interfaces.ts#L33)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [src/interfaces.ts:33](https://github.com/art-alexeyenko/content-sdk
 
 > `optional` **statusText**: `string`
 
-Defined in: [src/interfaces.ts:34](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/__core__/src/interfaces.ts#L34)
+Defined in: [src/interfaces.ts:34](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/interfaces.ts#L34)
 
 ***
 
@@ -60,4 +60,4 @@ Defined in: [src/interfaces.ts:34](https://github.com/art-alexeyenko/content-sdk
 
 > `optional` **url**: `string`
 
-Defined in: [src/interfaces.ts:35](https://github.com/art-alexeyenko/content-sdk/blob/3d85a10b24e09c2e39c8b8a8ee173ceb59ffd8bd/packages/__core__/src/interfaces.ts#L35)
+Defined in: [src/interfaces.ts:35](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/interfaces.ts#L35)
