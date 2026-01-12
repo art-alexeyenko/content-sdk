@@ -6,7 +6,7 @@
 
 # Enumeration: MetadataKind
 
-Defined in: [packages/core/src/editing/models.ts:57](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/editing/models.ts#L57)
+Defined in: [packages/core/src/editing/models.ts:57](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/core/src/editing/models.ts#L57)
 
 **`Internal`**
 
@@ -20,7 +20,7 @@ Represents the kind of metadata element.
 
 > **Close**: `"close"`
 
-Defined in: [packages/core/src/editing/models.ts:59](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/editing/models.ts#L59)
+Defined in: [packages/core/src/editing/models.ts:59](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/core/src/editing/models.ts#L59)
 
 ***
 
@@ -28,4 +28,4 @@ Defined in: [packages/core/src/editing/models.ts:59](https://github.com/art-alex
 
 > **Open**: `"open"`
 
-Defined in: [packages/core/src/editing/models.ts:58](https://github.com/art-alexeyenko/content-sdk/blob/01ee1f25ef0fc51dfd648d69152f2b4f4ba352f9/packages/core/src/editing/models.ts#L58)
+Defined in: [packages/core/src/editing/models.ts:58](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/core/src/editing/models.ts#L58)
