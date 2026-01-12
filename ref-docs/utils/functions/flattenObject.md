@@ -8,7 +8,7 @@
 
 > **flattenObject**(`data`): [`FlattenedObject`](../interfaces/FlattenedObject.md)
 
-Defined in: [converters/flatten-object.ts:14](https://github.com/art-alexeyenko/content-sdk/blob/0adb4462accb7c4e48c0c26517d98bf04f73a27e/packages/utils/src/converters/flatten-object.ts#L14)
+Defined in: [converters/flatten-object.ts:14](https://github.com/art-alexeyenko/content-sdk/blob/b2576230b80e8601364b6106089e676fb30b8c34/packages/utils/src/converters/flatten-object.ts#L14)
 
 Flattens a nested object by concatenating keys with an underscore.
 
