@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/react
 
+## 1.9.0
+
+### Minor Changes
+
+- [react] minor react feat ([d6f285a](https://github.com/sitecore/content-sdk/commit/d6f285ab0b7bac5a50516c12c70104facab4f157))
+
 ## 1.8.1
 
 ### Patch Changes
