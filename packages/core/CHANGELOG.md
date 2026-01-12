@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/core
 
+## 1.9.1
+
+### Patch Changes
+
+- [core] Bump core just to update all packages to non-canary in PR ([2680e03](https://github.com/sitecore/content-sdk/commit/2680e037360f0231e0106d83c98cceac287339b8))
+
 ## 1.9.0
 
 ### Minor Changes

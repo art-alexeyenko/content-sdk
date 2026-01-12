@@ -1,5 +1,15 @@
 # @sitecore-content-sdk/nextjs
 
+## 1.9.0
+
+### Minor Changes
+
+- [nextjs] [react] minor react feat ([2680e03](https://github.com/sitecore/content-sdk/commit/2680e037360f0231e0106d83c98cceac287339b8))
+
+### Patch Changes
+
+- [nextjs] [atch nextjs ([2680e03](https://github.com/sitecore/content-sdk/commit/2680e037360f0231e0106d83c98cceac287339b8))
+
 ## 1.8.1
 
 ### Patch Changes

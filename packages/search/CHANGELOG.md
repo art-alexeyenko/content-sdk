@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/search
 
+## 0.1.6
+
+### Patch Changes
+
+- [search] [core] Bump core just to update all packages to non-canary in PR ([2680e03](https://github.com/sitecore/content-sdk/commit/2680e037360f0231e0106d83c98cceac287339b8))
+
 ## 0.1.5
 
 ### Patch Changes
