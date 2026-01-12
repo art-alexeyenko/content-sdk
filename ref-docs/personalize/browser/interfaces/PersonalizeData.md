@@ -6,7 +6,7 @@
 
 # Interface: PersonalizeData
 
-Defined in: [personalization/personalizer.ts:146](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L146)
+Defined in: [personalization/personalizer.ts:146](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L146)
 
 An interface that describes the flow execution model attributes input for the library
 
@@ -16,7 +16,7 @@ An interface that describes the flow execution model attributes input for the li
 
 > **channel**: `string`
 
-Defined in: [personalization/personalizer.ts:147](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L147)
+Defined in: [personalization/personalizer.ts:147](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L147)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [personalization/personalizer.ts:147](https://github.com/art-alexeye
 
 > `optional` **currency**: `string`
 
-Defined in: [personalization/personalizer.ts:148](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L148)
+Defined in: [personalization/personalizer.ts:148](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L148)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [personalization/personalizer.ts:148](https://github.com/art-alexeye
 
 > `optional` **email**: `string`
 
-Defined in: [personalization/personalizer.ts:149](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L149)
+Defined in: [personalization/personalizer.ts:149](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L149)
 
 ***
 
@@ -40,7 +40,7 @@ Defined in: [personalization/personalizer.ts:149](https://github.com/art-alexeye
 
 > **friendlyId**: `string`
 
-Defined in: [personalization/personalizer.ts:150](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L150)
+Defined in: [personalization/personalizer.ts:150](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L150)
 
 ***
 
@@ -48,7 +48,7 @@ Defined in: [personalization/personalizer.ts:150](https://github.com/art-alexeye
 
 > `optional` **geo**: `PersonalizeGeolocation`
 
-Defined in: [personalization/personalizer.ts:151](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L151)
+Defined in: [personalization/personalizer.ts:151](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L151)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [personalization/personalizer.ts:151](https://github.com/art-alexeye
 
 > `optional` **identifier**: `PersonalizeIdentifierInput`
 
-Defined in: [personalization/personalizer.ts:152](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L152)
+Defined in: [personalization/personalizer.ts:152](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L152)
 
 ***
 
@@ -64,7 +64,7 @@ Defined in: [personalization/personalizer.ts:152](https://github.com/art-alexeye
 
 > `optional` **language**: `string`
 
-Defined in: [personalization/personalizer.ts:153](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L153)
+Defined in: [personalization/personalizer.ts:153](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L153)
 
 ***
 
@@ -72,7 +72,7 @@ Defined in: [personalization/personalizer.ts:153](https://github.com/art-alexeye
 
 > `optional` **pageVariantIds**: `string`[]
 
-Defined in: [personalization/personalizer.ts:155](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L155)
+Defined in: [personalization/personalizer.ts:155](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L155)
 
 ***
 
@@ -80,4 +80,4 @@ Defined in: [personalization/personalizer.ts:155](https://github.com/art-alexeye
 
 > `optional` **params**: `NestedObject`
 
-Defined in: [personalization/personalizer.ts:154](https://github.com/art-alexeyenko/content-sdk/blob/65a1b2da1eafa354a5c4260321c092bcd5d6ce08/packages/personalize/src/personalization/personalizer.ts#L154)
+Defined in: [personalization/personalizer.ts:154](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/personalize/src/personalization/personalizer.ts#L154)
