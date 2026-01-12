@@ -8,7 +8,7 @@
 
 > **getCloudSDKSettingsBrowser**(): [`Settings`](../../browser/interfaces/Settings.md)
 
-Defined in: [src/initializer/browser/initializer.ts:163](https://github.com/art-alexeyenko/content-sdk/blob/f3912dbcb98259fc5b3f61f6f39e8648a2e1cf36/packages/__core__/src/initializer/browser/initializer.ts#L163)
+Defined in: [src/initializer/browser/initializer.ts:163](https://github.com/art-alexeyenko/content-sdk/blob/2680e037360f0231e0106d83c98cceac287339b8/packages/__core__/src/initializer/browser/initializer.ts#L163)
 
 Gets the current CloudSDK settings.
 
