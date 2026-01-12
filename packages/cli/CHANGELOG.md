@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/cli
 
+## 1.4.6
+
+### Patch Changes
+
+- [cli] [core] another core patch to have all versions released ([2b83265](https://github.com/sitecore/content-sdk/commit/2b832659ae160ef9ca74750ee8a38981ea98a9cf))
+
 ## 1.4.5
 
 ### Patch Changes

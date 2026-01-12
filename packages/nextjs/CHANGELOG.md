@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/nextjs
 
+## 1.9.2
+
+### Patch Changes
+
+- [nextjs] [core] another core patch to have all versions released ([2b83265](https://github.com/sitecore/content-sdk/commit/2b832659ae160ef9ca74750ee8a38981ea98a9cf))
+
 ## 1.9.1
 
 ### Patch Changes

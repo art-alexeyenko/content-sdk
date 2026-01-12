@@ -1,5 +1,11 @@
 # create-content-sdk-app
 
+## 1.5.2
+
+### Patch Changes
+
+- [create-content-sdk-app] [cli] [core] another core patch to have all versions released ([2b83265](https://github.com/sitecore/content-sdk/commit/2b832659ae160ef9ca74750ee8a38981ea98a9cf))
+
 ## 1.5.1
 
 ### Patch Changes
