@@ -6,7 +6,7 @@
 
 # Interface: EventData
 
-Defined in: [events/src/events/custom-event/custom-event.ts:90](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/events/src/events/custom-event/custom-event.ts#L90)
+Defined in: [events/src/events/custom-event/custom-event.ts:90](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/events/src/events/custom-event/custom-event.ts#L90)
 
 Interface with the required/optional attributes in order to send a custom event to SitecoreCloud API
 
@@ -24,7 +24,7 @@ Interface with the required/optional attributes in order to send a custom event 
 
 > `optional` **channel**: `string`
 
-Defined in: [events/src/events/common-interfaces.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/events/src/events/common-interfaces.ts#L9)
+Defined in: [events/src/events/common-interfaces.ts:9](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/events/src/events/common-interfaces.ts#L9)
 
 #### Inherited from
 
@@ -36,7 +36,7 @@ Defined in: [events/src/events/common-interfaces.ts:9](https://github.com/art-al
 
 > `optional` **currency**: `string`
 
-Defined in: [events/src/events/common-interfaces.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/events/src/events/common-interfaces.ts#L10)
+Defined in: [events/src/events/common-interfaces.ts:10](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/events/src/events/common-interfaces.ts#L10)
 
 #### Inherited from
 
@@ -48,7 +48,7 @@ Defined in: [events/src/events/common-interfaces.ts:10](https://github.com/art-a
 
 > `optional` **extensionData**: `NestedObject`
 
-Defined in: [events/src/events/custom-event/custom-event.ts:93](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/events/src/events/custom-event/custom-event.ts#L93)
+Defined in: [events/src/events/custom-event/custom-event.ts:93](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/events/src/events/custom-event/custom-event.ts#L93)
 
 ***
 
@@ -56,7 +56,7 @@ Defined in: [events/src/events/custom-event/custom-event.ts:93](https://github.c
 
 > `optional` **language**: `string`
 
-Defined in: [events/src/events/common-interfaces.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/events/src/events/common-interfaces.ts#L7)
+Defined in: [events/src/events/common-interfaces.ts:7](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/events/src/events/common-interfaces.ts#L7)
 
 #### Inherited from
 
@@ -68,7 +68,7 @@ Defined in: [events/src/events/common-interfaces.ts:7](https://github.com/art-al
 
 > `optional` **page**: `string`
 
-Defined in: [events/src/events/common-interfaces.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/events/src/events/common-interfaces.ts#L8)
+Defined in: [events/src/events/common-interfaces.ts:8](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/events/src/events/common-interfaces.ts#L8)
 
 #### Inherited from
 
@@ -80,7 +80,7 @@ Defined in: [events/src/events/common-interfaces.ts:8](https://github.com/art-al
 
 > `optional` **searchData**: `NestedObject`
 
-Defined in: [events/src/events/custom-event/custom-event.ts:92](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/events/src/events/custom-event/custom-event.ts#L92)
+Defined in: [events/src/events/custom-event/custom-event.ts:92](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/events/src/events/custom-event/custom-event.ts#L92)
 
 ***
 
@@ -88,4 +88,4 @@ Defined in: [events/src/events/custom-event/custom-event.ts:92](https://github.c
 
 > **type**: `string`
 
-Defined in: [events/src/events/custom-event/custom-event.ts:91](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/events/src/events/custom-event/custom-event.ts#L91)
+Defined in: [events/src/events/custom-event/custom-event.ts:91](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/events/src/events/custom-event/custom-event.ts#L91)

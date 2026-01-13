@@ -6,7 +6,7 @@
 
 # Interface: Cookie
 
-Defined in: [cookies/interfaces.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/utils/src/cookies/interfaces.ts#L17)
+Defined in: [cookies/interfaces.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/utils/src/cookies/interfaces.ts#L17)
 
 Interface that represents a cookie (name, value)
 
@@ -16,7 +16,7 @@ Interface that represents a cookie (name, value)
 
 > **name**: `string`
 
-Defined in: [cookies/interfaces.ts:18](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/utils/src/cookies/interfaces.ts#L18)
+Defined in: [cookies/interfaces.ts:18](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/utils/src/cookies/interfaces.ts#L18)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [cookies/interfaces.ts:18](https://github.com/art-alexeyenko/content
 
 > **value**: `string`
 
-Defined in: [cookies/interfaces.ts:19](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/utils/src/cookies/interfaces.ts#L19)
+Defined in: [cookies/interfaces.ts:19](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/utils/src/cookies/interfaces.ts#L19)
