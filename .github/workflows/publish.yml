@@ -93,8 +93,12 @@ jobs:
           echo "Creating canary release on dev branch (no tags)..."
           npx lerna version prerelease --exact --preid canary --sign-git-tag false --yes --no-git-tag-version
           yarn install
-          git commit -a -m "chore: bump versions for canary release [skip ci]"
-          git push origin dev
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -a -m "chore: bump versions for canary release [skip ci]"
+            git push origin dev
+          else
+            echo "No version changes to commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
 
