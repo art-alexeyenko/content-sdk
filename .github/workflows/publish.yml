@@ -64,18 +64,6 @@ jobs:
       - name: Build packages
         run: npm run build
 
-      - name: Generate API docs
-        # Generate API docs for both full releases and canary releases
-        run: |
-          yarn generate-docs
-          if [ -n "$(git status --porcelain)" ]; then
-            git add ./ref-docs/**/*
-            git commit -m "Update API docs [skip ci]" || echo "⚠️ Failed to commit API docs (may already be committed)"
-            git push origin HEAD:${{ github.ref_name }} || echo "⚠️ Failed to push API docs (may already be pushed or no changes)"
-          else
-            echo "No API doc changes to commit"
-          fi
-
       - name: Creating .npmrc
         run: |
           cat << EOF > "$HOME/.npmrc"
@@ -123,4 +111,16 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+
+      - name: Generate API docs
+        # Generate API docs for both full releases and canary releases
+        run: |
+          yarn generate-docs
+          if [ -n "$(git status --porcelain)" ]; then
+            git add ./ref-docs/**/*
+            git commit -m "Update API docs [skip ci]" || echo "⚠️ Failed to commit API docs (may already be committed)"
+            git push origin HEAD:${{ github.ref_name }} || echo "⚠️ Failed to push API docs (may already be pushed or no changes)"
+          else
+            echo "No API doc changes to commit"
+          fi
 
