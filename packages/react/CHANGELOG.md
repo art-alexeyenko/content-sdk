@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/react
 
+## 1.10.0
+
+### Minor Changes
+
+- [react] minor react changes in package.json ([7723249](https://github.com/sitecore/content-sdk/commit/77232497daab9be36106036945fba750478cfce8))
+
 ## 1.9.2
 
 ### Patch Changes

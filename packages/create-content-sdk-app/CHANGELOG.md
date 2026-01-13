@@ -1,5 +1,11 @@
 # create-content-sdk-app
 
+## 1.6.0
+
+### Minor Changes
+
+- [create-content-sdk-app] [nextjs] [react] minor react changes in package.json ([7723249](https://github.com/sitecore/content-sdk/commit/77232497daab9be36106036945fba750478cfce8))
+
 ## 1.5.2
 
 ### Patch Changes
