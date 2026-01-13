@@ -8,7 +8,7 @@
 
 > **language**(): `string` \| `undefined`
 
-Defined in: [src/infer/infer.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/c4b6c8b7521928e9108513dc72059c4e56507105/packages/__core__/src/infer/infer.ts#L6)
+Defined in: [src/infer/infer.ts:6](https://github.com/art-alexeyenko/content-sdk/blob/6a0e8a50da1a3fd5ec8a7095da09c7b568dc100e/packages/__core__/src/infer/infer.ts#L6)
 
 Returns the uppercase language code of the current web page's root HTML element, using the `lang` attribute.
 If unavailable or invalid, undefined is returned.
