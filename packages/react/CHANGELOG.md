@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/react
 
+## 1.11.0
+
+### Minor Changes
+
+- Minor feature: add very important comment into RSC utils ([9c38af0](https://github.com/sitecore/content-sdk/commit/9c38af0a120ce0abd7883237bb6aa50865db36b0))
+
 ## 1.10.0
 
 ### Minor Changes
