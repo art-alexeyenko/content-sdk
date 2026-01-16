@@ -1,5 +1,21 @@
 # create-content-sdk-app
 
+## 2.0.0
+
+### Major Changes
+
+- major `nextjs` dependency update:
+  - BIG nextjs release wow ([12ad4d4](https://github.com/sitecore/content-sdk/commit/12ad4d4925388b793e91d129e4a76e1f1b9a542d))
+
+### Minor Changes
+
+- minor `nextjs` dependency update:
+  - Nextjs feature featuring never before seen nextjs improvement ([12ad4d4](https://github.com/sitecore/content-sdk/commit/12ad4d4925388b793e91d129e4a76e1f1b9a542d))
+- minor `react` dependency update:
+  - BIG FIX related to search and react ([ec4f619](https://github.com/sitecore/content-sdk/commit/ec4f6193ac775f977643772dbc27603bdbc706d0))
+- minor `search` dependency update:
+  - BIG FIX related to search and react ([ec4f619](https://github.com/sitecore/content-sdk/commit/ec4f6193ac775f977643772dbc27603bdbc706d0))
+
 ## 1.8.0
 
 ### Minor Changes

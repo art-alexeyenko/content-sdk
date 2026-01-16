@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/cli
 
+## 1.4.7
+
+### Patch Changes
+
+- Minor patch changes ([12ad4d4](https://github.com/sitecore/content-sdk/commit/12ad4d4925388b793e91d129e4a76e1f1b9a542d))
+
 ## 1.4.6
 
 ### Patch Changes

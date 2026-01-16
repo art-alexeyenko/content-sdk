@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/search
 
+## 0.2.0
+
+### Minor Changes
+
+- BIG FIX related to search and react ([ec4f619](https://github.com/sitecore/content-sdk/commit/ec4f6193ac775f977643772dbc27603bdbc706d0))
+
 ## 0.1.8
 
 ### Patch Changes

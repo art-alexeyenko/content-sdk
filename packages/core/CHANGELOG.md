@@ -1,5 +1,12 @@
 # @sitecore-content-sdk/core
 
+## 1.9.4
+
+### Patch Changes
+
+- Minor patch changes ([12ad4d4](https://github.com/sitecore/content-sdk/commit/12ad4d4925388b793e91d129e4a76e1f1b9a542d))
+- Patching a pesky bug ([ec4f619](https://github.com/sitecore/content-sdk/commit/ec4f6193ac775f977643772dbc27603bdbc706d0))
+
 ## 1.9.3
 
 ### Patch Changes

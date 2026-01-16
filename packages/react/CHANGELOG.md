@@ -1,5 +1,17 @@
 # @sitecore-content-sdk/react
 
+## 1.13.0
+
+### Minor Changes
+
+- BIG FIX related to search and react ([ec4f619](https://github.com/sitecore/content-sdk/commit/ec4f6193ac775f977643772dbc27603bdbc706d0))
+- minor `search` dependency update:
+  - BIG FIX related to search and react ([ec4f619](https://github.com/sitecore/content-sdk/commit/ec4f6193ac775f977643772dbc27603bdbc706d0))
+
+### Patch Changes
+
+- Patching a pesky bug ([ec4f619](https://github.com/sitecore/content-sdk/commit/ec4f6193ac775f977643772dbc27603bdbc706d0))
+
 ## 1.12.0
 
 ### Minor Changes
