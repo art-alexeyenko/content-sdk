@@ -14,9 +14,7 @@
     "api-extractor:verify": "lerna run api-extractor:verify",
     "version": "yarn install && git stage yarn.lock",
     "changeset": "changeset",
-    "publish-release": "changeset tag && lerna publish from-package --yes && git push --follow-tags",
-    "changeset:cascade-version": "tsx ./scripts/changesets/cascade-version.ts",
-    "prep-release": "yarn changeset:cascade-version && node scripts/fix-dependency-ranges.js && yarn install"
+    "changeset:cascade-version": "tsx ./scripts/changesets/cascade-version.ts"
   },
   "author": {
     "name": "Sitecore Corporation",
@@ -28,7 +26,6 @@
     "url": "https://github.com/sitecore/content-sdk/issues"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.5.2",
     "@changesets/cli": "^2.29.8",
     "@microsoft/api-extractor": "^7.55.0",
     "@rushstack/eslint-patch": "^1.10.3",
@@ -36,7 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
     "eslint": "^9.32.0",
-    "eslint-config-next": "15.4.6",
+    "eslint-config-next": "15.5.3",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-jsdoc": "52.0.3",
@@ -58,8 +55,5 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "@rushstack/eslint-patch": "1.12.0"
   },
-  "packageManager": "yarn@3.1.0",
-  "dependencies": {
-    "conventional-changelog": "^7.1.1"
-  }
+  "packageManager": "yarn@4.12.0"
 }
