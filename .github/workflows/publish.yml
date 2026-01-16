@@ -65,6 +65,9 @@ jobs:
           yarn cache clean --all
           yarn install --immutable
 
+      - name: Build packages
+        run: yarn build
+
       - name: Creating .npmrc
         run: |
           cat << EOF > "$HOME/.npmrc"
