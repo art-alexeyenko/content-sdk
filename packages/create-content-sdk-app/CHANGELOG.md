@@ -1,5 +1,12 @@
 # create-content-sdk-app
 
+## 1.8.0
+
+### Minor Changes
+
+- minor `react` dependency update:
+  - Minore reacto ([2d2f800](https://github.com/sitecore/content-sdk/commit/2d2f800e666ab5a3c433113137d650a80bd5a2df))
+
 ## 1.7.0
 
 ### Minor Changes
