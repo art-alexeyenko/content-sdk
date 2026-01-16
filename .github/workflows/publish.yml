@@ -55,7 +55,7 @@ jobs:
           git config --global user.name "content-sdk-bot"
           git remote set-url origin https://x-access-token:${{ steps.generate-token.outputs.token }}@github.com/${{ github.repository }}
 
-      - name: Use Node.js 24
+      - name: Use Node.js 22
         uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -64,9 +64,6 @@ jobs:
         run: |
           yarn cache clean --all
           yarn install --immutable
-
-      - name: Build packages
-        run: npm run build
 
       - name: Generate API docs
         # Generate API docs for both full releases and canary releases
@@ -101,6 +98,7 @@ jobs:
             PREID="canary.${TIMESTAMP}"
           else
             PREID="canary"
+          fi
           echo "Creating canary release on dev branch (no tags)..."
           npx lerna version prerelease --exact --preid "$PREID" --sign-git-tag false --yes --no-git-tag-version
           yarn install
@@ -121,6 +119,7 @@ jobs:
             NPM_TAG="hotfix.rc.canary"
           else
             NPM_TAG="canary"
+          fi
           echo "Publishing canary packages to npm..."
           npx lerna publish from-package --canary --pre-dist-tag "$NPM_TAG" --preid canary --no-verify-access --yes
         env:
