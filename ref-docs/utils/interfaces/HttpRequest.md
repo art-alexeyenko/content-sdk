@@ -6,7 +6,7 @@
 
 # Interface: HttpRequest
 
-Defined in: [interfaces.ts:16](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/utils/src/interfaces.ts#L16)
+Defined in: [interfaces.ts:16](https://github.com/art-alexeyenko/content-sdk/blob/aa82c79df386211f816684e3f9899e4dbae40505/packages/utils/src/interfaces.ts#L16)
 
 Interface for supporting request IncomingMessage http node type
 
@@ -16,7 +16,7 @@ Interface for supporting request IncomingMessage http node type
 
 > **headers**: `object`
 
-Defined in: [interfaces.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/utils/src/interfaces.ts#L17)
+Defined in: [interfaces.ts:17](https://github.com/art-alexeyenko/content-sdk/blob/aa82c79df386211f816684e3f9899e4dbae40505/packages/utils/src/interfaces.ts#L17)
 
 #### content-language?
 
@@ -40,4 +40,4 @@ Defined in: [interfaces.ts:17](https://github.com/art-alexeyenko/content-sdk/blo
 
 > `optional` **url**: `string`
 
-Defined in: [interfaces.ts:23](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/utils/src/interfaces.ts#L23)
+Defined in: [interfaces.ts:23](https://github.com/art-alexeyenko/content-sdk/blob/aa82c79df386211f816684e3f9899e4dbae40505/packages/utils/src/interfaces.ts#L23)
