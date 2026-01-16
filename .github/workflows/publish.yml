@@ -1,9 +1,13 @@
 name: Publish
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   # Trigger for canary and stable releases:
-  # - Full release: When PR from changeset-release/dev branch is merged
-  # - Canary release: Push to dev branch (not from changeset-release/dev)
+  # - Stable prod release: When PR from changeset-release/* branch is merged with [release] prefix
+  # - Canary release: Push to dev or release/* branches (not from changeset-release merge)
   push:
     branches:
       - dev
@@ -28,13 +32,13 @@ jobs:
       - name: Configure action
         id: configure-action
         run: |
-          # Check commit message for (release) prefix to determine if this is a full release
+          # Check commit message for [release] prefix to determine release type
           # For push events, head_commit.message contains the commit message
           COMMIT_MSG="${{ github.event.head_commit.message }}"
           if [[ "$COMMIT_MSG" =~ ^\[release\] ]]; then
-            echo "isFullRelease=true" >> $GITHUB_OUTPUT
+            echo "isCanaryRelease=false" >> $GITHUB_OUTPUT
           else
-            echo "isFullRelease=false" >> $GITHUB_OUTPUT
+            echo "isCanaryRelease=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Checkout repository
@@ -62,7 +66,7 @@ jobs:
           yarn install --immutable
 
       - name: Build packages
-        run: npm run build
+        run: yarn build
 
       - name: Creating .npmrc
         run: |
@@ -76,14 +80,22 @@ jobs:
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
 
       - name: Pre-release version update (Canary)
-        if: steps.configure-action.outputs.isFullRelease != 'true'
+        if: steps.configure-action.outputs.isCanaryRelease == 'true'
         run: |
+          BRANCH_NAME="${{ github.ref_name }}"
+          if [[ "$BRANCH_NAME" =~ ^release/ ]]; then
+            TIMESTAMP=$(date -u +%Y%m%d%H%M%S)
+            # For patch canaries: use timestamp to avoid potential canary version conflicts
+            PREID="canary.${TIMESTAMP}"
+          else
+            PREID="canary"
+          fi
           echo "Creating canary release on dev branch (no tags)..."
-          npx lerna version prerelease --exact --preid canary --sign-git-tag false --yes --no-git-tag-version
+          npx lerna version prerelease --exact --preid "$PREID" --sign-git-tag false --yes --no-git-tag-version
           yarn install
           if [ -n "$(git status --porcelain)" ]; then
             git commit -a -m "chore: bump versions for canary release [skip ci]"
-            git push origin dev
+            git push origin HEAD:$BRANCH_NAME
           else
             echo "No version changes to commit"
           fi
@@ -91,35 +103,30 @@ jobs:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
 
       - name: Pre-release canary publish
-        if: steps.configure-action.outputs.isFullRelease != 'true' && github.ref_name == 'dev'
+        if: steps.configure-action.outputs.isCanaryRelease == 'true'
         run: |
+          BRANCH_NAME="${{ github.ref_name }}"
+          if [[ "$BRANCH_NAME" =~ ^release/ ]]; then
+            NPM_TAG="hotfix.rc.canary"
+          else
+            NPM_TAG="canary"
+          fi
           echo "Publishing canary packages to npm..."
-          npx lerna publish from-package --canary --pre-dist-tag canary --preid canary --no-verify-access --yes
+          npx lerna publish from-package --canary --pre-dist-tag "$NPM_TAG" --preid canary --no-verify-access --yes
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
 
-      - name: Create Release Pull Request or Publish to npm
+      # ========== CHANGESET ACTION ==========
+      # Create/update the release PR with updated versions based on changesets
+      - name: Create Release Pull Request
         id: changesets
         uses: changesets/action@v1
         with:
-          version: yarn prep-release
-          publish: yarn publish-release
+          # using scripts from monoreporoot package.json
+          version: yarn csdk:prep-release
+          publish: yarn csdk:publish-release
           commit: '[release][ci] changelog, release and version bump'
-          title: '[csdk] release'
+          title: ${{ github.ref_name == 'dev' && '[csdk] latest release' || format('[csdk] patch release - {0}', github.ref_name) }}
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-
-      - name: Generate API docs
-        # Generate API docs for both full releases and canary releases
-        run: |
-          yarn generate-docs
-          if [ -n "$(git status --porcelain)" ]; then
-            git add ./ref-docs/**/*
-            git commit -m "Update API docs [skip ci]" || echo "⚠️ Failed to commit API docs (may already be committed)"
-            git push origin HEAD:${{ github.ref_name }} || echo "⚠️ Failed to push API docs (may already be pushed or no changes)"
-          else
-            echo "No API doc changes to commit"
-          fi
