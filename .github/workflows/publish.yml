@@ -76,7 +76,7 @@ jobs:
           NPM_REGISTRY: ${{ secrets.NPM_REGISTRY }}
 
       - name: Pre-release version update (Canary)
-        if: steps.configure-action.outputs.isFullRelease != 'true' && github.ref_name == 'dev'
+        if: steps.configure-action.outputs.isFullRelease != 'true'
         run: |
           echo "Creating canary release on dev branch (no tags)..."
           npx lerna version prerelease --exact --preid canary --sign-git-tag false --yes --no-git-tag-version
@@ -123,4 +123,3 @@ jobs:
           else
             echo "No API doc changes to commit"
           fi
-
