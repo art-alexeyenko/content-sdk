@@ -8,7 +8,7 @@
 
 > **getAllowedOriginsFromEnv**(): `string`[]
 
-Defined in: [packages/core/src/utils/utils.ts:103](https://github.com/art-alexeyenko/content-sdk/blob/a0741bc8a24e9783834b677b490e23fd90af521a/packages/core/src/utils/utils.ts#L103)
+Defined in: [packages/core/src/utils/utils.ts:103](https://github.com/art-alexeyenko/content-sdk/blob/aa82c79df386211f816684e3f9899e4dbae40505/packages/core/src/utils/utils.ts#L103)
 
 Gets allowed origins from JSS_ALLOWED_ORIGINS env variable
 
