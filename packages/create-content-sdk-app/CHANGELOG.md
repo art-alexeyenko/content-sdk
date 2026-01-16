@@ -1,5 +1,11 @@
 # create-content-sdk-app
 
+## 1.6.1
+
+### Patch Changes
+
+- [create-content-sdk-app] [nextjs] Important patch in next ([6dcc711](https://github.com/sitecore/content-sdk/commit/6dcc71198a120985131a90ed5e65555d96d20cda))
+
 ## 1.6.0
 
 ### Minor Changes
