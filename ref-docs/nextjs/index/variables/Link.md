@@ -8,6 +8,6 @@
 
 > `const` **Link**: `ForwardRefExoticComponent`\<`Omit`\<[`LinkProps`](../type-aliases/LinkProps.md), `"ref"`\> & `RefAttributes`\<`HTMLAnchorElement`\>\>
 
-Defined in: [nextjs/src/components/Link.tsx:45](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/nextjs/src/components/Link.tsx#L45)
+Defined in: [nextjs/src/components/Link.tsx:45](https://github.com/art-alexeyenko/content-sdk/blob/3e23b8ca98724f506135610b52e609cf037ab9ac/packages/nextjs/src/components/Link.tsx#L45)
 
 Next.js specific Link component implementation.

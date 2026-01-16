@@ -8,7 +8,7 @@
 
 > **PageOptions** = `Partial`\<[`RouteOptions`](../../layout/type-aliases/RouteOptions.md)\> & `object`
 
-Defined in: [packages/core/src/client/sitecore-client.ts:110](https://github.com/art-alexeyenko/content-sdk/blob/2c429229afa7f3ed739cd74d05344daf2e792503/packages/core/src/client/sitecore-client.ts#L110)
+Defined in: [packages/core/src/client/sitecore-client.ts:110](https://github.com/art-alexeyenko/content-sdk/blob/3e23b8ca98724f506135610b52e609cf037ab9ac/packages/core/src/client/sitecore-client.ts#L110)
 
 Page options
 

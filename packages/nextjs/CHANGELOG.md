@@ -1,5 +1,11 @@
 # @sitecore-content-sdk/nextjs
 
+## 1.10.1
+
+### Patch Changes
+
+- [nextjs] Important patch in next ([6dcc711](https://github.com/sitecore/content-sdk/commit/6dcc71198a120985131a90ed5e65555d96d20cda))
+
 ## 1.10.0
 
 ### Minor Changes
