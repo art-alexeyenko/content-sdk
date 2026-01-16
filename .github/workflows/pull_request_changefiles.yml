@@ -9,8 +9,8 @@ on:
 jobs:
   check-change-files:
     runs-on: ubuntu-latest
-    # Skip this check for release PRs (title starts with [chore], [release] or (release))
-    if: ${{ !startsWith(github.event.pull_request.title, '[chore]') && !startsWith(github.event.pull_request.title, '[release]') && !startsWith(github.event.pull_request.title, '(release)') }}
+    # Skip this check for release PRs, changeset-release branches, and commits by github-actions bot
+    if: ${{ !startsWith(github.event.pull_request.head.ref, 'changeset-release/') && github.actor != 'github-actions[bot]' }}
 
     steps:
       - uses: actions/checkout@v4
