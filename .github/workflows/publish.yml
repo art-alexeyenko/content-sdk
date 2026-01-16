@@ -123,9 +123,10 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: yarn changeset:cascade-version && node scripts/apply-caret-version-on-release.js && yarn install
+          # using scripts from monoreporoot package.json
+          version: yarn csdk:prep-release
+          publish: yarn csdk:publish-release
           commit: '[release][ci] changelog, release and version bump'
-          publish: changeset tag && lerna publish from-package --yes && git push --follow-tags
           title: ${{ github.ref_name == 'dev' && '[csdk] latest release' || format('[csdk] patch release - {0}', github.ref_name) }}
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
